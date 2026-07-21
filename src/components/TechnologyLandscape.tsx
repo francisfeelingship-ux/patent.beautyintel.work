@@ -281,12 +281,10 @@ export default function TechnologyLandscape() {
           tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
           tooltip.style.top = (event.clientY - rect.top - 15) + 'px';
           tooltip.innerHTML = `
-            <div style="font-weight:700;color:var(--accent-blue);font-size:0.8rem;margin-bottom:4px;">${pub}</div>
-            <div style="font-size:0.75rem;margin-bottom:6px;font-weight:500;max-width:240px;line-height:1.3;">${title}</div>
-            <div style="display:flex;justify-content:space-between;font-size:0.68rem;color:var(--text-muted);">
-              <span>Domain: <strong style="color:var(--text-bright);">${formatDomain(domain)}</strong></span>
-              <span>Assignee: <strong style="color:${COMPANY_COLORS[companyKey]?.hex};">${companyName}</strong></span>
-            </div>
+            <h4>${pub}</h4>
+            <p>${title}</p>
+            <span>${formatDomain(domain)}</span>
+            <div>${companyName}</div>
           `;
         }
       } else {
@@ -480,18 +478,6 @@ export default function TechnologyLandscape() {
         <div 
           ref={tooltipRef} 
           className="cloud-tooltip" 
-          style={{ 
-            position: 'absolute',
-            background: 'rgba(7, 10, 17, 0.95)',
-            border: '1px solid var(--accent-blue)',
-            borderRadius: '6px',
-            padding: '8px 12px',
-            pointerEvents: 'none',
-            opacity: 0,
-            transition: 'opacity 0.15s ease',
-            zIndex: 50,
-            boxShadow: '0 4px 16px rgba(0, 0, 0, 0.6)'
-          }}
         ></div>
       </div>
 

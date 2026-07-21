@@ -4,7 +4,7 @@
     "displayName": "Active UV Filter Stabilization System",
     "company": "L'Oreal",
     "priorityYear": 2018,
-    "familySize": 42,
+    "familySize": 23,
     "jurisdictionCount": 6,
     "representative": {
       "publicationNumber": "DEMO-LOR-0101",
@@ -16,7 +16,7 @@
     "displayName": "High-Efficiency Skin Hydration Peptide Complex",
     "company": "Beiersdorf AG",
     "priorityYear": 2020,
-    "familySize": 28,
+    "familySize": 34,
     "jurisdictionCount": 4,
     "representative": {
       "publicationNumber": "DEMO-BEI-0202",
@@ -28,11 +28,215 @@
     "displayName": "Melanin Transfer Inhibition Compounds",
     "company": "Shiseido Company, Limited",
     "priorityYear": 2019,
-    "familySize": 35,
+    "familySize": 23,
     "jurisdictionCount": 5,
     "representative": {
       "publicationNumber": "DEMO-SHI-0303",
       "title": "Compositions inhibiting melanin transfer for skin brightening applications"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-004",
+    "displayName": "Advanced Surfactant Emulsion Stabilization Matrix",
+    "company": "The Procter & Gamble Company",
+    "priorityYear": 2021,
+    "familySize": 27,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-PRO-0404",
+      "title": "Surfactant-lipid matrix for stable hair conditioner formulations"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-005",
+    "displayName": "Sustainable Squalane Extraction Process",
+    "company": "Amorepacific",
+    "priorityYear": 2017,
+    "familySize": 44,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "DEMO-AMO-0505",
+      "title": "Method for extracting plant-derived squalane from agricultural byproducts"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-006",
+    "displayName": "Liquid Crystal Skin Barrier Emulsion",
+    "company": "Unilever",
+    "priorityYear": 2018,
+    "familySize": 35,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-UNI-0606",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-007",
+    "displayName": "Encapsulated Retinol Delivery Microcapsules",
+    "company": "The Estee Lauder Companies Inc.",
+    "priorityYear": 2022,
+    "familySize": 27,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-EST-0707",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-008",
+    "displayName": "Long-Wear Surfactant-Free Facial Cleansers",
+    "company": "Colgate-Palmolive Company",
+    "priorityYear": 2020,
+    "familySize": 43,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-COL-0808",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-009",
+    "displayName": "Probiotic Skin Microbiome Regulators",
+    "company": "Kenvue",
+    "priorityYear": 2019,
+    "familySize": 42,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-KEN-0909",
+      "title": "Ferment lysate compositions for strengthening skin microflora balance"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-010",
+    "displayName": "Natural Ceramide Complex Emulsions",
+    "company": "Kao Corp",
+    "priorityYear": 2021,
+    "familySize": 29,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "DEMO-KAO-1010",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-011",
+    "displayName": "Botanical Sebum Control Actives",
+    "company": "Amorepacific",
+    "priorityYear": 2018,
+    "familySize": 39,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-AMO-1111",
+      "title": "Plant polyphenol compounds for sebaceous gland activity reduction"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-012",
+    "displayName": "High-SPF Mineral Sunscreen Dispersion",
+    "company": "Beiersdorf AG",
+    "priorityYear": 2022,
+    "familySize": 27,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-BEI-1212",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-013",
+    "displayName": "Hyaluronic Acid Hydrogel Formulations",
+    "company": "Shiseido Company, Limited",
+    "priorityYear": 2019,
+    "familySize": 38,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-SHI-1313",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-014",
+    "displayName": "Vitamin C Antioxidant Stabilization",
+    "company": "L'Oreal",
+    "priorityYear": 2020,
+    "familySize": 45,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "DEMO-LOR-1414",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-015",
+    "displayName": "Mild Sulfate-Free Surfactant Systems",
+    "company": "Unilever",
+    "priorityYear": 2021,
+    "familySize": 36,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-UNI-1515",
+      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-016",
+    "displayName": "Bio-Fermented Anti-Inflammatory Actives",
+    "company": "The Estee Lauder Companies Inc.",
+    "priorityYear": 2017,
+    "familySize": 23,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-EST-1616",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-017",
+    "displayName": "Teeth Whitening Enamel Defense",
+    "company": "Colgate-Palmolive Company",
+    "priorityYear": 2020,
+    "familySize": 25,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-COL-1717",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-018",
+    "displayName": "Silicone-Free Hair Strengthening Complexes",
+    "company": "Kao Corp",
+    "priorityYear": 2019,
+    "familySize": 30,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-KAO-1818",
+      "title": "Anionic polymer complexes for building hair structural integrity"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-019",
+    "displayName": "Oil-in-Water Matte Lipstick Emulsions",
+    "company": "Coty",
+    "priorityYear": 2021,
+    "familySize": 29,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-COT-1919",
+      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-020",
+    "displayName": "Anti-Pollution Skin Barrier Sealants",
+    "company": "Henkel",
+    "priorityYear": 2018,
+    "familySize": 23,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-HEN-2020",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion"
     }
   }
 ]

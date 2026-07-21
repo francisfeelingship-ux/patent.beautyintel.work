@@ -1,0 +1,431 @@
+{
+  "familyPublicId": "DEMO-FAMILY-017",
+  "displayName": "Teeth Whitening Enamel Defense",
+  "company": "Colgate-Palmolive Company",
+  "priorityYear": 2020,
+  "summary": "Dual-chamber toothpastes that deliver hydrogen peroxide whitening alongside calcium silicate to seal exposed dentin tubules.",
+  "representative": {
+    "publicationNumber": "DEMO-COL-1717",
+    "title": "Peroxide whitening gels with calcium silicate enamel sealant"
+  },
+  "jurisdictions": [
+    "US",
+    "EP",
+    "CA",
+    "CN"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DEMO-COL-1717",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ01",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ02",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CA)",
+      "jurisdiction": "CA",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ03",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ04",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ05",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ06",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CA)",
+      "jurisdiction": "CA",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ07",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ08",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DEMO-COL-1717",
+      "label": "DEMO-COL-1717",
+      "type": "core",
+      "is_representative": true,
+      "country": "US",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ01",
+      "label": "DEMO-COL-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in EP)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ02",
+      "label": "DEMO-COL-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CA)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ03",
+      "label": "DEMO-COL-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CN)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ04",
+      "label": "DEMO-COL-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in US)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ05",
+      "label": "DEMO-COL-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in EP)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ06",
+      "label": "DEMO-COL-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CA)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ07",
+      "label": "DEMO-COL-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CN)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ08",
+      "label": "DEMO-COL-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in US)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-PRO-01",
+      "label": "REF-PRO-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
+    },
+    {
+      "id": "REF-ASH-02",
+      "label": "REF-ASH-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Ashland"
+    },
+    {
+      "id": "REF-AMO-03",
+      "label": "REF-AMO-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-EST-04",
+      "label": "REF-EST-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-AMO-05",
+      "label": "REF-AMO-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-LOR-06",
+      "label": "REF-LOR-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "REF-KEN-07",
+      "label": "REF-KEN-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "REF-SEP-08",
+      "label": "REF-SEP-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-COT-09",
+      "label": "REF-COT-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-AMO-10",
+      "label": "REF-AMO-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-AMO-11",
+      "label": "REF-AMO-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-UNI-12",
+      "label": "REF-UNI-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "REF-COT-13",
+      "label": "REF-COT-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-INT-14",
+      "label": "REF-INT-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "REF-SYM-15",
+      "label": "REF-SYM-15",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "REF-DSM-16",
+      "label": "REF-DSM-16",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "DSM"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-COL-1717",
+      "target": "DEMO-COL-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-1717",
+      "target": "DEMO-COL-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-1717",
+      "target": "DEMO-COL-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-1717",
+      "target": "DEMO-COL-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-1717",
+      "target": "DEMO-COL-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-1717",
+      "target": "DEMO-COL-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-1717",
+      "target": "DEMO-COL-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-1717",
+      "target": "DEMO-COL-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-PRO-01",
+      "target": "DEMO-COL-EQ03",
+      "type": "citation"
+    },
+    {
+      "source": "REF-ASH-02",
+      "target": "REF-ASH-02",
+      "type": "citation"
+    },
+    {
+      "source": "REF-AMO-03",
+      "target": "DEMO-COL-1717",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EST-04",
+      "target": "REF-EST-04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-AMO-05",
+      "target": "DEMO-COL-1717",
+      "type": "citation"
+    },
+    {
+      "source": "REF-LOR-06",
+      "target": "REF-ASH-02",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KEN-07",
+      "target": "DEMO-COL-1717",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-08",
+      "target": "REF-LOR-06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-09",
+      "target": "DEMO-COL-EQ08",
+      "type": "citation"
+    },
+    {
+      "source": "REF-AMO-10",
+      "target": "DEMO-COL-1717",
+      "type": "citation"
+    },
+    {
+      "source": "REF-AMO-11",
+      "target": "DEMO-COL-1717",
+      "type": "citation"
+    },
+    {
+      "source": "REF-UNI-12",
+      "target": "DEMO-COL-1717",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-13",
+      "target": "DEMO-COL-1717",
+      "type": "citation"
+    },
+    {
+      "source": "REF-INT-14",
+      "target": "DEMO-COL-1717",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SYM-15",
+      "target": "REF-SYM-15",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DSM-16",
+      "target": "REF-DSM-16",
+      "type": "citation"
+    }
+  ]
+}

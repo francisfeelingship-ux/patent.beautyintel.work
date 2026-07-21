@@ -1,0 +1,466 @@
+{
+  "familyPublicId": "DEMO-FAMILY-007",
+  "displayName": "Encapsulated Retinol Delivery Microcapsules",
+  "company": "The Estee Lauder Companies Inc.",
+  "priorityYear": 2022,
+  "summary": "Biodegradable polymer shell capsules protecting unstable retinol from air and light, releasing the active slowly inside the epidermis to reduce irritation.",
+  "representative": {
+    "publicationNumber": "DEMO-EST-0707",
+    "title": "Polymer-encapsulated retinoid actives for sustained dermal release"
+  },
+  "jurisdictions": [
+    "US",
+    "EP",
+    "CH",
+    "KR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DEMO-EST-0707",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ01",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ02",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in CH)",
+      "jurisdiction": "CH",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ03",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in KR)",
+      "jurisdiction": "KR",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ04",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ05",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ06",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in CH)",
+      "jurisdiction": "CH",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ07",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in KR)",
+      "jurisdiction": "KR",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ08",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ09",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "application",
+      "type": "equivalent"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DEMO-EST-0707",
+      "label": "DEMO-EST-0707",
+      "type": "core",
+      "is_representative": true,
+      "country": "US",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ01",
+      "label": "DEMO-EST-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in EP)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ02",
+      "label": "DEMO-EST-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in CH)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ03",
+      "label": "DEMO-EST-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in KR)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ04",
+      "label": "DEMO-EST-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in US)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ05",
+      "label": "DEMO-EST-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in EP)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ06",
+      "label": "DEMO-EST-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in CH)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ07",
+      "label": "DEMO-EST-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in KR)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ08",
+      "label": "DEMO-EST-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in US)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ09",
+      "label": "DEMO-EST-EQ09",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Polymer-encapsulated retinoid actives for sustained dermal release (Equivalent filing in EP)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-EVO-01",
+      "label": "REF-EVO-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-PRO-02",
+      "label": "REF-PRO-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
+    },
+    {
+      "id": "REF-KEN-03",
+      "label": "REF-KEN-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "REF-BEI-04",
+      "label": "REF-BEI-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "REF-BEI-05",
+      "label": "REF-BEI-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "REF-LOR-06",
+      "label": "REF-LOR-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "REF-DOW-07",
+      "label": "REF-DOW-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-GIV-08",
+      "label": "REF-GIV-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "REF-SHI-09",
+      "label": "REF-SHI-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-EVO-10",
+      "label": "REF-EVO-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-COL-11",
+      "label": "REF-COL-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-UNI-12",
+      "label": "REF-UNI-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "REF-KAO-13",
+      "label": "REF-KAO-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "REF-KAO-14",
+      "label": "REF-KAO-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "REF-HEN-15",
+      "label": "REF-HEN-15",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "REF-EVO-16",
+      "label": "REF-EVO-16",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-DSM-17",
+      "label": "REF-DSM-17",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "DSM"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-EST-0707",
+      "target": "DEMO-EST-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-0707",
+      "target": "DEMO-EST-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-0707",
+      "target": "DEMO-EST-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-0707",
+      "target": "DEMO-EST-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-0707",
+      "target": "DEMO-EST-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-0707",
+      "target": "DEMO-EST-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-0707",
+      "target": "DEMO-EST-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-0707",
+      "target": "DEMO-EST-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-0707",
+      "target": "DEMO-EST-EQ09",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-EVO-01",
+      "target": "DEMO-EST-0707",
+      "type": "citation"
+    },
+    {
+      "source": "REF-PRO-02",
+      "target": "DEMO-EST-EQ05",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KEN-03",
+      "target": "DEMO-EST-EQ04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BEI-04",
+      "target": "DEMO-EST-EQ06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BEI-05",
+      "target": "DEMO-EST-0707",
+      "type": "citation"
+    },
+    {
+      "source": "REF-LOR-06",
+      "target": "DEMO-EST-0707",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-07",
+      "target": "DEMO-EST-EQ03",
+      "type": "citation"
+    },
+    {
+      "source": "REF-GIV-08",
+      "target": "DEMO-EST-EQ07",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-09",
+      "target": "DEMO-EST-0707",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-10",
+      "target": "DEMO-EST-0707",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COL-11",
+      "target": "DEMO-EST-0707",
+      "type": "citation"
+    },
+    {
+      "source": "REF-UNI-12",
+      "target": "DEMO-EST-0707",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KAO-13",
+      "target": "DEMO-EST-0707",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KAO-14",
+      "target": "DEMO-EST-0707",
+      "type": "citation"
+    },
+    {
+      "source": "REF-HEN-15",
+      "target": "DEMO-EST-EQ04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-16",
+      "target": "REF-SHI-09",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DSM-17",
+      "target": "DEMO-EST-0707",
+      "type": "citation"
+    }
+  ]
+}

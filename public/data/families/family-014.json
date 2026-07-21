@@ -1,0 +1,761 @@
+{
+  "familyPublicId": "DEMO-FAMILY-014",
+  "displayName": "Vitamin C Antioxidant Stabilization",
+  "company": "L'Oreal",
+  "priorityYear": 2020,
+  "summary": "Anhydrous solvent systems preventing the oxidation of Vitamin C, maintaining ascorbic acid potency throughout the product shelf life.",
+  "representative": {
+    "publicationNumber": "DEMO-LOR-1414",
+    "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers"
+  },
+  "jurisdictions": [
+    "FR",
+    "EP",
+    "US",
+    "CN",
+    "JP"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DEMO-LOR-1414",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers",
+      "jurisdiction": "FR",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ01",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ02",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ03",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ04",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ05",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ06",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ07",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ08",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ09",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ10",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ11",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ12",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ13",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ14",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-LOR-EQ15",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "application",
+      "type": "equivalent"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DEMO-LOR-1414",
+      "label": "DEMO-LOR-1414",
+      "type": "core",
+      "is_representative": true,
+      "country": "FR",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ01",
+      "label": "DEMO-LOR-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in EP)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ02",
+      "label": "DEMO-LOR-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in US)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ03",
+      "label": "DEMO-LOR-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CN",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in CN)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ04",
+      "label": "DEMO-LOR-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "JP",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in JP)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ05",
+      "label": "DEMO-LOR-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "FR",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in FR)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ06",
+      "label": "DEMO-LOR-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in EP)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ07",
+      "label": "DEMO-LOR-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in US)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ08",
+      "label": "DEMO-LOR-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CN",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in CN)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ09",
+      "label": "DEMO-LOR-EQ09",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "JP",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in JP)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ10",
+      "label": "DEMO-LOR-EQ10",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "FR",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in FR)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ11",
+      "label": "DEMO-LOR-EQ11",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in EP)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ12",
+      "label": "DEMO-LOR-EQ12",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in US)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ13",
+      "label": "DEMO-LOR-EQ13",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CN",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in CN)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ14",
+      "label": "DEMO-LOR-EQ14",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "JP",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in JP)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "DEMO-LOR-EQ15",
+      "label": "DEMO-LOR-EQ15",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "FR",
+      "title": "L-ascorbic acid stabilized in anhydrous glycol cosmetic carriers (Equivalent filing in FR)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "REF-DOW-01",
+      "label": "REF-DOW-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-LOR-02",
+      "label": "REF-LOR-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "REF-INT-03",
+      "label": "REF-INT-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "REF-BAS-04",
+      "label": "REF-BAS-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-INT-05",
+      "label": "REF-INT-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "REF-HEN-06",
+      "label": "REF-HEN-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "REF-SEP-07",
+      "label": "REF-SEP-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-SEP-08",
+      "label": "REF-SEP-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-DOW-09",
+      "label": "REF-DOW-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-SHI-10",
+      "label": "REF-SHI-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-BAS-11",
+      "label": "REF-BAS-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-INT-12",
+      "label": "REF-INT-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "REF-AMO-13",
+      "label": "REF-AMO-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-COT-14",
+      "label": "REF-COT-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-KEN-15",
+      "label": "REF-KEN-15",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "REF-EVO-16",
+      "label": "REF-EVO-16",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-FIR-17",
+      "label": "REF-FIR-17",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "REF-EVO-18",
+      "label": "REF-EVO-18",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-FIR-19",
+      "label": "REF-FIR-19",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "REF-HEN-20",
+      "label": "REF-HEN-20",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "REF-SEP-21",
+      "label": "REF-SEP-21",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-AMO-22",
+      "label": "REF-AMO-22",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-DSM-23",
+      "label": "REF-DSM-23",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "DSM"
+    },
+    {
+      "id": "REF-KAO-24",
+      "label": "REF-KAO-24",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "REF-ASH-25",
+      "label": "REF-ASH-25",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Ashland"
+    },
+    {
+      "id": "REF-COT-26",
+      "label": "REF-COT-26",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-KAO-27",
+      "label": "REF-KAO-27",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "REF-EVO-28",
+      "label": "REF-EVO-28",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-COT-29",
+      "label": "REF-COT-29",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ09",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ10",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ11",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ12",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ13",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ14",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-LOR-1414",
+      "target": "DEMO-LOR-EQ15",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-DOW-01",
+      "target": "DEMO-LOR-EQ07",
+      "type": "citation"
+    },
+    {
+      "source": "REF-LOR-02",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-INT-03",
+      "target": "DEMO-LOR-EQ15",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-04",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-INT-05",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-HEN-06",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-07",
+      "target": "REF-DOW-01",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-08",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-09",
+      "target": "REF-DOW-09",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-10",
+      "target": "DEMO-LOR-EQ10",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-11",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-INT-12",
+      "target": "REF-INT-12",
+      "type": "citation"
+    },
+    {
+      "source": "REF-AMO-13",
+      "target": "REF-INT-12",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-14",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KEN-15",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-16",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-FIR-17",
+      "target": "REF-DOW-01",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-18",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-FIR-19",
+      "target": "DEMO-LOR-EQ01",
+      "type": "citation"
+    },
+    {
+      "source": "REF-HEN-20",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-21",
+      "target": "REF-HEN-20",
+      "type": "citation"
+    },
+    {
+      "source": "REF-AMO-22",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DSM-23",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KAO-24",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-ASH-25",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-26",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KAO-27",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-28",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-29",
+      "target": "DEMO-LOR-1414",
+      "type": "citation"
+    }
+  ]
+}

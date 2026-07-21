@@ -1,0 +1,648 @@
+{
+  "familyPublicId": "DEMO-FAMILY-013",
+  "displayName": "Hyaluronic Acid Hydrogel Formulations",
+  "company": "Shiseido Company, Limited",
+  "priorityYear": 2019,
+  "summary": "Three-dimensional crosslinked polymer networks of hyaluronic acid that resist enzymatic breakdown, providing prolonged hydration.",
+  "representative": {
+    "publicationNumber": "DEMO-SHI-1313",
+    "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration"
+  },
+  "jurisdictions": [
+    "JP",
+    "US",
+    "EP",
+    "KR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DEMO-SHI-1313",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ01",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ02",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ03",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in KR)",
+      "jurisdiction": "KR",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ04",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ05",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ06",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ07",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in KR)",
+      "jurisdiction": "KR",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ08",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ09",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ10",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ11",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in KR)",
+      "jurisdiction": "KR",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ12",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ13",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DEMO-SHI-1313",
+      "label": "DEMO-SHI-1313",
+      "type": "core",
+      "is_representative": true,
+      "country": "JP",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ01",
+      "label": "DEMO-SHI-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in US)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ02",
+      "label": "DEMO-SHI-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in EP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ03",
+      "label": "DEMO-SHI-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in KR)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ04",
+      "label": "DEMO-SHI-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in JP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ05",
+      "label": "DEMO-SHI-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in US)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ06",
+      "label": "DEMO-SHI-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in EP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ07",
+      "label": "DEMO-SHI-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in KR)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ08",
+      "label": "DEMO-SHI-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in JP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ09",
+      "label": "DEMO-SHI-EQ09",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in US)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ10",
+      "label": "DEMO-SHI-EQ10",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in EP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ11",
+      "label": "DEMO-SHI-EQ11",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in KR)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ12",
+      "label": "DEMO-SHI-EQ12",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in JP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ13",
+      "label": "DEMO-SHI-EQ13",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Crosslinked sodium hyaluronate hydrogels for topical skin hydration (Equivalent filing in US)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-CRO-01",
+      "label": "REF-CRO-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Croda"
+    },
+    {
+      "id": "REF-SHI-02",
+      "label": "REF-SHI-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-KAO-03",
+      "label": "REF-KAO-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "REF-SHI-04",
+      "label": "REF-SHI-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-KEN-05",
+      "label": "REF-KEN-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "REF-FIR-06",
+      "label": "REF-FIR-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "REF-BAS-07",
+      "label": "REF-BAS-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-SEP-08",
+      "label": "REF-SEP-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-COT-09",
+      "label": "REF-COT-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-BEI-10",
+      "label": "REF-BEI-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "REF-COS-11",
+      "label": "REF-COS-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Cosmax"
+    },
+    {
+      "id": "REF-DOW-12",
+      "label": "REF-DOW-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-COT-13",
+      "label": "REF-COT-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-DSM-14",
+      "label": "REF-DSM-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "DSM"
+    },
+    {
+      "id": "REF-EST-15",
+      "label": "REF-EST-15",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-SYM-16",
+      "label": "REF-SYM-16",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "REF-EVO-17",
+      "label": "REF-EVO-17",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-PRO-18",
+      "label": "REF-PRO-18",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
+    },
+    {
+      "id": "REF-EVO-19",
+      "label": "REF-EVO-19",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-PRO-20",
+      "label": "REF-PRO-20",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
+    },
+    {
+      "id": "REF-COL-21",
+      "label": "REF-COL-21",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-LOR-22",
+      "label": "REF-LOR-22",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "REF-COS-23",
+      "label": "REF-COS-23",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Cosmax"
+    },
+    {
+      "id": "REF-LOR-24",
+      "label": "REF-LOR-24",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "L'Oreal"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ09",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ10",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ11",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ12",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-1313",
+      "target": "DEMO-SHI-EQ13",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-CRO-01",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-02",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KAO-03",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-04",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KEN-05",
+      "target": "DEMO-SHI-EQ06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-FIR-06",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-07",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-08",
+      "target": "DEMO-SHI-EQ08",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-09",
+      "target": "REF-SHI-02",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BEI-10",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COS-11",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-12",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-13",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DSM-14",
+      "target": "REF-FIR-06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EST-15",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SYM-16",
+      "target": "REF-SHI-02",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-17",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-PRO-18",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-19",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-PRO-20",
+      "target": "REF-BAS-07",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COL-21",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-LOR-22",
+      "target": "DEMO-SHI-1313",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COS-23",
+      "target": "REF-EST-15",
+      "type": "citation"
+    },
+    {
+      "source": "REF-LOR-24",
+      "target": "REF-EST-15",
+      "type": "citation"
+    }
+  ]
+}

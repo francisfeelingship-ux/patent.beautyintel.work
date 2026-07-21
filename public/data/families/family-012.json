@@ -1,0 +1,466 @@
+{
+  "familyPublicId": "DEMO-FAMILY-012",
+  "displayName": "High-SPF Mineral Sunscreen Dispersion",
+  "company": "Beiersdorf AG",
+  "priorityYear": 2022,
+  "summary": "Finely dispersed metal oxide particles in natural ester oils, yielding broad UV protection without leaving a white cast.",
+  "representative": {
+    "publicationNumber": "DEMO-BEI-1212",
+    "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles"
+  },
+  "jurisdictions": [
+    "EP",
+    "US",
+    "JP",
+    "FR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DEMO-BEI-1212",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ01",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ02",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ03",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ04",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ05",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ06",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ07",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ08",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ09",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "application",
+      "type": "equivalent"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DEMO-BEI-1212",
+      "label": "DEMO-BEI-1212",
+      "type": "core",
+      "is_representative": true,
+      "country": "EP",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ01",
+      "label": "DEMO-BEI-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in US)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ02",
+      "label": "DEMO-BEI-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in JP)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ03",
+      "label": "DEMO-BEI-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in FR)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ04",
+      "label": "DEMO-BEI-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in EP)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ05",
+      "label": "DEMO-BEI-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in US)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ06",
+      "label": "DEMO-BEI-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in JP)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ07",
+      "label": "DEMO-BEI-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in FR)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ08",
+      "label": "DEMO-BEI-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in EP)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ09",
+      "label": "DEMO-BEI-EQ09",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Silicone-free dispersion of zinc oxide and titanium dioxide nanoparticles (Equivalent filing in US)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "REF-BAS-01",
+      "label": "REF-BAS-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-BAS-02",
+      "label": "REF-BAS-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-BAS-03",
+      "label": "REF-BAS-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-UNI-04",
+      "label": "REF-UNI-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "REF-CRO-05",
+      "label": "REF-CRO-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Croda"
+    },
+    {
+      "id": "REF-EST-06",
+      "label": "REF-EST-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-BEI-07",
+      "label": "REF-BEI-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "REF-SEP-08",
+      "label": "REF-SEP-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-BAS-09",
+      "label": "REF-BAS-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-REV-10",
+      "label": "REF-REV-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Revlon"
+    },
+    {
+      "id": "REF-GIV-11",
+      "label": "REF-GIV-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "REF-AMO-12",
+      "label": "REF-AMO-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-ASH-13",
+      "label": "REF-ASH-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Ashland"
+    },
+    {
+      "id": "REF-COL-14",
+      "label": "REF-COL-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-KAO-15",
+      "label": "REF-KAO-15",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "REF-BAS-16",
+      "label": "REF-BAS-16",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-BAS-17",
+      "label": "REF-BAS-17",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-BEI-1212",
+      "target": "DEMO-BEI-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-1212",
+      "target": "DEMO-BEI-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-1212",
+      "target": "DEMO-BEI-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-1212",
+      "target": "DEMO-BEI-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-1212",
+      "target": "DEMO-BEI-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-1212",
+      "target": "DEMO-BEI-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-1212",
+      "target": "DEMO-BEI-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-1212",
+      "target": "DEMO-BEI-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-1212",
+      "target": "DEMO-BEI-EQ09",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-BAS-01",
+      "target": "DEMO-BEI-EQ05",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-02",
+      "target": "REF-BAS-02",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-03",
+      "target": "DEMO-BEI-1212",
+      "type": "citation"
+    },
+    {
+      "source": "REF-UNI-04",
+      "target": "DEMO-BEI-1212",
+      "type": "citation"
+    },
+    {
+      "source": "REF-CRO-05",
+      "target": "DEMO-BEI-1212",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EST-06",
+      "target": "DEMO-BEI-EQ08",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BEI-07",
+      "target": "DEMO-BEI-1212",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-08",
+      "target": "DEMO-BEI-1212",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-09",
+      "target": "DEMO-BEI-1212",
+      "type": "citation"
+    },
+    {
+      "source": "REF-REV-10",
+      "target": "DEMO-BEI-EQ03",
+      "type": "citation"
+    },
+    {
+      "source": "REF-GIV-11",
+      "target": "DEMO-BEI-1212",
+      "type": "citation"
+    },
+    {
+      "source": "REF-AMO-12",
+      "target": "REF-REV-10",
+      "type": "citation"
+    },
+    {
+      "source": "REF-ASH-13",
+      "target": "DEMO-BEI-1212",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COL-14",
+      "target": "DEMO-BEI-1212",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KAO-15",
+      "target": "DEMO-BEI-1212",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-16",
+      "target": "REF-GIV-11",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-17",
+      "target": "DEMO-BEI-EQ02",
+      "type": "citation"
+    }
+  ]
+}

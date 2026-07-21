@@ -3,7 +3,7 @@
   "displayName": "Active UV Filter Stabilization System",
   "company": "L'Oreal",
   "priorityYear": 2018,
-  "summary": "This technology family concerns a formulation stabilizer system designed to prevent the photodegradation of organic UV filters (e.g., avobenzone) in daily skincare creams. It utilizes a synergistic combination of oil-in-water emulsifiers and antioxidant stabilizers to form an advanced, photostable lipid matrix.",
+  "summary": "Stabilizer system designed to prevent photodegradation of organic UV filters (e.g. avobenzone) in daily creams, using a synergistic emulsion matrix.",
   "representative": {
     "publicationNumber": "DEMO-LOR-0101",
     "title": "Method for stabilizing active UV filters in skin care compositions"
@@ -75,48 +75,6 @@
     },
     {
       "publicationNumber": "DEMO-LOR-EQ08",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in CN)",
-      "jurisdiction": "CN",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ09",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in JP)",
-      "jurisdiction": "JP",
-      "kind": "application",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ10",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in KR)",
-      "jurisdiction": "KR",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ11",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in FR)",
-      "jurisdiction": "FR",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ12",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "application",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ13",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ14",
       "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in CN)",
       "jurisdiction": "CN",
       "kind": "grant",
@@ -206,301 +164,130 @@
       "assignee": "L'Oreal"
     },
     {
-      "id": "DEMO-LOR-EQ09",
-      "label": "DEMO-LOR-EQ09",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in JP)",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "DEMO-LOR-EQ10",
-      "label": "DEMO-LOR-EQ10",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in KR)",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "DEMO-LOR-EQ11",
-      "label": "DEMO-LOR-EQ11",
-      "type": "equivalent",
+      "id": "REF-KEN-01",
+      "label": "REF-KEN-01",
+      "type": "citation",
       "is_representative": false,
       "country": "FR",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in FR)",
-      "assignee": "L'Oreal"
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
     },
     {
-      "id": "DEMO-LOR-EQ12",
-      "label": "DEMO-LOR-EQ12",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in US)",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "DEMO-LOR-EQ13",
-      "label": "DEMO-LOR-EQ13",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in EP)",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "DEMO-LOR-EQ14",
-      "label": "DEMO-LOR-EQ14",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in CN)",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "REF-INT-01",
-      "label": "REF-INT-01",
+      "id": "REF-KEN-02",
+      "label": "REF-KEN-02",
       "type": "citation",
       "is_representative": false,
       "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Intercos"
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
     },
     {
-      "id": "REF-COS-02",
-      "label": "REF-COS-02",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Cosmax"
-    },
-    {
-      "id": "REF-HEN-03",
-      "label": "REF-HEN-03",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Henkel"
-    },
-    {
-      "id": "REF-SEP-04",
-      "label": "REF-SEP-04",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Seppic"
-    },
-    {
-      "id": "REF-REV-05",
-      "label": "REF-REV-05",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Revlon"
-    },
-    {
-      "id": "REF-DSM-06",
-      "label": "REF-DSM-06",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "DSM"
-    },
-    {
-      "id": "REF-AMO-07",
-      "label": "REF-AMO-07",
+      "id": "REF-PRO-03",
+      "label": "REF-PRO-03",
       "type": "citation",
       "is_representative": false,
       "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Amorepacific"
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
     },
     {
-      "id": "REF-BAS-08",
-      "label": "REF-BAS-08",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "BASF"
-    },
-    {
-      "id": "REF-REV-09",
-      "label": "REF-REV-09",
+      "id": "REF-EST-04",
+      "label": "REF-EST-04",
       "type": "citation",
       "is_representative": false,
       "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Revlon"
-    },
-    {
-      "id": "REF-REV-10",
-      "label": "REF-REV-10",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Revlon"
-    },
-    {
-      "id": "REF-HEN-11",
-      "label": "REF-HEN-11",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Henkel"
-    },
-    {
-      "id": "REF-COS-12",
-      "label": "REF-COS-12",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Cosmax"
-    },
-    {
-      "id": "REF-EST-13",
-      "label": "REF-EST-13",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
       "assignee": "The Estee Lauder Companies Inc."
     },
     {
-      "id": "REF-AMO-14",
-      "label": "REF-AMO-14",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Amorepacific"
-    },
-    {
-      "id": "REF-INT-15",
-      "label": "REF-INT-15",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Intercos"
-    },
-    {
-      "id": "REF-KAO-16",
-      "label": "REF-KAO-16",
+      "id": "REF-ASH-05",
+      "label": "REF-ASH-05",
       "type": "citation",
       "is_representative": false,
       "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Kao Corp"
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Ashland"
     },
     {
-      "id": "REF-COT-17",
-      "label": "REF-COT-17",
+      "id": "REF-COT-06",
+      "label": "REF-COT-06",
       "type": "citation",
       "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
       "assignee": "Coty"
     },
     {
-      "id": "REF-COS-18",
-      "label": "REF-COS-18",
+      "id": "REF-SHI-07",
+      "label": "REF-SHI-07",
       "type": "citation",
       "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Cosmax"
-    },
-    {
-      "id": "REF-SEP-19",
-      "label": "REF-SEP-19",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Seppic"
-    },
-    {
-      "id": "REF-BEI-20",
-      "label": "REF-BEI-20",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "REF-BAS-21",
-      "label": "REF-BAS-21",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "BASF"
-    },
-    {
-      "id": "REF-GIV-22",
-      "label": "REF-GIV-22",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Givaudan"
-    },
-    {
-      "id": "REF-EVO-23",
-      "label": "REF-EVO-23",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Evonik"
-    },
-    {
-      "id": "REF-COL-24",
-      "label": "REF-COL-24",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "REF-COL-25",
-      "label": "REF-COL-25",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "REF-SHI-26",
-      "label": "REF-SHI-26",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
       "assignee": "Shiseido Company, Limited"
     },
     {
-      "id": "REF-COL-27",
-      "label": "REF-COL-27",
+      "id": "REF-SHI-08",
+      "label": "REF-SHI-08",
       "type": "citation",
       "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Colgate-Palmolive Company"
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-COT-09",
+      "label": "REF-COT-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-COS-10",
+      "label": "REF-COS-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Cosmax"
+    },
+    {
+      "id": "REF-REV-11",
+      "label": "REF-REV-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Revlon"
+    },
+    {
+      "id": "REF-HEN-12",
+      "label": "REF-HEN-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "REF-BAS-13",
+      "label": "REF-BAS-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-BEI-14",
+      "label": "REF-BEI-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Beiersdorf AG"
     }
   ],
   "edges": [
@@ -545,167 +332,72 @@
       "type": "equivalent"
     },
     {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ09",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ10",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ11",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ12",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ13",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ14",
-      "type": "equivalent"
-    },
-    {
-      "source": "REF-INT-01",
+      "source": "REF-KEN-01",
       "target": "DEMO-LOR-0101",
       "type": "citation"
     },
     {
-      "source": "REF-COS-02",
+      "source": "REF-KEN-02",
       "target": "DEMO-LOR-EQ06",
       "type": "citation"
     },
     {
-      "source": "REF-HEN-03",
+      "source": "REF-PRO-03",
       "target": "DEMO-LOR-0101",
       "type": "citation"
     },
     {
-      "source": "REF-SEP-04",
+      "source": "REF-EST-04",
+      "target": "REF-KEN-02",
+      "type": "citation"
+    },
+    {
+      "source": "REF-ASH-05",
       "target": "DEMO-LOR-0101",
       "type": "citation"
     },
     {
-      "source": "REF-REV-05",
+      "source": "REF-COT-06",
+      "target": "DEMO-LOR-EQ05",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-07",
       "target": "DEMO-LOR-0101",
       "type": "citation"
     },
     {
-      "source": "REF-DSM-06",
+      "source": "REF-SHI-08",
       "target": "DEMO-LOR-0101",
       "type": "citation"
     },
     {
-      "source": "REF-AMO-07",
-      "target": "DEMO-LOR-EQ14",
+      "source": "REF-COT-09",
+      "target": "DEMO-LOR-EQ02",
       "type": "citation"
     },
     {
-      "source": "REF-BAS-08",
-      "target": "DEMO-LOR-EQ13",
-      "type": "citation"
-    },
-    {
-      "source": "REF-REV-09",
-      "target": "REF-AMO-07",
-      "type": "citation"
-    },
-    {
-      "source": "REF-REV-10",
-      "target": "DEMO-LOR-EQ11",
-      "type": "citation"
-    },
-    {
-      "source": "REF-HEN-11",
-      "target": "DEMO-LOR-EQ01",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COS-12",
+      "source": "REF-COS-10",
       "target": "DEMO-LOR-0101",
       "type": "citation"
     },
     {
-      "source": "REF-EST-13",
+      "source": "REF-REV-11",
       "target": "DEMO-LOR-0101",
       "type": "citation"
     },
     {
-      "source": "REF-AMO-14",
+      "source": "REF-HEN-12",
       "target": "DEMO-LOR-0101",
       "type": "citation"
     },
     {
-      "source": "REF-INT-15",
-      "target": "DEMO-LOR-EQ12",
+      "source": "REF-BAS-13",
+      "target": "DEMO-LOR-EQ05",
       "type": "citation"
     },
     {
-      "source": "REF-KAO-16",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COT-17",
-      "target": "DEMO-LOR-EQ11",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COS-18",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SEP-19",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BEI-20",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BAS-21",
-      "target": "DEMO-LOR-EQ12",
-      "type": "citation"
-    },
-    {
-      "source": "REF-GIV-22",
-      "target": "REF-KAO-16",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EVO-23",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COL-24",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COL-25",
-      "target": "REF-INT-15",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-26",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COL-27",
+      "source": "REF-BEI-14",
       "target": "DEMO-LOR-0101",
       "type": "citation"
     }

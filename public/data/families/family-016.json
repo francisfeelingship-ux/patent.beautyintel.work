@@ -1,0 +1,403 @@
+{
+  "familyPublicId": "DEMO-FAMILY-016",
+  "displayName": "Bio-Fermented Anti-Inflammatory Actives",
+  "company": "The Estee Lauder Companies Inc.",
+  "priorityYear": 2017,
+  "summary": "Saccharomyces ferment lysates that downregulate inflammatory cytokines, soothing redness caused by UV or environmental stressors.",
+  "representative": {
+    "publicationNumber": "DEMO-EST-1616",
+    "title": "Yeast ferment extracts for reducing erythema and skin irritation"
+  },
+  "jurisdictions": [
+    "US",
+    "EP",
+    "CH",
+    "JP"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DEMO-EST-1616",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ01",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ02",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in CH)",
+      "jurisdiction": "CH",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ03",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ04",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ05",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ06",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in CH)",
+      "jurisdiction": "CH",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ07",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-EST-EQ08",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DEMO-EST-1616",
+      "label": "DEMO-EST-1616",
+      "type": "core",
+      "is_representative": true,
+      "country": "US",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ01",
+      "label": "DEMO-EST-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in EP)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ02",
+      "label": "DEMO-EST-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in CH)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ03",
+      "label": "DEMO-EST-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in JP)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ04",
+      "label": "DEMO-EST-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in US)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ05",
+      "label": "DEMO-EST-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in EP)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ06",
+      "label": "DEMO-EST-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in CH)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ07",
+      "label": "DEMO-EST-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in JP)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DEMO-EST-EQ08",
+      "label": "DEMO-EST-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Yeast ferment extracts for reducing erythema and skin irritation (Equivalent filing in US)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-COL-01",
+      "label": "REF-COL-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-DOW-02",
+      "label": "REF-DOW-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-EVO-03",
+      "label": "REF-EVO-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-KEN-04",
+      "label": "REF-KEN-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "REF-PRO-05",
+      "label": "REF-PRO-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
+    },
+    {
+      "id": "REF-SHI-06",
+      "label": "REF-SHI-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-LOR-07",
+      "label": "REF-LOR-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "REF-COL-08",
+      "label": "REF-COL-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-DSM-09",
+      "label": "REF-DSM-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "DSM"
+    },
+    {
+      "id": "REF-CRO-10",
+      "label": "REF-CRO-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Croda"
+    },
+    {
+      "id": "REF-COL-11",
+      "label": "REF-COL-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-DOW-12",
+      "label": "REF-DOW-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-BAS-13",
+      "label": "REF-BAS-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-GIV-14",
+      "label": "REF-GIV-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Givaudan"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-EST-1616",
+      "target": "DEMO-EST-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-1616",
+      "target": "DEMO-EST-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-1616",
+      "target": "DEMO-EST-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-1616",
+      "target": "DEMO-EST-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-1616",
+      "target": "DEMO-EST-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-1616",
+      "target": "DEMO-EST-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-1616",
+      "target": "DEMO-EST-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-EST-1616",
+      "target": "DEMO-EST-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-COL-01",
+      "target": "DEMO-EST-EQ01",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-02",
+      "target": "DEMO-EST-1616",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-03",
+      "target": "DEMO-EST-1616",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KEN-04",
+      "target": "DEMO-EST-1616",
+      "type": "citation"
+    },
+    {
+      "source": "REF-PRO-05",
+      "target": "REF-KEN-04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-06",
+      "target": "DEMO-EST-1616",
+      "type": "citation"
+    },
+    {
+      "source": "REF-LOR-07",
+      "target": "DEMO-EST-1616",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COL-08",
+      "target": "DEMO-EST-EQ04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DSM-09",
+      "target": "DEMO-EST-EQ04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-CRO-10",
+      "target": "DEMO-EST-EQ08",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COL-11",
+      "target": "DEMO-EST-1616",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-12",
+      "target": "REF-SHI-06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-13",
+      "target": "DEMO-EST-1616",
+      "type": "citation"
+    },
+    {
+      "source": "REF-GIV-14",
+      "target": "DEMO-EST-1616",
+      "type": "citation"
+    }
+  ]
+}

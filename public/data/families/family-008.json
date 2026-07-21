@@ -1,0 +1,732 @@
+{
+  "familyPublicId": "DEMO-FAMILY-008",
+  "displayName": "Long-Wear Surfactant-Free Facial Cleansers",
+  "company": "Colgate-Palmolive Company",
+  "priorityYear": 2020,
+  "summary": "Clay-stabilized Pickering emulsions that lift waterproof pigments and sebum without disrupting the skin's acidic mantle.",
+  "representative": {
+    "publicationNumber": "DEMO-COL-0808",
+    "title": "Surfactant-free oil cleansing emulsions for sensitive skin types"
+  },
+  "jurisdictions": [
+    "US",
+    "EP",
+    "DE",
+    "FR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DEMO-COL-0808",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ01",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ02",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in DE)",
+      "jurisdiction": "DE",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ03",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ04",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ05",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ06",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in DE)",
+      "jurisdiction": "DE",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ07",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ08",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ09",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ10",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in DE)",
+      "jurisdiction": "DE",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ11",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ12",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ13",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ14",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in DE)",
+      "jurisdiction": "DE",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-COL-EQ15",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "application",
+      "type": "equivalent"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DEMO-COL-0808",
+      "label": "DEMO-COL-0808",
+      "type": "core",
+      "is_representative": true,
+      "country": "US",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ01",
+      "label": "DEMO-COL-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in EP)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ02",
+      "label": "DEMO-COL-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in DE)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ03",
+      "label": "DEMO-COL-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in FR)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ04",
+      "label": "DEMO-COL-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in US)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ05",
+      "label": "DEMO-COL-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in EP)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ06",
+      "label": "DEMO-COL-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in DE)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ07",
+      "label": "DEMO-COL-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in FR)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ08",
+      "label": "DEMO-COL-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in US)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ09",
+      "label": "DEMO-COL-EQ09",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in EP)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ10",
+      "label": "DEMO-COL-EQ10",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in DE)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ11",
+      "label": "DEMO-COL-EQ11",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in FR)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ12",
+      "label": "DEMO-COL-EQ12",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in US)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ13",
+      "label": "DEMO-COL-EQ13",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in EP)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ14",
+      "label": "DEMO-COL-EQ14",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in DE)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "DEMO-COL-EQ15",
+      "label": "DEMO-COL-EQ15",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Surfactant-free oil cleansing emulsions for sensitive skin types (Equivalent filing in FR)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-BEI-01",
+      "label": "REF-BEI-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "REF-SEP-02",
+      "label": "REF-SEP-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-CRO-03",
+      "label": "REF-CRO-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Croda"
+    },
+    {
+      "id": "REF-DOW-04",
+      "label": "REF-DOW-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-INT-05",
+      "label": "REF-INT-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "REF-ASH-06",
+      "label": "REF-ASH-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Ashland"
+    },
+    {
+      "id": "REF-KEN-07",
+      "label": "REF-KEN-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "REF-DSM-08",
+      "label": "REF-DSM-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "DSM"
+    },
+    {
+      "id": "REF-COT-09",
+      "label": "REF-COT-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-PRO-10",
+      "label": "REF-PRO-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
+    },
+    {
+      "id": "REF-COT-11",
+      "label": "REF-COT-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-DOW-12",
+      "label": "REF-DOW-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-SEP-13",
+      "label": "REF-SEP-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-INT-14",
+      "label": "REF-INT-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "REF-GIV-15",
+      "label": "REF-GIV-15",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "REF-KEN-16",
+      "label": "REF-KEN-16",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "REF-REV-17",
+      "label": "REF-REV-17",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Revlon"
+    },
+    {
+      "id": "REF-SEP-18",
+      "label": "REF-SEP-18",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-REV-19",
+      "label": "REF-REV-19",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Revlon"
+    },
+    {
+      "id": "REF-DSM-20",
+      "label": "REF-DSM-20",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "DSM"
+    },
+    {
+      "id": "REF-LOR-21",
+      "label": "REF-LOR-21",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "REF-INT-22",
+      "label": "REF-INT-22",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "REF-DOW-23",
+      "label": "REF-DOW-23",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-EVO-24",
+      "label": "REF-EVO-24",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-COT-25",
+      "label": "REF-COT-25",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-EST-26",
+      "label": "REF-EST-26",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-PRO-27",
+      "label": "REF-PRO-27",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ09",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ10",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ11",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ12",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ13",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ14",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-COL-0808",
+      "target": "DEMO-COL-EQ15",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-BEI-01",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-02",
+      "target": "DEMO-COL-EQ09",
+      "type": "citation"
+    },
+    {
+      "source": "REF-CRO-03",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-04",
+      "target": "DEMO-COL-EQ08",
+      "type": "citation"
+    },
+    {
+      "source": "REF-INT-05",
+      "target": "DEMO-COL-EQ13",
+      "type": "citation"
+    },
+    {
+      "source": "REF-ASH-06",
+      "target": "DEMO-COL-EQ06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KEN-07",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DSM-08",
+      "target": "REF-KEN-07",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-09",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-PRO-10",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-11",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-12",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-13",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-INT-14",
+      "target": "DEMO-COL-EQ14",
+      "type": "citation"
+    },
+    {
+      "source": "REF-GIV-15",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KEN-16",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-REV-17",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-18",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-REV-19",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DSM-20",
+      "target": "DEMO-COL-EQ11",
+      "type": "citation"
+    },
+    {
+      "source": "REF-LOR-21",
+      "target": "REF-REV-19",
+      "type": "citation"
+    },
+    {
+      "source": "REF-INT-22",
+      "target": "REF-DSM-08",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-23",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-24",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-25",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EST-26",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    },
+    {
+      "source": "REF-PRO-27",
+      "target": "DEMO-COL-0808",
+      "type": "citation"
+    }
+  ]
+}

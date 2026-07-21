@@ -1,0 +1,403 @@
+{
+  "familyPublicId": "DEMO-FAMILY-020",
+  "displayName": "Anti-Pollution Skin Barrier Sealants",
+  "company": "Henkel",
+  "priorityYear": 2018,
+  "summary": "Polymer networks forming a breathable microscopic mesh over the skin, physically repelling PM2.5 particles and exhaust dust.",
+  "representative": {
+    "publicationNumber": "DEMO-HEN-2020",
+    "title": "Polysaccharide shield matrices preventing particulate matter adhesion"
+  },
+  "jurisdictions": [
+    "DE",
+    "EP",
+    "US",
+    "CN"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DEMO-HEN-2020",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion",
+      "jurisdiction": "DE",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-HEN-EQ01",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-HEN-EQ02",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-HEN-EQ03",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-HEN-EQ04",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in DE)",
+      "jurisdiction": "DE",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-HEN-EQ05",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-HEN-EQ06",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-HEN-EQ07",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-HEN-EQ08",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in DE)",
+      "jurisdiction": "DE",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DEMO-HEN-2020",
+      "label": "DEMO-HEN-2020",
+      "type": "core",
+      "is_representative": true,
+      "country": "DE",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "DEMO-HEN-EQ01",
+      "label": "DEMO-HEN-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in EP)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "DEMO-HEN-EQ02",
+      "label": "DEMO-HEN-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in US)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "DEMO-HEN-EQ03",
+      "label": "DEMO-HEN-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in CN)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "DEMO-HEN-EQ04",
+      "label": "DEMO-HEN-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in DE)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "DEMO-HEN-EQ05",
+      "label": "DEMO-HEN-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in EP)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "DEMO-HEN-EQ06",
+      "label": "DEMO-HEN-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in US)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "DEMO-HEN-EQ07",
+      "label": "DEMO-HEN-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in CN)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "DEMO-HEN-EQ08",
+      "label": "DEMO-HEN-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Polysaccharide shield matrices preventing particulate matter adhesion (Equivalent filing in DE)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "REF-DSM-01",
+      "label": "REF-DSM-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "DSM"
+    },
+    {
+      "id": "REF-SYM-02",
+      "label": "REF-SYM-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "REF-FIR-03",
+      "label": "REF-FIR-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "REF-PRO-04",
+      "label": "REF-PRO-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
+    },
+    {
+      "id": "REF-DOW-05",
+      "label": "REF-DOW-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-ASH-06",
+      "label": "REF-ASH-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Ashland"
+    },
+    {
+      "id": "REF-COL-07",
+      "label": "REF-COL-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-EVO-08",
+      "label": "REF-EVO-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-EST-09",
+      "label": "REF-EST-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-KAO-10",
+      "label": "REF-KAO-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "REF-DOW-11",
+      "label": "REF-DOW-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-KEN-12",
+      "label": "REF-KEN-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "REF-SEP-13",
+      "label": "REF-SEP-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-CRO-14",
+      "label": "REF-CRO-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Croda"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-HEN-2020",
+      "target": "DEMO-HEN-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-HEN-2020",
+      "target": "DEMO-HEN-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-HEN-2020",
+      "target": "DEMO-HEN-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-HEN-2020",
+      "target": "DEMO-HEN-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-HEN-2020",
+      "target": "DEMO-HEN-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-HEN-2020",
+      "target": "DEMO-HEN-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-HEN-2020",
+      "target": "DEMO-HEN-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-HEN-2020",
+      "target": "DEMO-HEN-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-DSM-01",
+      "target": "REF-DSM-01",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SYM-02",
+      "target": "DEMO-HEN-EQ04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-FIR-03",
+      "target": "DEMO-HEN-EQ04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-PRO-04",
+      "target": "DEMO-HEN-2020",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-05",
+      "target": "DEMO-HEN-2020",
+      "type": "citation"
+    },
+    {
+      "source": "REF-ASH-06",
+      "target": "DEMO-HEN-2020",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COL-07",
+      "target": "DEMO-HEN-2020",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-08",
+      "target": "DEMO-HEN-2020",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EST-09",
+      "target": "DEMO-HEN-2020",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KAO-10",
+      "target": "DEMO-HEN-2020",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-11",
+      "target": "REF-DOW-05",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KEN-12",
+      "target": "DEMO-HEN-2020",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-13",
+      "target": "DEMO-HEN-2020",
+      "type": "citation"
+    },
+    {
+      "source": "REF-CRO-14",
+      "target": "REF-KAO-10",
+      "type": "citation"
+    }
+  ]
+}

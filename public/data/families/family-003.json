@@ -3,7 +3,7 @@
   "displayName": "Melanin Transfer Inhibition Compounds",
   "company": "Shiseido Company, Limited",
   "priorityYear": 2019,
-  "summary": "This technology family concerns cosmetic active agents targeting key pathways of melanosome transport. It incorporates plant extract combinations with synthetic organic compounds that inhibit pigment transfer to nearby keratinocytes.",
+  "summary": "Active cosmetic ingredients targeting melanosome transport pathways. Plant extract compounds block melanin transfer to nearby keratinocytes.",
   "representative": {
     "publicationNumber": "DEMO-SHI-0303",
     "title": "Compositions inhibiting melanin transfer for skin brightening applications"
@@ -77,34 +77,6 @@
       "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in CN)",
       "jurisdiction": "CN",
       "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-SHI-EQ09",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in KR)",
-      "jurisdiction": "KR",
-      "kind": "application",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-SHI-EQ10",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in JP)",
-      "jurisdiction": "JP",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-SHI-EQ11",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-SHI-EQ12",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "application",
       "type": "equivalent_with_text"
     }
   ],
@@ -191,238 +163,130 @@
       "assignee": "Shiseido Company, Limited"
     },
     {
-      "id": "DEMO-SHI-EQ09",
-      "label": "DEMO-SHI-EQ09",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in KR)",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "DEMO-SHI-EQ10",
-      "label": "DEMO-SHI-EQ10",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in JP)",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "DEMO-SHI-EQ11",
-      "label": "DEMO-SHI-EQ11",
-      "type": "equivalent",
+      "id": "REF-KEN-01",
+      "label": "REF-KEN-01",
+      "type": "citation",
       "is_representative": false,
       "country": "US",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in US)",
-      "assignee": "Shiseido Company, Limited"
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
     },
     {
-      "id": "DEMO-SHI-EQ12",
-      "label": "DEMO-SHI-EQ12",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in EP)",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-SYM-01",
-      "label": "REF-SYM-01",
+      "id": "REF-REV-02",
+      "label": "REF-REV-02",
       "type": "citation",
       "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Symrise"
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Revlon"
     },
     {
-      "id": "REF-BAS-02",
-      "label": "REF-BAS-02",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "BASF"
-    },
-    {
-      "id": "REF-HEN-03",
-      "label": "REF-HEN-03",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Henkel"
-    },
-    {
-      "id": "REF-SHI-04",
-      "label": "REF-SHI-04",
+      "id": "REF-COL-03",
+      "label": "REF-COL-03",
       "type": "citation",
       "is_representative": false,
       "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-DOW-05",
-      "label": "REF-DOW-05",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Dow"
-    },
-    {
-      "id": "REF-COS-06",
-      "label": "REF-COS-06",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Cosmax"
-    },
-    {
-      "id": "REF-COL-07",
-      "label": "REF-COL-07",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
       "assignee": "Colgate-Palmolive Company"
     },
     {
-      "id": "REF-FIR-08",
-      "label": "REF-FIR-08",
+      "id": "REF-COL-04",
+      "label": "REF-COL-04",
       "type": "citation",
       "is_representative": false,
       "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Firmenich"
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Colgate-Palmolive Company"
     },
     {
-      "id": "REF-SHI-09",
-      "label": "REF-SHI-09",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-ASH-10",
-      "label": "REF-ASH-10",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Ashland"
-    },
-    {
-      "id": "REF-AMO-11",
-      "label": "REF-AMO-11",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Amorepacific"
-    },
-    {
-      "id": "REF-GIV-12",
-      "label": "REF-GIV-12",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Givaudan"
-    },
-    {
-      "id": "REF-SYM-13",
-      "label": "REF-SYM-13",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Symrise"
-    },
-    {
-      "id": "REF-SHI-14",
-      "label": "REF-SHI-14",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-FIR-15",
-      "label": "REF-FIR-15",
+      "id": "REF-CRO-05",
+      "label": "REF-CRO-05",
       "type": "citation",
       "is_representative": false,
       "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Firmenich"
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Croda"
     },
     {
-      "id": "REF-FIR-16",
-      "label": "REF-FIR-16",
+      "id": "REF-DSM-06",
+      "label": "REF-DSM-06",
       "type": "citation",
       "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Firmenich"
-    },
-    {
-      "id": "REF-LOR-17",
-      "label": "REF-LOR-17",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "REF-DSM-18",
-      "label": "REF-DSM-18",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
       "assignee": "DSM"
     },
     {
-      "id": "REF-BEI-19",
-      "label": "REF-BEI-19",
+      "id": "REF-INT-07",
+      "label": "REF-INT-07",
       "type": "citation",
       "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "REF-SHI-20",
-      "label": "REF-SHI-20",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-INT-21",
-      "label": "REF-INT-21",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
       "assignee": "Intercos"
     },
     {
-      "id": "REF-BAS-22",
-      "label": "REF-BAS-22",
+      "id": "REF-COS-08",
+      "label": "REF-COS-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Cosmax"
+    },
+    {
+      "id": "REF-BAS-09",
+      "label": "REF-BAS-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-SEP-10",
+      "label": "REF-SEP-10",
       "type": "citation",
       "is_representative": false,
       "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations and carriers",
-      "assignee": "BASF"
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-COT-11",
+      "label": "REF-COT-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-PRO-12",
+      "label": "REF-PRO-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
+    },
+    {
+      "id": "REF-CRO-13",
+      "label": "REF-CRO-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Croda"
+    },
+    {
+      "id": "REF-PRO-14",
+      "label": "REF-PRO-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
     }
   ],
   "edges": [
@@ -467,132 +331,72 @@
       "type": "equivalent"
     },
     {
-      "source": "DEMO-SHI-0303",
-      "target": "DEMO-SHI-EQ09",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-SHI-0303",
-      "target": "DEMO-SHI-EQ10",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-SHI-0303",
-      "target": "DEMO-SHI-EQ11",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-SHI-0303",
-      "target": "DEMO-SHI-EQ12",
-      "type": "equivalent"
-    },
-    {
-      "source": "REF-SYM-01",
-      "target": "DEMO-SHI-0303",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BAS-02",
-      "target": "DEMO-SHI-EQ05",
-      "type": "citation"
-    },
-    {
-      "source": "REF-HEN-03",
-      "target": "DEMO-SHI-0303",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-04",
-      "target": "DEMO-SHI-EQ04",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DOW-05",
-      "target": "DEMO-SHI-0303",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COS-06",
-      "target": "DEMO-SHI-0303",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COL-07",
-      "target": "DEMO-SHI-0303",
-      "type": "citation"
-    },
-    {
-      "source": "REF-FIR-08",
-      "target": "DEMO-SHI-0303",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-09",
+      "source": "REF-KEN-01",
       "target": "DEMO-SHI-EQ03",
       "type": "citation"
     },
     {
-      "source": "REF-ASH-10",
-      "target": "REF-BAS-02",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-11",
-      "target": "REF-FIR-08",
-      "type": "citation"
-    },
-    {
-      "source": "REF-GIV-12",
+      "source": "REF-REV-02",
       "target": "DEMO-SHI-0303",
       "type": "citation"
     },
     {
-      "source": "REF-SYM-13",
+      "source": "REF-COL-03",
       "target": "DEMO-SHI-0303",
       "type": "citation"
     },
     {
-      "source": "REF-SHI-14",
+      "source": "REF-COL-04",
+      "target": "REF-COL-04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-CRO-05",
       "target": "DEMO-SHI-0303",
       "type": "citation"
     },
     {
-      "source": "REF-FIR-15",
-      "target": "REF-SYM-01",
-      "type": "citation"
-    },
-    {
-      "source": "REF-FIR-16",
+      "source": "REF-DSM-06",
       "target": "DEMO-SHI-0303",
       "type": "citation"
     },
     {
-      "source": "REF-LOR-17",
+      "source": "REF-INT-07",
+      "target": "REF-COL-03",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COS-08",
       "target": "DEMO-SHI-0303",
       "type": "citation"
     },
     {
-      "source": "REF-DSM-18",
+      "source": "REF-BAS-09",
+      "target": "REF-CRO-05",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-10",
       "target": "DEMO-SHI-0303",
       "type": "citation"
     },
     {
-      "source": "REF-BEI-19",
+      "source": "REF-COT-11",
       "target": "DEMO-SHI-0303",
       "type": "citation"
     },
     {
-      "source": "REF-SHI-20",
+      "source": "REF-PRO-12",
       "target": "DEMO-SHI-0303",
       "type": "citation"
     },
     {
-      "source": "REF-INT-21",
-      "target": "DEMO-SHI-EQ04",
+      "source": "REF-CRO-13",
+      "target": "DEMO-SHI-0303",
       "type": "citation"
     },
     {
-      "source": "REF-BAS-22",
+      "source": "REF-PRO-14",
       "target": "DEMO-SHI-0303",
       "type": "citation"
     }

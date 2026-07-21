@@ -1,0 +1,599 @@
+{
+  "familyPublicId": "DEMO-FAMILY-006",
+  "displayName": "Liquid Crystal Skin Barrier Emulsion",
+  "company": "Unilever",
+  "priorityYear": 2018,
+  "summary": "Identical lipid mixtures structured as lamellar phases mimicking intercellular lipids of the stratum corneum, promoting rapid barrier recovery.",
+  "representative": {
+    "publicationNumber": "DEMO-UNI-0606",
+    "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair"
+  },
+  "jurisdictions": [
+    "EP",
+    "US",
+    "CN",
+    "CA"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DEMO-UNI-0606",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ01",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ02",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ03",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CA)",
+      "jurisdiction": "CA",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ04",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ05",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ06",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ07",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CA)",
+      "jurisdiction": "CA",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ08",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ09",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ10",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ11",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CA)",
+      "jurisdiction": "CA",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-UNI-EQ12",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DEMO-UNI-0606",
+      "label": "DEMO-UNI-0606",
+      "type": "core",
+      "is_representative": true,
+      "country": "EP",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ01",
+      "label": "DEMO-UNI-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in US)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ02",
+      "label": "DEMO-UNI-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CN)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ03",
+      "label": "DEMO-UNI-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CA)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ04",
+      "label": "DEMO-UNI-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in EP)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ05",
+      "label": "DEMO-UNI-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in US)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ06",
+      "label": "DEMO-UNI-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CN)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ07",
+      "label": "DEMO-UNI-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CA)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ08",
+      "label": "DEMO-UNI-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in EP)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ09",
+      "label": "DEMO-UNI-EQ09",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in US)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ10",
+      "label": "DEMO-UNI-EQ10",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CN)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ11",
+      "label": "DEMO-UNI-EQ11",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in CA)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "DEMO-UNI-EQ12",
+      "label": "DEMO-UNI-EQ12",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Lamellar liquid crystal cosmetic formulations for lipid barrier repair (Equivalent filing in EP)",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "REF-BAS-01",
+      "label": "REF-BAS-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-SYM-02",
+      "label": "REF-SYM-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "REF-EST-03",
+      "label": "REF-EST-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-PRO-04",
+      "label": "REF-PRO-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Procter & Gamble Company"
+    },
+    {
+      "id": "REF-INT-05",
+      "label": "REF-INT-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "REF-EST-06",
+      "label": "REF-EST-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-HEN-07",
+      "label": "REF-HEN-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "REF-BAS-08",
+      "label": "REF-BAS-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-SEP-09",
+      "label": "REF-SEP-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-CRO-10",
+      "label": "REF-CRO-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Croda"
+    },
+    {
+      "id": "REF-GIV-11",
+      "label": "REF-GIV-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "REF-SEP-12",
+      "label": "REF-SEP-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "REF-DOW-13",
+      "label": "REF-DOW-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-LOR-14",
+      "label": "REF-LOR-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "REF-SHI-15",
+      "label": "REF-SHI-15",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-CRO-16",
+      "label": "REF-CRO-16",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Croda"
+    },
+    {
+      "id": "REF-HEN-17",
+      "label": "REF-HEN-17",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "REF-GIV-18",
+      "label": "REF-GIV-18",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "REF-AMO-19",
+      "label": "REF-AMO-19",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-SYM-20",
+      "label": "REF-SYM-20",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "REF-COT-21",
+      "label": "REF-COT-21",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-SYM-22",
+      "label": "REF-SYM-22",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Symrise"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ09",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ10",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ11",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-UNI-0606",
+      "target": "DEMO-UNI-EQ12",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-BAS-01",
+      "target": "DEMO-UNI-0606",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SYM-02",
+      "target": "DEMO-UNI-EQ09",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EST-03",
+      "target": "DEMO-UNI-0606",
+      "type": "citation"
+    },
+    {
+      "source": "REF-PRO-04",
+      "target": "DEMO-UNI-EQ11",
+      "type": "citation"
+    },
+    {
+      "source": "REF-INT-05",
+      "target": "REF-BAS-01",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EST-06",
+      "target": "DEMO-UNI-EQ07",
+      "type": "citation"
+    },
+    {
+      "source": "REF-HEN-07",
+      "target": "REF-EST-06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-08",
+      "target": "DEMO-UNI-EQ06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-09",
+      "target": "DEMO-UNI-EQ03",
+      "type": "citation"
+    },
+    {
+      "source": "REF-CRO-10",
+      "target": "DEMO-UNI-EQ10",
+      "type": "citation"
+    },
+    {
+      "source": "REF-GIV-11",
+      "target": "DEMO-UNI-0606",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SEP-12",
+      "target": "DEMO-UNI-0606",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-13",
+      "target": "DEMO-UNI-0606",
+      "type": "citation"
+    },
+    {
+      "source": "REF-LOR-14",
+      "target": "REF-DOW-13",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-15",
+      "target": "DEMO-UNI-EQ05",
+      "type": "citation"
+    },
+    {
+      "source": "REF-CRO-16",
+      "target": "DEMO-UNI-EQ04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-HEN-17",
+      "target": "REF-DOW-13",
+      "type": "citation"
+    },
+    {
+      "source": "REF-GIV-18",
+      "target": "DEMO-UNI-0606",
+      "type": "citation"
+    },
+    {
+      "source": "REF-AMO-19",
+      "target": "REF-SEP-09",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SYM-20",
+      "target": "DEMO-UNI-0606",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-21",
+      "target": "REF-EST-06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SYM-22",
+      "target": "DEMO-UNI-0606",
+      "type": "citation"
+    }
+  ]
+}

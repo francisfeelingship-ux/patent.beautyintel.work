@@ -1,0 +1,502 @@
+{
+  "familyPublicId": "DEMO-FAMILY-010",
+  "displayName": "Natural Ceramide Complex Emulsions",
+  "company": "Kao Corp",
+  "priorityYear": 2021,
+  "summary": "Advanced pseudo-ceramide molecules formulated with cholesterol and free fatty acids to replicate the lipid barrier matrix.",
+  "representative": {
+    "publicationNumber": "DEMO-KAO-1010",
+    "title": "Synthetic pseudo-ceramides in moisturizing skin creams"
+  },
+  "jurisdictions": [
+    "JP",
+    "CN",
+    "US",
+    "EP",
+    "DE"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DEMO-KAO-1010",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-KAO-EQ01",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-KAO-EQ02",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-KAO-EQ03",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-KAO-EQ04",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in DE)",
+      "jurisdiction": "DE",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-KAO-EQ05",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-KAO-EQ06",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in CN)",
+      "jurisdiction": "CN",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-KAO-EQ07",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-KAO-EQ08",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-KAO-EQ09",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in DE)",
+      "jurisdiction": "DE",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-KAO-EQ10",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DEMO-KAO-1010",
+      "label": "DEMO-KAO-1010",
+      "type": "core",
+      "is_representative": true,
+      "country": "JP",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "DEMO-KAO-EQ01",
+      "label": "DEMO-KAO-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in CN)",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "DEMO-KAO-EQ02",
+      "label": "DEMO-KAO-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in US)",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "DEMO-KAO-EQ03",
+      "label": "DEMO-KAO-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in EP)",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "DEMO-KAO-EQ04",
+      "label": "DEMO-KAO-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in DE)",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "DEMO-KAO-EQ05",
+      "label": "DEMO-KAO-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in JP)",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "DEMO-KAO-EQ06",
+      "label": "DEMO-KAO-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in CN)",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "DEMO-KAO-EQ07",
+      "label": "DEMO-KAO-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in US)",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "DEMO-KAO-EQ08",
+      "label": "DEMO-KAO-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in EP)",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "DEMO-KAO-EQ09",
+      "label": "DEMO-KAO-EQ09",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in DE)",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "DEMO-KAO-EQ10",
+      "label": "DEMO-KAO-EQ10",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Synthetic pseudo-ceramides in moisturizing skin creams (Equivalent filing in JP)",
+      "assignee": "Kao Corp"
+    },
+    {
+      "id": "REF-EST-01",
+      "label": "REF-EST-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-REV-02",
+      "label": "REF-REV-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Revlon"
+    },
+    {
+      "id": "REF-BAS-03",
+      "label": "REF-BAS-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-BAS-04",
+      "label": "REF-BAS-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-CRO-05",
+      "label": "REF-CRO-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Croda"
+    },
+    {
+      "id": "REF-SYM-06",
+      "label": "REF-SYM-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "REF-LOR-07",
+      "label": "REF-LOR-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "REF-AMO-08",
+      "label": "REF-AMO-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-SHI-09",
+      "label": "REF-SHI-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-INT-10",
+      "label": "REF-INT-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "REF-UNI-11",
+      "label": "REF-UNI-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "REF-COL-12",
+      "label": "REF-COL-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-FIR-13",
+      "label": "REF-FIR-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "REF-COS-14",
+      "label": "REF-COS-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Cosmax"
+    },
+    {
+      "id": "REF-UNI-15",
+      "label": "REF-UNI-15",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Unilever"
+    },
+    {
+      "id": "REF-BEI-16",
+      "label": "REF-BEI-16",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "REF-COL-17",
+      "label": "REF-COL-17",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-KEN-18",
+      "label": "REF-KEN-18",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "assignee": "Kenvue"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-KAO-1010",
+      "target": "DEMO-KAO-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-KAO-1010",
+      "target": "DEMO-KAO-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-KAO-1010",
+      "target": "DEMO-KAO-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-KAO-1010",
+      "target": "DEMO-KAO-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-KAO-1010",
+      "target": "DEMO-KAO-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-KAO-1010",
+      "target": "DEMO-KAO-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-KAO-1010",
+      "target": "DEMO-KAO-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-KAO-1010",
+      "target": "DEMO-KAO-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-KAO-1010",
+      "target": "DEMO-KAO-EQ09",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-KAO-1010",
+      "target": "DEMO-KAO-EQ10",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-EST-01",
+      "target": "DEMO-KAO-EQ05",
+      "type": "citation"
+    },
+    {
+      "source": "REF-REV-02",
+      "target": "DEMO-KAO-EQ09",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-03",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-04",
+      "target": "DEMO-KAO-EQ07",
+      "type": "citation"
+    },
+    {
+      "source": "REF-CRO-05",
+      "target": "REF-BAS-03",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SYM-06",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-LOR-07",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-AMO-08",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-09",
+      "target": "DEMO-KAO-EQ06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-INT-10",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-UNI-11",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COL-12",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-FIR-13",
+      "target": "DEMO-KAO-EQ05",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COS-14",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-UNI-15",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BEI-16",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COL-17",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    },
+    {
+      "source": "REF-KEN-18",
+      "target": "DEMO-KAO-1010",
+      "type": "citation"
+    }
+  ]
+}
