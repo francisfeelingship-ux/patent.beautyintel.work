@@ -5,53 +5,596 @@
   "priorityYear": 2019,
   "summary": "This technology family concerns cosmetic active agents targeting key pathways of melanosome transport. It incorporates plant extract combinations with synthetic organic compounds that inhibit pigment transfer to nearby keratinocytes.",
   "representative": {
-    "publicationNumber": "DEMO-PATENT-JP03",
+    "publicationNumber": "DEMO-SHI-0303",
     "title": "Compositions inhibiting melanin transfer for skin brightening applications"
   },
-  "jurisdictions": ["JP", "US", "EP", "CN"],
+  "jurisdictions": [
+    "JP",
+    "US",
+    "EP",
+    "CN",
+    "KR"
+  ],
   "members": [
     {
-      "publicationNumber": "DEMO-PATENT-JP03",
+      "publicationNumber": "DEMO-SHI-0303",
       "title": "Compositions inhibiting melanin transfer for skin brightening applications",
       "jurisdiction": "JP",
       "kind": "grant",
       "type": "core"
     },
     {
-      "publicationNumber": "DEMO-PATENT-US03",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications",
+      "publicationNumber": "DEMO-SHI-EQ01",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in US)",
       "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ02",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in EP)",
+      "jurisdiction": "EP",
       "kind": "grant",
       "type": "equivalent_with_text"
     },
     {
-      "publicationNumber": "DEMO-PATENT-EP03",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications",
-      "jurisdiction": "EP",
+      "publicationNumber": "DEMO-SHI-EQ03",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in CN)",
+      "jurisdiction": "CN",
       "kind": "application",
       "type": "equivalent"
     },
     {
-      "publicationNumber": "DEMO-PATENT-CN03",
-      "title": "Compositions inhibiting melanin transfer for skin brightening applications",
+      "publicationNumber": "DEMO-SHI-EQ04",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in KR)",
+      "jurisdiction": "KR",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ05",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ06",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ07",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ08",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in CN)",
       "jurisdiction": "CN",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ09",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in KR)",
+      "jurisdiction": "KR",
       "kind": "application",
       "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ10",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in JP)",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ11",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-SHI-EQ12",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "application",
+      "type": "equivalent_with_text"
     }
   ],
   "nodes": [
-    {"id": "DEMO-PATENT-JP03", "label": "DEMO-PATENT-JP03", "type": "core", "is_representative": true, "country": "JP", "title": "Compositions inhibiting melanin transfer for skin brightening applications", "assignee": "Shiseido Company, Limited"},
-    {"id": "DEMO-PATENT-US03", "label": "DEMO-PATENT-US03", "type": "equivalent_with_text", "is_representative": false, "country": "US", "title": "Compositions inhibiting melanin transfer for skin brightening applications", "assignee": "Shiseido Company, Limited"},
-    {"id": "DEMO-PATENT-EP03", "label": "DEMO-PATENT-EP03", "type": "equivalent", "is_representative": false, "country": "EP", "title": "Compositions inhibiting melanin transfer for skin brightening applications", "assignee": "Shiseido Company, Limited"},
-    {"id": "DEMO-PATENT-CN03", "label": "DEMO-PATENT-CN03", "type": "equivalent", "is_representative": false, "country": "CN", "title": "Compositions inhibiting melanin transfer for skin brightening applications", "assignee": "Shiseido Company, Limited"},
-    {"id": "REF-JP-03A", "label": "REF-JP-03A", "type": "citation", "is_representative": false, "country": "JP", "title": "Active complexes for pigment control", "assignee": "Kao Corp"},
-    {"id": "REF-JP-03B", "label": "REF-JP-03B", "type": "citation", "is_representative": false, "country": "JP", "title": "Melanin pathway inhibitor actives", "assignee": "L'Oreal"}
+    {
+      "id": "DEMO-SHI-0303",
+      "label": "DEMO-SHI-0303",
+      "type": "core",
+      "is_representative": true,
+      "country": "JP",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ01",
+      "label": "DEMO-SHI-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in US)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ02",
+      "label": "DEMO-SHI-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in EP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ03",
+      "label": "DEMO-SHI-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in CN)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ04",
+      "label": "DEMO-SHI-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in KR)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ05",
+      "label": "DEMO-SHI-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in JP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ06",
+      "label": "DEMO-SHI-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "US",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in US)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ07",
+      "label": "DEMO-SHI-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in EP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ08",
+      "label": "DEMO-SHI-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in CN)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ09",
+      "label": "DEMO-SHI-EQ09",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in KR)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ10",
+      "label": "DEMO-SHI-EQ10",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in JP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ11",
+      "label": "DEMO-SHI-EQ11",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in US)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "DEMO-SHI-EQ12",
+      "label": "DEMO-SHI-EQ12",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications (Equivalent filing in EP)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-SYM-01",
+      "label": "REF-SYM-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "REF-BAS-02",
+      "label": "REF-BAS-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-HEN-03",
+      "label": "REF-HEN-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "REF-SHI-04",
+      "label": "REF-SHI-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-DOW-05",
+      "label": "REF-DOW-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Dow"
+    },
+    {
+      "id": "REF-COS-06",
+      "label": "REF-COS-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Cosmax"
+    },
+    {
+      "id": "REF-COL-07",
+      "label": "REF-COL-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-FIR-08",
+      "label": "REF-FIR-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "REF-SHI-09",
+      "label": "REF-SHI-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-ASH-10",
+      "label": "REF-ASH-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Ashland"
+    },
+    {
+      "id": "REF-AMO-11",
+      "label": "REF-AMO-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-GIV-12",
+      "label": "REF-GIV-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "REF-SYM-13",
+      "label": "REF-SYM-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "REF-SHI-14",
+      "label": "REF-SHI-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-FIR-15",
+      "label": "REF-FIR-15",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "REF-FIR-16",
+      "label": "REF-FIR-16",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "REF-LOR-17",
+      "label": "REF-LOR-17",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "REF-DSM-18",
+      "label": "REF-DSM-18",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "DSM"
+    },
+    {
+      "id": "REF-BEI-19",
+      "label": "REF-BEI-19",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "REF-SHI-20",
+      "label": "REF-SHI-20",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "REF-INT-21",
+      "label": "REF-INT-21",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "REF-BAS-22",
+      "label": "REF-BAS-22",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "BASF"
+    }
   ],
   "edges": [
-    {"source": "DEMO-PATENT-JP03", "target": "DEMO-PATENT-US03", "type": "equivalent"},
-    {"source": "DEMO-PATENT-JP03", "target": "DEMO-PATENT-EP03", "type": "equivalent"},
-    {"source": "DEMO-PATENT-JP03", "target": "DEMO-PATENT-CN03", "type": "equivalent"},
-    {"source": "REF-JP-03A", "target": "DEMO-PATENT-JP03", "type": "citation"},
-    {"source": "REF-JP-03B", "target": "DEMO-PATENT-JP03", "type": "citation"}
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ09",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ10",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ11",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-SHI-0303",
+      "target": "DEMO-SHI-EQ12",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-SYM-01",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-02",
+      "target": "DEMO-SHI-EQ05",
+      "type": "citation"
+    },
+    {
+      "source": "REF-HEN-03",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-04",
+      "target": "DEMO-SHI-EQ04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DOW-05",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COS-06",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COL-07",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-FIR-08",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-09",
+      "target": "DEMO-SHI-EQ03",
+      "type": "citation"
+    },
+    {
+      "source": "REF-ASH-10",
+      "target": "REF-BAS-02",
+      "type": "citation"
+    },
+    {
+      "source": "REF-AMO-11",
+      "target": "REF-FIR-08",
+      "type": "citation"
+    },
+    {
+      "source": "REF-GIV-12",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SYM-13",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-14",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-FIR-15",
+      "target": "REF-SYM-01",
+      "type": "citation"
+    },
+    {
+      "source": "REF-FIR-16",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-LOR-17",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DSM-18",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BEI-19",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SHI-20",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    },
+    {
+      "source": "REF-INT-21",
+      "target": "DEMO-SHI-EQ04",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-22",
+      "target": "DEMO-SHI-0303",
+      "type": "citation"
+    }
   ]
 }

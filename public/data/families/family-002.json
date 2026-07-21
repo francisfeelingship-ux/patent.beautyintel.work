@@ -3,37 +3,478 @@
   "displayName": "High-Efficiency Skin Hydration Peptide Complex",
   "company": "Beiersdorf AG",
   "priorityYear": 2020,
-  "summary": "This patent family relates to synthetic peptide complexes that stimulate natural fillagrin synthesis inside human skin cells. This enhances epidermal barrier properties and increases water retention inside the stratum corneum.",
+  "summary": "This patent family relates to synthetic peptide complexes that stimulate natural filagrin and aquaporin synthesis inside human skin cells. This enhances epidermal barrier properties and increases water retention inside the stratum corneum.",
   "representative": {
-    "publicationNumber": "DEMO-PATENT-EP02",
+    "publicationNumber": "DEMO-BEI-0202",
     "title": "Peptide-based complexes for skin moisturizing and barrier restoration"
   },
-  "jurisdictions": ["EP", "US"],
+  "jurisdictions": [
+    "EP",
+    "US",
+    "DE",
+    "FR"
+  ],
   "members": [
     {
-      "publicationNumber": "DEMO-PATENT-EP02",
+      "publicationNumber": "DEMO-BEI-0202",
       "title": "Peptide-based complexes for skin moisturizing and barrier restoration",
       "jurisdiction": "EP",
       "kind": "grant",
       "type": "core"
     },
     {
-      "publicationNumber": "DEMO-PATENT-US02",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration",
+      "publicationNumber": "DEMO-BEI-EQ01",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
       "jurisdiction": "US",
       "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ02",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in DE)",
+      "jurisdiction": "DE",
+      "kind": "grant",
       "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ03",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ04",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ05",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ06",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in DE)",
+      "jurisdiction": "DE",
+      "kind": "application",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ07",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in FR)",
+      "jurisdiction": "FR",
+      "kind": "grant",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ08",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in EP)",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-BEI-EQ09",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
+      "jurisdiction": "US",
+      "kind": "application",
+      "type": "equivalent"
     }
   ],
   "nodes": [
-    {"id": "DEMO-PATENT-EP02", "label": "DEMO-PATENT-EP02", "type": "core", "is_representative": true, "country": "EP", "title": "Peptide-based complexes for skin moisturizing and barrier restoration", "assignee": "Beiersdorf AG"},
-    {"id": "DEMO-PATENT-US02", "label": "DEMO-PATENT-US02", "type": "equivalent_with_text", "is_representative": false, "country": "US", "title": "Peptide-based complexes for skin moisturizing and barrier restoration", "assignee": "Beiersdorf AG"},
-    {"id": "REF-EP-02A", "label": "REF-EP-02A", "type": "citation", "is_representative": false, "country": "EP", "title": "Peptides in cosmetic formulations", "assignee": "L'Oreal"},
-    {"id": "REF-EP-02B", "label": "REF-EP-02B", "type": "citation", "is_representative": false, "country": "EP", "title": "Moisturizing lipid barrier creams", "assignee": "Unilever"}
+    {
+      "id": "DEMO-BEI-0202",
+      "label": "DEMO-BEI-0202",
+      "type": "core",
+      "is_representative": true,
+      "country": "EP",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ01",
+      "label": "DEMO-BEI-EQ01",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ02",
+      "label": "DEMO-BEI-EQ02",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in DE)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ03",
+      "label": "DEMO-BEI-EQ03",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in FR)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ04",
+      "label": "DEMO-BEI-EQ04",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in EP)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ05",
+      "label": "DEMO-BEI-EQ05",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ06",
+      "label": "DEMO-BEI-EQ06",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in DE)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ07",
+      "label": "DEMO-BEI-EQ07",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in FR)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ08",
+      "label": "DEMO-BEI-EQ08",
+      "type": "equivalent_with_text",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in EP)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "DEMO-BEI-EQ09",
+      "label": "DEMO-BEI-EQ09",
+      "type": "equivalent",
+      "is_representative": false,
+      "country": "US",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "REF-AMO-01",
+      "label": "REF-AMO-01",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Amorepacific"
+    },
+    {
+      "id": "REF-BAS-02",
+      "label": "REF-BAS-02",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-DSM-03",
+      "label": "REF-DSM-03",
+      "type": "citation",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "DSM"
+    },
+    {
+      "id": "REF-BAS-04",
+      "label": "REF-BAS-04",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "BASF"
+    },
+    {
+      "id": "REF-FIR-05",
+      "label": "REF-FIR-05",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "REF-CRO-06",
+      "label": "REF-CRO-06",
+      "type": "citation",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Croda"
+    },
+    {
+      "id": "REF-COT-07",
+      "label": "REF-COT-07",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CH",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-COL-08",
+      "label": "REF-COL-08",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "REF-EVO-09",
+      "label": "REF-EVO-09",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "REF-EST-10",
+      "label": "REF-EST-10",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "REF-COS-11",
+      "label": "REF-COS-11",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Cosmax"
+    },
+    {
+      "id": "REF-COT-12",
+      "label": "REF-COT-12",
+      "type": "citation",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-COT-13",
+      "label": "REF-COT-13",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Coty"
+    },
+    {
+      "id": "REF-HEN-14",
+      "label": "REF-HEN-14",
+      "type": "citation",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "REF-PRO-15",
+      "label": "REF-PRO-15",
+      "type": "citation",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "The Procter & Gamble Company"
+    },
+    {
+      "id": "REF-SYM-16",
+      "label": "REF-SYM-16",
+      "type": "citation",
+      "is_representative": false,
+      "country": "US",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "REF-BEI-17",
+      "label": "REF-BEI-17",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "REF-FIR-18",
+      "label": "REF-FIR-18",
+      "type": "citation",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Prior art reference relating to cosmetic formulations and carriers",
+      "assignee": "Firmenich"
+    }
   ],
   "edges": [
-    {"source": "DEMO-PATENT-EP02", "target": "DEMO-PATENT-US02", "type": "equivalent"},
-    {"source": "REF-EP-02A", "target": "DEMO-PATENT-EP02", "type": "citation"},
-    {"source": "REF-EP-02B", "target": "DEMO-PATENT-EP02", "type": "citation"}
+    {
+      "source": "DEMO-BEI-0202",
+      "target": "DEMO-BEI-EQ01",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-0202",
+      "target": "DEMO-BEI-EQ02",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-0202",
+      "target": "DEMO-BEI-EQ03",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-0202",
+      "target": "DEMO-BEI-EQ04",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-0202",
+      "target": "DEMO-BEI-EQ05",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-0202",
+      "target": "DEMO-BEI-EQ06",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-0202",
+      "target": "DEMO-BEI-EQ07",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-0202",
+      "target": "DEMO-BEI-EQ08",
+      "type": "equivalent"
+    },
+    {
+      "source": "DEMO-BEI-0202",
+      "target": "DEMO-BEI-EQ09",
+      "type": "equivalent"
+    },
+    {
+      "source": "REF-AMO-01",
+      "target": "DEMO-BEI-EQ01",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-02",
+      "target": "DEMO-BEI-0202",
+      "type": "citation"
+    },
+    {
+      "source": "REF-DSM-03",
+      "target": "REF-DSM-03",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BAS-04",
+      "target": "DEMO-BEI-EQ09",
+      "type": "citation"
+    },
+    {
+      "source": "REF-FIR-05",
+      "target": "REF-BAS-02",
+      "type": "citation"
+    },
+    {
+      "source": "REF-CRO-06",
+      "target": "DEMO-BEI-0202",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-07",
+      "target": "DEMO-BEI-0202",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COL-08",
+      "target": "DEMO-BEI-0202",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EVO-09",
+      "target": "DEMO-BEI-EQ01",
+      "type": "citation"
+    },
+    {
+      "source": "REF-EST-10",
+      "target": "DEMO-BEI-EQ06",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COS-11",
+      "target": "DEMO-BEI-EQ08",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-12",
+      "target": "DEMO-BEI-EQ08",
+      "type": "citation"
+    },
+    {
+      "source": "REF-COT-13",
+      "target": "DEMO-BEI-0202",
+      "type": "citation"
+    },
+    {
+      "source": "REF-HEN-14",
+      "target": "DEMO-BEI-0202",
+      "type": "citation"
+    },
+    {
+      "source": "REF-PRO-15",
+      "target": "DEMO-BEI-0202",
+      "type": "citation"
+    },
+    {
+      "source": "REF-SYM-16",
+      "target": "DEMO-BEI-0202",
+      "type": "citation"
+    },
+    {
+      "source": "REF-BEI-17",
+      "target": "REF-BAS-02",
+      "type": "citation"
+    },
+    {
+      "source": "REF-FIR-18",
+      "target": "DEMO-BEI-0202",
+      "type": "citation"
+    }
   ]
 }

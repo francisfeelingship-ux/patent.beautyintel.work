@@ -7,7 +7,27 @@ const COMPANY_COLORS: Record<string, { r: number; g: number; b: number; hex: str
   'beiersdorf': { r: 0.54, g: 0.36, b: 0.96, hex: '#8b5cf6', name: "Beiersdorf AG" }, // Purple
   'shiseido': { r: 0.92, g: 0.28, b: 0.6, hex: '#ec4899', name: "Shiseido Company, Limited" }, // Pink
   'procter_gamble': { r: 0.23, g: 0.51, b: 0.96, hex: '#3b82f6', name: "The Procter & Gamble Company" }, // Blue
-  'unilever': { r: 0.06, g: 0.72, b: 0.5, hex: '#10b981', name: "Unilever" } // Greenish Surfactant/Teal
+  'unilever': { r: 0.06, g: 0.72, b: 0.5, hex: '#10b981', name: "Unilever" }, // Greenish Surfactant/Teal
+  'estee_lauder': { r: 0.96, g: 0.62, b: 0.04, hex: '#f59e0b', name: "The Estee Lauder Companies Inc." },
+  'revlon': { r: 0.94, g: 0.27, b: 0.27, hex: '#ef4444', name: "Revlon" },
+  'kenvue': { r: 0.02, g: 0.71, b: 0.83, hex: '#06b6d4', name: "Kenvue" },
+  'colgate_palmolive': { r: 0.39, g: 0.4, b: 0.95, hex: '#6366f1', name: "Colgate-Palmolive Company" },
+  'amorepacific': { r: 0.66, g: 0.33, b: 0.97, hex: '#a855f7', name: "Amorepacific" },
+  'givaudan': { r: 0.08, g: 0.72, b: 0.65, hex: '#14b8a6', name: "Givaudan" },
+  'kao_corp': { r: 0.96, g: 0.25, b: 0.37, hex: '#f43f5e', name: "Kao Corp" },
+  'symrise': { r: 0.98, g: 0.75, b: 0.14, hex: '#fbbf24', name: "Symrise" },
+  'evonik': { r: 0.2, g: 0.83, b: 0.6, hex: '#34d399', name: "Evonik" },
+  'henkel': { r: 0.38, g: 0.65, b: 0.98, hex: '#60a5fa', name: "Henkel" },
+  'firmenich': { r: 0.75, g: 0.52, b: 0.99, hex: '#c084fc', name: "Firmenich" },
+  'dsm': { r: 0.96, g: 0.45, b: 0.71, hex: '#f472b6', name: "DSM" },
+  'dow': { r: 0.13, g: 0.83, b: 0.93, hex: '#22d3ee', name: "Dow" },
+  'seppic': { r: 0.51, g: 0.55, b: 0.97, hex: '#818cf8', name: "Seppic" },
+  'basf': { r: 0.65, g: 0.95, b: 0.82, hex: '#a7f3d0', name: "BASF" },
+  'coty': { r: 0.98, g: 0.81, b: 0.91, hex: '#fbcfe8', name: "Coty" },
+  'cosmax': { r: 0.99, g: 0.94, b: 0.54, hex: '#fef08a', name: "Cosmax" },
+  'croda': { r: 0.75, g: 0.52, b: 0.99, hex: '#c084fc', name: "Croda" },
+  'intercos': { r: 0.99, g: 0.64, b: 0.69, hex: '#fda4af', name: "Intercos" },
+  'ashland': { r: 0.65, g: 0.95, b: 0.99, hex: '#a5f3fc', name: "Ashland" }
 };
 
 export default function TechnologyLandscape() {
@@ -368,7 +388,20 @@ export default function TechnologyLandscape() {
           <span className="selector-title" style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600, display: 'inline-block', marginBottom: '8px' }}>
             <i className="fa-solid fa-filter" style={{ color: 'var(--accent-blue)', marginRight: '6px' }}></i> Filter Portfolios (Select up to 5):
           </span>
-          <div className="company-checkboxes" style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+          <div 
+            className="company-checkboxes" 
+            style={{ 
+              display: 'grid', 
+              gridTemplateColumns: 'repeat(auto-fill, minmax(170px, 1fr))', 
+              gap: '8px',
+              maxHeight: '120px',
+              overflowY: 'auto',
+              padding: '10px',
+              background: 'rgba(0,0,0,0.2)',
+              borderRadius: '8px',
+              border: '1px solid rgba(255,255,255,0.04)'
+            }}
+          >
             {Object.entries(COMPANY_COLORS).map(([key, details]) => (
               <label 
                 key={key} 
