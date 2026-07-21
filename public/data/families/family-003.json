@@ -1,0 +1,57 @@
+{
+  "familyPublicId": "DEMO-FAMILY-003",
+  "displayName": "Melanin Transfer Inhibition Compounds",
+  "company": "Shiseido Company, Limited",
+  "priorityYear": 2019,
+  "summary": "This technology family concerns cosmetic active agents targeting key pathways of melanosome transport. It incorporates plant extract combinations with synthetic organic compounds that inhibit pigment transfer to nearby keratinocytes.",
+  "representative": {
+    "publicationNumber": "DEMO-PATENT-JP03",
+    "title": "Compositions inhibiting melanin transfer for skin brightening applications"
+  },
+  "jurisdictions": ["JP", "US", "EP", "CN"],
+  "members": [
+    {
+      "publicationNumber": "DEMO-PATENT-JP03",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications",
+      "jurisdiction": "JP",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-PATENT-US03",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-PATENT-EP03",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications",
+      "jurisdiction": "EP",
+      "kind": "application",
+      "type": "equivalent"
+    },
+    {
+      "publicationNumber": "DEMO-PATENT-CN03",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications",
+      "jurisdiction": "CN",
+      "kind": "application",
+      "type": "equivalent"
+    }
+  ],
+  "nodes": [
+    {"id": "DEMO-PATENT-JP03", "label": "DEMO-PATENT-JP03", "type": "core", "is_representative": true, "country": "JP", "title": "Compositions inhibiting melanin transfer for skin brightening applications", "assignee": "Shiseido Company, Limited"},
+    {"id": "DEMO-PATENT-US03", "label": "DEMO-PATENT-US03", "type": "equivalent_with_text", "is_representative": false, "country": "US", "title": "Compositions inhibiting melanin transfer for skin brightening applications", "assignee": "Shiseido Company, Limited"},
+    {"id": "DEMO-PATENT-EP03", "label": "DEMO-PATENT-EP03", "type": "equivalent", "is_representative": false, "country": "EP", "title": "Compositions inhibiting melanin transfer for skin brightening applications", "assignee": "Shiseido Company, Limited"},
+    {"id": "DEMO-PATENT-CN03", "label": "DEMO-PATENT-CN03", "type": "equivalent", "is_representative": false, "country": "CN", "title": "Compositions inhibiting melanin transfer for skin brightening applications", "assignee": "Shiseido Company, Limited"},
+    {"id": "REF-JP-03A", "label": "REF-JP-03A", "type": "citation", "is_representative": false, "country": "JP", "title": "Active complexes for pigment control", "assignee": "Kao Corp"},
+    {"id": "REF-JP-03B", "label": "REF-JP-03B", "type": "citation", "is_representative": false, "country": "JP", "title": "Melanin pathway inhibitor actives", "assignee": "L'Oreal"}
+  ],
+  "edges": [
+    {"source": "DEMO-PATENT-JP03", "target": "DEMO-PATENT-US03", "type": "equivalent"},
+    {"source": "DEMO-PATENT-JP03", "target": "DEMO-PATENT-EP03", "type": "equivalent"},
+    {"source": "DEMO-PATENT-JP03", "target": "DEMO-PATENT-CN03", "type": "equivalent"},
+    {"source": "REF-JP-03A", "target": "DEMO-PATENT-JP03", "type": "citation"},
+    {"source": "REF-JP-03B", "target": "DEMO-PATENT-JP03", "type": "citation"}
+  ]
+}

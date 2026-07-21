@@ -1,0 +1,48 @@
+{
+  "familyPublicId": "DEMO-FAMILY-001",
+  "displayName": "Active UV Filter Stabilization System",
+  "company": "L'Oreal",
+  "priorityYear": 2018,
+  "summary": "This technology family concerns a formulation stabilizer system designed to prevent the photodegradation of organic UV filters (e.g., avobenzone) in daily skincare creams. It utilizes a synergistic combination of oil-in-water emulsifiers and antioxidant stabilizers.",
+  "representative": {
+    "publicationNumber": "DEMO-PATENT-US01",
+    "title": "Method for stabilizing active UV filters in skin care compositions"
+  },
+  "jurisdictions": ["US", "EP", "CN"],
+  "members": [
+    {
+      "publicationNumber": "DEMO-PATENT-US01",
+      "title": "Method for stabilizing active UV filters in skin care compositions",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-PATENT-EP01",
+      "title": "Method for stabilizing active UV filters in skin care compositions",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    },
+    {
+      "publicationNumber": "DEMO-PATENT-CN01",
+      "title": "Method for stabilizing active UV filters in skin care compositions",
+      "jurisdiction": "CN",
+      "kind": "application",
+      "type": "equivalent"
+    }
+  ],
+  "nodes": [
+    {"id": "DEMO-PATENT-US01", "label": "DEMO-PATENT-US01", "type": "core", "is_representative": true, "country": "US", "title": "Method for stabilizing active UV filters in skin care compositions", "assignee": "L'Oreal"},
+    {"id": "DEMO-PATENT-EP01", "label": "DEMO-PATENT-EP01", "type": "equivalent_with_text", "is_representative": false, "country": "EP", "title": "Method for stabilizing active UV filters in skin care compositions", "assignee": "L'Oreal"},
+    {"id": "DEMO-PATENT-CN01", "label": "DEMO-PATENT-CN01", "type": "equivalent", "is_representative": false, "country": "CN", "title": "Method for stabilizing active UV filters in skin care compositions", "assignee": "L'Oreal"},
+    {"id": "REF-US-01A", "label": "REF-US-01A", "type": "citation", "is_representative": false, "country": "US", "title": "Prior art UV stabilizer formulations", "assignee": "Unilever"},
+    {"id": "REF-US-01B", "label": "REF-US-01B", "type": "citation", "is_representative": false, "country": "US", "title": "Emulsion stabilization using fatty alcohols", "assignee": "Beiersdorf AG"}
+  ],
+  "edges": [
+    {"source": "DEMO-PATENT-US01", "target": "DEMO-PATENT-EP01", "type": "equivalent"},
+    {"source": "DEMO-PATENT-US01", "target": "DEMO-PATENT-CN01", "type": "equivalent"},
+    {"source": "REF-US-01A", "target": "DEMO-PATENT-US01", "type": "citation"},
+    {"source": "REF-US-01B", "target": "DEMO-PATENT-US01", "type": "citation"}
+  ]
+}

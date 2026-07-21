@@ -1,0 +1,2465 @@
+{
+  "domains": [
+    "skin_care",
+    "hair_care",
+    "therapeutic_application",
+    "makeup_color_cosmetics",
+    "oral_care",
+    "cleansing_formula",
+    "food_beverage",
+    "sunscreen_photoprotection",
+    "hair_color"
+  ],
+  "points": [
+    [
+      "DEMO-BDF-0001",
+      "Anti-inflammatory skin ointment (BEIERSDORF Prototype)",
+      "therapeutic_application",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0002",
+      "Waterproof mascara polymer matrix (SHISEIDO Prototype)",
+      "makeup_color_cosmetics",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0003",
+      "Anti-aging serum with peptide active (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0004",
+      "Anti-dandruff scalp serum (UNILEVER Prototype)",
+      "hair_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-OR-0005",
+      "Atopic dermatitis therapeutic lotion (LOREAL Prototype)",
+      "therapeutic_application",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0006",
+      "Nourishing hair mask (BEIERSDORF Prototype)",
+      "hair_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0007",
+      "Biofilm inhibiting dentifrice (LOREAL Prototype)",
+      "oral_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0008",
+      "Enamel remineralizing toothpaste (SHISEIDO Prototype)",
+      "oral_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-SHI-0009",
+      "Split-end repairing conditioner (SHISEIDO Prototype)",
+      "hair_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0010",
+      "Ammonia-free coloring cream (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-OR-0011",
+      "Wound healing promoter composition (LOREAL Prototype)",
+      "therapeutic_application",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0012",
+      "Waterproof mascara polymer matrix (BEIERSDORF Prototype)",
+      "makeup_color_cosmetics",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0013",
+      "Transfer-resistant liquid foundation (SHISEIDO Prototype)",
+      "makeup_color_cosmetics",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0014",
+      "Nourishing hair mask (LOREAL Prototype)",
+      "hair_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0015",
+      "Sensitive gums protection gel (PROCTER GAMBLE Prototype)",
+      "oral_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0016",
+      "Collagen peptide nutritional beverage (PROCTER GAMBLE Prototype)",
+      "food_beverage",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0017",
+      "Permanent oxidative hair dye (SHISEIDO Prototype)",
+      "hair_color",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-SHI-0018",
+      "Split-end repairing conditioner (SHISEIDO Prototype)",
+      "hair_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0019",
+      "Ceramide synthesis enhancer (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0020",
+      "Epidermal barrier repair formulation (SHISEIDO Prototype)",
+      "skin_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0021",
+      "Transfer-resistant liquid foundation (LOREAL Prototype)",
+      "makeup_color_cosmetics",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0022",
+      "Daily moisturizing emulsion (UNILEVER Prototype)",
+      "skin_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0023",
+      "Epidermal barrier repair formulation (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0024",
+      "Lipid-replenishing oil cleanser (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0025",
+      "Color-protecting rinse formulation (LOREAL Prototype)",
+      "hair_color",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0026",
+      "Mineral UV barrier dispersion (PROCTER GAMBLE Prototype)",
+      "sunscreen_photoprotection",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0027",
+      "Anti-aging serum with peptide active (BEIERSDORF Prototype)",
+      "skin_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0028",
+      "Long-lasting pigmented lipstick formulation (SHISEIDO Prototype)",
+      "makeup_color_cosmetics",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0029",
+      "Atopic dermatitis therapeutic lotion (UNILEVER Prototype)",
+      "therapeutic_application",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-OR-0030",
+      "Ammonia-free coloring cream (LOREAL Prototype)",
+      "hair_color",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0031",
+      "Synergistic chemical UV stabilizer (LOREAL Prototype)",
+      "sunscreen_photoprotection",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0032",
+      "Enamel remineralizing toothpaste (PROCTER GAMBLE Prototype)",
+      "oral_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0033",
+      "Synergistic chemical UV stabilizer (LOREAL Prototype)",
+      "sunscreen_photoprotection",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0034",
+      "Wound healing promoter composition (PROCTER GAMBLE Prototype)",
+      "therapeutic_application",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0035",
+      "Photostable UV filter encapsulation (LOREAL Prototype)",
+      "sunscreen_photoprotection",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0036",
+      "Gentle foaming face wash (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0037",
+      "Rosacea soothing topical cream (LOREAL Prototype)",
+      "therapeutic_application",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0038",
+      "Permanent oxidative hair dye (PROCTER GAMBLE Prototype)",
+      "hair_color",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0039",
+      "Transfer-resistant liquid foundation (LOREAL Prototype)",
+      "makeup_color_cosmetics",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0040",
+      "Wound healing promoter composition (BEIERSDORF Prototype)",
+      "therapeutic_application",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0041",
+      "Mild surfactant body wash gel (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0042",
+      "Waterproof mascara polymer matrix (UNILEVER Prototype)",
+      "makeup_color_cosmetics",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0043",
+      "Collagen peptide nutritional beverage (PROCTER GAMBLE Prototype)",
+      "food_beverage",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0044",
+      "Exfoliating salicylic acid wash (BEIERSDORF Prototype)",
+      "cleansing_formula",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0045",
+      "Sebum-controlling pressed powder (SHISEIDO Prototype)",
+      "makeup_color_cosmetics",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0046",
+      "Biofilm inhibiting dentifrice (BEIERSDORF Prototype)",
+      "oral_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0047",
+      "Cosmetic beauty drink supplement (LOREAL Prototype)",
+      "food_beverage",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0048",
+      "Cosmetic beauty drink supplement (UNILEVER Prototype)",
+      "food_beverage",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0049",
+      "Micellar cleansing water composition (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0050",
+      "Gentle foaming face wash (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0051",
+      "Oral sunscreen vitamin capsule (SHISEIDO Prototype)",
+      "food_beverage",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-SHI-0052",
+      "Micellar cleansing water composition (SHISEIDO Prototype)",
+      "cleansing_formula",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0053",
+      "Scalp microclimate regulation shampoo (BEIERSDORF Prototype)",
+      "hair_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0054",
+      "Ceramide synthesis enhancer (SHISEIDO Prototype)",
+      "skin_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0055",
+      "Collagen peptide nutritional beverage (PROCTER GAMBLE Prototype)",
+      "food_beverage",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0056",
+      "Micellar cleansing water composition (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0057",
+      "Color-protecting rinse formulation (SHISEIDO Prototype)",
+      "hair_color",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0058",
+      "Acne vulgaris targeted gel (PROCTER GAMBLE Prototype)",
+      "therapeutic_application",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0059",
+      "Cosmetic beauty drink supplement (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0060",
+      "Teeth whitening agent with active oxygen (PROCTER GAMBLE Prototype)",
+      "oral_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0061",
+      "Sebum-controlling pressed powder (SHISEIDO Prototype)",
+      "makeup_color_cosmetics",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0062",
+      "Split-end repairing conditioner (BEIERSDORF Prototype)",
+      "hair_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0063",
+      "Synergistic chemical UV stabilizer (LOREAL Prototype)",
+      "sunscreen_photoprotection",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0064",
+      "Melanin-mimicking hair coloring composition (PROCTER GAMBLE Prototype)",
+      "hair_color",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0065",
+      "Rosacea soothing topical cream (LOREAL Prototype)",
+      "therapeutic_application",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0066",
+      "Lipid-replenishing oil cleanser (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0067",
+      "Wound healing promoter composition (SHISEIDO Prototype)",
+      "therapeutic_application",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0068",
+      "Anti-aging serum with peptide active (BEIERSDORF Prototype)",
+      "skin_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0069",
+      "Hydration cream (UNILEVER Prototype)",
+      "skin_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0070",
+      "Permanent oxidative hair dye (BEIERSDORF Prototype)",
+      "hair_color",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0071",
+      "Mineral UV barrier dispersion (UNILEVER Prototype)",
+      "sunscreen_photoprotection",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-OR-0072",
+      "Exfoliating salicylic acid wash (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0073",
+      "Gentle foaming face wash (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0074",
+      "Cosmetic beauty drink supplement (PROCTER GAMBLE Prototype)",
+      "food_beverage",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0075",
+      "High SPF broad spectrum sunscreen (SHISEIDO Prototype)",
+      "sunscreen_photoprotection",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0076",
+      "Dynamic color-shifting skin tint (BEIERSDORF Prototype)",
+      "makeup_color_cosmetics",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-BDF-0077",
+      "Photostable UV filter encapsulation (BEIERSDORF Prototype)",
+      "sunscreen_photoprotection",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0078",
+      "Epidermal barrier repair formulation (LOREAL Prototype)",
+      "skin_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0079",
+      "Anti-inflammatory skin ointment (PROCTER GAMBLE Prototype)",
+      "therapeutic_application",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0080",
+      "Waterproof mascara polymer matrix (UNILEVER Prototype)",
+      "makeup_color_cosmetics",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-OR-0081",
+      "Gentle foaming face wash (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0082",
+      "Anti-dandruff scalp serum (BEIERSDORF Prototype)",
+      "hair_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-BDF-0083",
+      "Water-resistant daily sun fluid (BEIERSDORF Prototype)",
+      "sunscreen_photoprotection",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0084",
+      "Exfoliating salicylic acid wash (SHISEIDO Prototype)",
+      "cleansing_formula",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0085",
+      "Long-lasting pigmented lipstick formulation (UNILEVER Prototype)",
+      "makeup_color_cosmetics",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-OR-0086",
+      "Permanent oxidative hair dye (LOREAL Prototype)",
+      "hair_color",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0087",
+      "Anti-inflammatory skin ointment (BEIERSDORF Prototype)",
+      "therapeutic_application",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0088",
+      "Teeth whitening agent with active oxygen (UNILEVER Prototype)",
+      "oral_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0089",
+      "Prebiotic skin health food bar (SHISEIDO Prototype)",
+      "food_beverage",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0090",
+      "Ammonia-free coloring cream (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0091",
+      "Long-lasting pigmented lipstick formulation (BEIERSDORF Prototype)",
+      "makeup_color_cosmetics",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0092",
+      "Transfer-resistant liquid foundation (PROCTER GAMBLE Prototype)",
+      "makeup_color_cosmetics",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0093",
+      "Long-lasting pigmented lipstick formulation (LOREAL Prototype)",
+      "makeup_color_cosmetics",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0094",
+      "Photostable UV filter encapsulation (UNILEVER Prototype)",
+      "sunscreen_photoprotection",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0095",
+      "Cosmetic beauty drink supplement (SHISEIDO Prototype)",
+      "food_beverage",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0096",
+      "Hydration cream (BEIERSDORF Prototype)",
+      "skin_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0097",
+      "Atopic dermatitis therapeutic lotion (UNILEVER Prototype)",
+      "therapeutic_application",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0098",
+      "Hydration cream (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0099",
+      "Biofilm inhibiting dentifrice (LOREAL Prototype)",
+      "oral_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0100",
+      "Prebiotic skin health food bar (LOREAL Prototype)",
+      "food_beverage",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0101",
+      "Prebiotic skin health food bar (SHISEIDO Prototype)",
+      "food_beverage",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0102",
+      "Transfer-resistant liquid foundation (LOREAL Prototype)",
+      "makeup_color_cosmetics",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0103",
+      "Epidermal barrier repair formulation (LOREAL Prototype)",
+      "skin_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0104",
+      "Melanin-mimicking hair coloring composition (BEIERSDORF Prototype)",
+      "hair_color",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-BDF-0105",
+      "Anti-plaque oral rinse composition (BEIERSDORF Prototype)",
+      "oral_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0106",
+      "Keratin strengthening complex (PROCTER GAMBLE Prototype)",
+      "hair_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0107",
+      "High SPF broad spectrum sunscreen (LOREAL Prototype)",
+      "sunscreen_photoprotection",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0108",
+      "Exfoliating salicylic acid wash (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-OR-0109",
+      "Gentle foaming face wash (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0110",
+      "Synergistic chemical UV stabilizer (UNILEVER Prototype)",
+      "sunscreen_photoprotection",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0111",
+      "Color-protecting rinse formulation (PROCTER GAMBLE Prototype)",
+      "hair_color",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0112",
+      "Transfer-resistant liquid foundation (UNILEVER Prototype)",
+      "makeup_color_cosmetics",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0113",
+      "Melanin-mimicking hair coloring composition (SHISEIDO Prototype)",
+      "hair_color",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0114",
+      "Atopic dermatitis therapeutic lotion (LOREAL Prototype)",
+      "therapeutic_application",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0115",
+      "Photostable UV filter encapsulation (BEIERSDORF Prototype)",
+      "sunscreen_photoprotection",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0116",
+      "Synergistic chemical UV stabilizer (LOREAL Prototype)",
+      "sunscreen_photoprotection",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0117",
+      "Transfer-resistant liquid foundation (BEIERSDORF Prototype)",
+      "makeup_color_cosmetics",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0118",
+      "Hydration cream (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0119",
+      "Antioxidant herbal tea mixture (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0120",
+      "Biofilm inhibiting dentifrice (UNILEVER Prototype)",
+      "oral_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0121",
+      "Rosacea soothing topical cream (UNILEVER Prototype)",
+      "therapeutic_application",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0122",
+      "Daily moisturizing emulsion (BEIERSDORF Prototype)",
+      "skin_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0123",
+      "Anti-aging serum with peptide active (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0124",
+      "Exfoliating salicylic acid wash (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0125",
+      "Scalp microclimate regulation shampoo (LOREAL Prototype)",
+      "hair_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0126",
+      "Acne vulgaris targeted gel (PROCTER GAMBLE Prototype)",
+      "therapeutic_application",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0127",
+      "Prebiotic skin health food bar (LOREAL Prototype)",
+      "food_beverage",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0128",
+      "Synergistic chemical UV stabilizer (UNILEVER Prototype)",
+      "sunscreen_photoprotection",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0129",
+      "Anti-dandruff scalp serum (PROCTER GAMBLE Prototype)",
+      "hair_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0130",
+      "Sensitive gums protection gel (SHISEIDO Prototype)",
+      "oral_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0131",
+      "Mineral UV barrier dispersion (PROCTER GAMBLE Prototype)",
+      "sunscreen_photoprotection",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0132",
+      "Teeth whitening agent with active oxygen (UNILEVER Prototype)",
+      "oral_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0133",
+      "Prebiotic skin health food bar (UNILEVER Prototype)",
+      "food_beverage",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0134",
+      "Daily moisturizing emulsion (BEIERSDORF Prototype)",
+      "skin_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0135",
+      "Photostable UV filter encapsulation (PROCTER GAMBLE Prototype)",
+      "sunscreen_photoprotection",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0136",
+      "Keratin strengthening complex (UNILEVER Prototype)",
+      "hair_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-OR-0137",
+      "Long-lasting pigmented lipstick formulation (LOREAL Prototype)",
+      "makeup_color_cosmetics",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0138",
+      "Sebum-controlling pressed powder (BEIERSDORF Prototype)",
+      "makeup_color_cosmetics",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0139",
+      "Melanin-mimicking hair coloring composition (SHISEIDO Prototype)",
+      "hair_color",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0140",
+      "Color-protecting rinse formulation (LOREAL Prototype)",
+      "hair_color",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0141",
+      "Transfer-resistant liquid foundation (UNILEVER Prototype)",
+      "makeup_color_cosmetics",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0142",
+      "Permanent oxidative hair dye (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0143",
+      "Photostable UV filter encapsulation (UNILEVER Prototype)",
+      "sunscreen_photoprotection",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0144",
+      "Anti-inflammatory skin ointment (SHISEIDO Prototype)",
+      "therapeutic_application",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0145",
+      "Enamel remineralizing toothpaste (LOREAL Prototype)",
+      "oral_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0146",
+      "Mild surfactant body wash gel (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0147",
+      "Synergistic chemical UV stabilizer (SHISEIDO Prototype)",
+      "sunscreen_photoprotection",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0148",
+      "Daily moisturizing emulsion (BEIERSDORF Prototype)",
+      "skin_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-BDF-0149",
+      "Cosmetic beauty drink supplement (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0150",
+      "Sensitive gums protection gel (SHISEIDO Prototype)",
+      "oral_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0151",
+      "Micellar cleansing water composition (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0152",
+      "Biofilm inhibiting dentifrice (BEIERSDORF Prototype)",
+      "oral_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0153",
+      "Micellar cleansing water composition (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0154",
+      "Rosacea soothing topical cream (UNILEVER Prototype)",
+      "therapeutic_application",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0155",
+      "Mild surfactant body wash gel (SHISEIDO Prototype)",
+      "cleansing_formula",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0156",
+      "Anti-plaque oral rinse composition (BEIERSDORF Prototype)",
+      "oral_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0157",
+      "Gentle foaming face wash (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0158",
+      "Permanent oxidative hair dye (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0159",
+      "Permanent oxidative hair dye (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0160",
+      "Anti-inflammatory skin ointment (SHISEIDO Prototype)",
+      "therapeutic_application",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0161",
+      "Split-end repairing conditioner (PROCTER GAMBLE Prototype)",
+      "hair_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0162",
+      "Prebiotic skin health food bar (SHISEIDO Prototype)",
+      "food_beverage",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0163",
+      "Anti-plaque oral rinse composition (BEIERSDORF Prototype)",
+      "oral_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0164",
+      "Prebiotic skin health food bar (LOREAL Prototype)",
+      "food_beverage",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0165",
+      "Hydration cream (SHISEIDO Prototype)",
+      "skin_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-SHI-0166",
+      "Anti-aging serum with peptide active (SHISEIDO Prototype)",
+      "skin_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0167",
+      "Enamel remineralizing toothpaste (BEIERSDORF Prototype)",
+      "oral_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0168",
+      "Keratin strengthening complex (PROCTER GAMBLE Prototype)",
+      "hair_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0169",
+      "Cosmetic beauty drink supplement (UNILEVER Prototype)",
+      "food_beverage",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0170",
+      "Acne vulgaris targeted gel (PROCTER GAMBLE Prototype)",
+      "therapeutic_application",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0171",
+      "Daily moisturizing emulsion (LOREAL Prototype)",
+      "skin_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0172",
+      "Split-end repairing conditioner (SHISEIDO Prototype)",
+      "hair_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-SHI-0173",
+      "Gentle foaming face wash (SHISEIDO Prototype)",
+      "cleansing_formula",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-SHI-0174",
+      "Gentle foaming face wash (SHISEIDO Prototype)",
+      "cleansing_formula",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0175",
+      "Photostable UV filter encapsulation (LOREAL Prototype)",
+      "sunscreen_photoprotection",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0176",
+      "Anti-aging serum with peptide active (LOREAL Prototype)",
+      "skin_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0177",
+      "Anti-aging serum with peptide active (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0178",
+      "Epidermal barrier repair formulation (UNILEVER Prototype)",
+      "skin_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0179",
+      "Oral sunscreen vitamin capsule (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-BDF-0180",
+      "Waterproof mascara polymer matrix (BEIERSDORF Prototype)",
+      "makeup_color_cosmetics",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0181",
+      "Anti-aging serum with peptide active (LOREAL Prototype)",
+      "skin_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0182",
+      "Anti-dandruff scalp serum (BEIERSDORF Prototype)",
+      "hair_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0183",
+      "Melanin-mimicking hair coloring composition (LOREAL Prototype)",
+      "hair_color",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0184",
+      "High SPF broad spectrum sunscreen (SHISEIDO Prototype)",
+      "sunscreen_photoprotection",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0185",
+      "Enamel remineralizing toothpaste (LOREAL Prototype)",
+      "oral_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0186",
+      "Lipid-replenishing oil cleanser (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0187",
+      "Nourishing hair mask (BEIERSDORF Prototype)",
+      "hair_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0188",
+      "Synergistic chemical UV stabilizer (LOREAL Prototype)",
+      "sunscreen_photoprotection",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0189",
+      "Semi-permanent botanical hair tint (PROCTER GAMBLE Prototype)",
+      "hair_color",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0190",
+      "Epidermal barrier repair formulation (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0191",
+      "Anti-aging serum with peptide active (UNILEVER Prototype)",
+      "skin_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-OR-0192",
+      "Gentle foaming face wash (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0193",
+      "Atopic dermatitis therapeutic lotion (PROCTER GAMBLE Prototype)",
+      "therapeutic_application",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0194",
+      "Anti-aging serum with peptide active (BEIERSDORF Prototype)",
+      "skin_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0195",
+      "Enamel remineralizing toothpaste (UNILEVER Prototype)",
+      "oral_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0196",
+      "Nourishing hair mask (UNILEVER Prototype)",
+      "hair_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0197",
+      "Ammonia-free coloring cream (SHISEIDO Prototype)",
+      "hair_color",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0198",
+      "Anti-inflammatory skin ointment (BEIERSDORF Prototype)",
+      "therapeutic_application",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0199",
+      "Gentle foaming face wash (SHISEIDO Prototype)",
+      "cleansing_formula",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0200",
+      "Hydration cream (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0201",
+      "Dynamic color-shifting skin tint (BEIERSDORF Prototype)",
+      "makeup_color_cosmetics",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0202",
+      "Prebiotic skin health food bar (SHISEIDO Prototype)",
+      "food_beverage",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0203",
+      "Semi-permanent botanical hair tint (BEIERSDORF Prototype)",
+      "hair_color",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0204",
+      "Scalp microclimate regulation shampoo (SHISEIDO Prototype)",
+      "hair_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0205",
+      "Anti-plaque oral rinse composition (LOREAL Prototype)",
+      "oral_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0206",
+      "Rosacea soothing topical cream (UNILEVER Prototype)",
+      "therapeutic_application",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0207",
+      "Enamel remineralizing toothpaste (SHISEIDO Prototype)",
+      "oral_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0208",
+      "Scalp microclimate regulation shampoo (LOREAL Prototype)",
+      "hair_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0209",
+      "Collagen peptide nutritional beverage (PROCTER GAMBLE Prototype)",
+      "food_beverage",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0210",
+      "Split-end repairing conditioner (SHISEIDO Prototype)",
+      "hair_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0211",
+      "Anti-aging serum with peptide active (LOREAL Prototype)",
+      "skin_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0212",
+      "Semi-permanent botanical hair tint (BEIERSDORF Prototype)",
+      "hair_color",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0213",
+      "Micellar cleansing water composition (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0214",
+      "Transfer-resistant liquid foundation (SHISEIDO Prototype)",
+      "makeup_color_cosmetics",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0215",
+      "Rosacea soothing topical cream (LOREAL Prototype)",
+      "therapeutic_application",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0216",
+      "Daily moisturizing emulsion (SHISEIDO Prototype)",
+      "skin_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0217",
+      "Anti-aging serum with peptide active (LOREAL Prototype)",
+      "skin_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0218",
+      "Micellar cleansing water composition (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0219",
+      "Water-resistant daily sun fluid (SHISEIDO Prototype)",
+      "sunscreen_photoprotection",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0220",
+      "Antioxidant herbal tea mixture (LOREAL Prototype)",
+      "food_beverage",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0221",
+      "Nourishing hair mask (LOREAL Prototype)",
+      "hair_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0222",
+      "Dynamic color-shifting skin tint (PROCTER GAMBLE Prototype)",
+      "makeup_color_cosmetics",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0223",
+      "Mineral UV barrier dispersion (LOREAL Prototype)",
+      "sunscreen_photoprotection",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0224",
+      "Ceramide synthesis enhancer (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0225",
+      "Anti-aging serum with peptide active (BEIERSDORF Prototype)",
+      "skin_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0226",
+      "Permanent oxidative hair dye (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0227",
+      "Ceramide synthesis enhancer (UNILEVER Prototype)",
+      "skin_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0228",
+      "Melanin-mimicking hair coloring composition (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0229",
+      "Long-lasting pigmented lipstick formulation (UNILEVER Prototype)",
+      "makeup_color_cosmetics",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0230",
+      "Scalp microclimate regulation shampoo (PROCTER GAMBLE Prototype)",
+      "hair_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0231",
+      "Anti-plaque oral rinse composition (PROCTER GAMBLE Prototype)",
+      "oral_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0232",
+      "Water-resistant daily sun fluid (BEIERSDORF Prototype)",
+      "sunscreen_photoprotection",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0233",
+      "Gentle foaming face wash (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0234",
+      "Melanin-mimicking hair coloring composition (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0235",
+      "Teeth whitening agent with active oxygen (UNILEVER Prototype)",
+      "oral_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0236",
+      "Biofilm inhibiting dentifrice (BEIERSDORF Prototype)",
+      "oral_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0237",
+      "Anti-plaque oral rinse composition (PROCTER GAMBLE Prototype)",
+      "oral_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-UL-0238",
+      "Waterproof mascara polymer matrix (UNILEVER Prototype)",
+      "makeup_color_cosmetics",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0239",
+      "Color-protecting rinse formulation (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0240",
+      "Daily moisturizing emulsion (SHISEIDO Prototype)",
+      "skin_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0241",
+      "Daily moisturizing emulsion (UNILEVER Prototype)",
+      "skin_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0242",
+      "Mild surfactant body wash gel (SHISEIDO Prototype)",
+      "cleansing_formula",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0243",
+      "Lipid-replenishing oil cleanser (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0244",
+      "Biofilm inhibiting dentifrice (PROCTER GAMBLE Prototype)",
+      "oral_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0245",
+      "Exfoliating salicylic acid wash (BEIERSDORF Prototype)",
+      "cleansing_formula",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-BDF-0246",
+      "Waterproof mascara polymer matrix (BEIERSDORF Prototype)",
+      "makeup_color_cosmetics",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0247",
+      "Anti-aging serum with peptide active (LOREAL Prototype)",
+      "skin_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0248",
+      "Lipid-replenishing oil cleanser (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0249",
+      "Split-end repairing conditioner (PROCTER GAMBLE Prototype)",
+      "hair_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0250",
+      "Rosacea soothing topical cream (LOREAL Prototype)",
+      "therapeutic_application",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0251",
+      "Permanent oxidative hair dye (SHISEIDO Prototype)",
+      "hair_color",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0252",
+      "Gentle foaming face wash (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0253",
+      "Anti-inflammatory skin ointment (BEIERSDORF Prototype)",
+      "therapeutic_application",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0254",
+      "Permanent oxidative hair dye (SHISEIDO Prototype)",
+      "hair_color",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0255",
+      "Epidermal barrier repair formulation (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0256",
+      "Teeth whitening agent with active oxygen (SHISEIDO Prototype)",
+      "oral_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0257",
+      "Exfoliating salicylic acid wash (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0258",
+      "Cosmetic beauty drink supplement (PROCTER GAMBLE Prototype)",
+      "food_beverage",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0259",
+      "Waterproof mascara polymer matrix (PROCTER GAMBLE Prototype)",
+      "makeup_color_cosmetics",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0260",
+      "High SPF broad spectrum sunscreen (SHISEIDO Prototype)",
+      "sunscreen_photoprotection",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0261",
+      "Transfer-resistant liquid foundation (LOREAL Prototype)",
+      "makeup_color_cosmetics",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0262",
+      "Keratin strengthening complex (SHISEIDO Prototype)",
+      "hair_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0263",
+      "Rosacea soothing topical cream (BEIERSDORF Prototype)",
+      "therapeutic_application",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0264",
+      "Photostable UV filter encapsulation (PROCTER GAMBLE Prototype)",
+      "sunscreen_photoprotection",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0265",
+      "Photostable UV filter encapsulation (PROCTER GAMBLE Prototype)",
+      "sunscreen_photoprotection",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-OR-0266",
+      "Sebum-controlling pressed powder (LOREAL Prototype)",
+      "makeup_color_cosmetics",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0267",
+      "Ammonia-free coloring cream (LOREAL Prototype)",
+      "hair_color",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-UL-0268",
+      "Wound healing promoter composition (UNILEVER Prototype)",
+      "therapeutic_application",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0269",
+      "Lipid-replenishing oil cleanser (SHISEIDO Prototype)",
+      "cleansing_formula",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0270",
+      "Anti-plaque oral rinse composition (LOREAL Prototype)",
+      "oral_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0271",
+      "Lipid-replenishing oil cleanser (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0272",
+      "Anti-aging serum with peptide active (LOREAL Prototype)",
+      "skin_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0273",
+      "Teeth whitening agent with active oxygen (BEIERSDORF Prototype)",
+      "oral_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0274",
+      "Micellar cleansing water composition (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0275",
+      "Ceramide synthesis enhancer (SHISEIDO Prototype)",
+      "skin_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0276",
+      "Split-end repairing conditioner (UNILEVER Prototype)",
+      "hair_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0277",
+      "Epidermal barrier repair formulation (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0278",
+      "Antioxidant herbal tea mixture (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0279",
+      "Daily moisturizing emulsion (UNILEVER Prototype)",
+      "skin_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0280",
+      "Cosmetic beauty drink supplement (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0281",
+      "Waterproof mascara polymer matrix (UNILEVER Prototype)",
+      "makeup_color_cosmetics",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0282",
+      "Scalp microclimate regulation shampoo (UNILEVER Prototype)",
+      "hair_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0283",
+      "Anti-inflammatory skin ointment (UNILEVER Prototype)",
+      "therapeutic_application",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0284",
+      "Cosmetic beauty drink supplement (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-BDF-0285",
+      "Anti-plaque oral rinse composition (BEIERSDORF Prototype)",
+      "oral_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0286",
+      "Exfoliating salicylic acid wash (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0287",
+      "Cosmetic beauty drink supplement (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0288",
+      "Exfoliating salicylic acid wash (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0289",
+      "Teeth whitening agent with active oxygen (SHISEIDO Prototype)",
+      "oral_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0290",
+      "High SPF broad spectrum sunscreen (LOREAL Prototype)",
+      "sunscreen_photoprotection",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0291",
+      "Nourishing hair mask (LOREAL Prototype)",
+      "hair_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-SHI-0292",
+      "Prebiotic skin health food bar (SHISEIDO Prototype)",
+      "food_beverage",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0293",
+      "Synergistic chemical UV stabilizer (UNILEVER Prototype)",
+      "sunscreen_photoprotection",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0294",
+      "Epidermal barrier repair formulation (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0295",
+      "Rosacea soothing topical cream (PROCTER GAMBLE Prototype)",
+      "therapeutic_application",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0296",
+      "Scalp microclimate regulation shampoo (BEIERSDORF Prototype)",
+      "hair_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0297",
+      "Micellar cleansing water composition (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0298",
+      "Exfoliating salicylic acid wash (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0299",
+      "Ceramide synthesis enhancer (PROCTER GAMBLE Prototype)",
+      "skin_care",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0300",
+      "Micellar cleansing water composition (BEIERSDORF Prototype)",
+      "cleansing_formula",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0301",
+      "Split-end repairing conditioner (SHISEIDO Prototype)",
+      "hair_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0302",
+      "Wound healing promoter composition (PROCTER GAMBLE Prototype)",
+      "therapeutic_application",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0303",
+      "Anti-aging serum with peptide active (BEIERSDORF Prototype)",
+      "skin_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-PG-0304",
+      "Photostable UV filter encapsulation (PROCTER GAMBLE Prototype)",
+      "sunscreen_photoprotection",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0305",
+      "Melanin-mimicking hair coloring composition (SHISEIDO Prototype)",
+      "hair_color",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0306",
+      "Micellar cleansing water composition (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0307",
+      "Cosmetic beauty drink supplement (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0308",
+      "Daily moisturizing emulsion (SHISEIDO Prototype)",
+      "skin_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0309",
+      "Transfer-resistant liquid foundation (UNILEVER Prototype)",
+      "makeup_color_cosmetics",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0310",
+      "Micellar cleansing water composition (SHISEIDO Prototype)",
+      "cleansing_formula",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0311",
+      "Oral sunscreen vitamin capsule (UNILEVER Prototype)",
+      "food_beverage",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0312",
+      "Teeth whitening agent with active oxygen (UNILEVER Prototype)",
+      "oral_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0313",
+      "Dynamic color-shifting skin tint (BEIERSDORF Prototype)",
+      "makeup_color_cosmetics",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0314",
+      "Ammonia-free coloring cream (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0315",
+      "Gentle foaming face wash (PROCTER GAMBLE Prototype)",
+      "cleansing_formula",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0316",
+      "Gentle foaming face wash (SHISEIDO Prototype)",
+      "cleansing_formula",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-OR-0317",
+      "Lipid-replenishing oil cleanser (LOREAL Prototype)",
+      "cleansing_formula",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0318",
+      "Anti-dandruff scalp serum (LOREAL Prototype)",
+      "hair_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-PG-0319",
+      "Oral sunscreen vitamin capsule (PROCTER GAMBLE Prototype)",
+      "food_beverage",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0320",
+      "Micellar cleansing water composition (BEIERSDORF Prototype)",
+      "cleansing_formula",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0321",
+      "Collagen peptide nutritional beverage (LOREAL Prototype)",
+      "food_beverage",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-OR-0322",
+      "Teeth whitening agent with active oxygen (LOREAL Prototype)",
+      "oral_care",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0323",
+      "Antioxidant herbal tea mixture (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0324",
+      "Keratin strengthening complex (UNILEVER Prototype)",
+      "hair_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0325",
+      "Acne vulgaris targeted gel (UNILEVER Prototype)",
+      "therapeutic_application",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0326",
+      "Split-end repairing conditioner (BEIERSDORF Prototype)",
+      "hair_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-SHI-0327",
+      "Epidermal barrier repair formulation (SHISEIDO Prototype)",
+      "skin_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0328",
+      "Synergistic chemical UV stabilizer (UNILEVER Prototype)",
+      "sunscreen_photoprotection",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0329",
+      "Exfoliating salicylic acid wash (UNILEVER Prototype)",
+      "cleansing_formula",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0330",
+      "Semi-permanent botanical hair tint (PROCTER GAMBLE Prototype)",
+      "hair_color",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0331",
+      "Collagen peptide nutritional beverage (SHISEIDO Prototype)",
+      "food_beverage",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0332",
+      "Prebiotic skin health food bar (UNILEVER Prototype)",
+      "food_beverage",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-UL-0333",
+      "Sensitive gums protection gel (UNILEVER Prototype)",
+      "oral_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-BDF-0334",
+      "Cosmetic beauty drink supplement (BEIERSDORF Prototype)",
+      "food_beverage",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-OR-0335",
+      "Prebiotic skin health food bar (LOREAL Prototype)",
+      "food_beverage",
+      "loreal",
+      0
+    ],
+    [
+      "DEMO-BDF-0336",
+      "Sebum-controlling pressed powder (BEIERSDORF Prototype)",
+      "makeup_color_cosmetics",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0337",
+      "Anti-inflammatory skin ointment (UNILEVER Prototype)",
+      "therapeutic_application",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0338",
+      "Ceramide synthesis enhancer (SHISEIDO Prototype)",
+      "skin_care",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-PG-0339",
+      "Water-resistant daily sun fluid (PROCTER GAMBLE Prototype)",
+      "sunscreen_photoprotection",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-PG-0340",
+      "Dynamic color-shifting skin tint (PROCTER GAMBLE Prototype)",
+      "makeup_color_cosmetics",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-SHI-0341",
+      "Synergistic chemical UV stabilizer (SHISEIDO Prototype)",
+      "sunscreen_photoprotection",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-UL-0342",
+      "Wound healing promoter composition (UNILEVER Prototype)",
+      "therapeutic_application",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-PG-0343",
+      "Prebiotic skin health food bar (PROCTER GAMBLE Prototype)",
+      "food_beverage",
+      "procter_gamble",
+      0
+    ],
+    [
+      "DEMO-BDF-0344",
+      "Semi-permanent botanical hair tint (BEIERSDORF Prototype)",
+      "hair_color",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-BDF-0345",
+      "Anti-dandruff scalp serum (BEIERSDORF Prototype)",
+      "hair_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0346",
+      "Permanent oxidative hair dye (UNILEVER Prototype)",
+      "hair_color",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0347",
+      "Acne vulgaris targeted gel (SHISEIDO Prototype)",
+      "therapeutic_application",
+      "shiseido",
+      0
+    ],
+    [
+      "DEMO-BDF-0348",
+      "Split-end repairing conditioner (BEIERSDORF Prototype)",
+      "hair_care",
+      "beiersdorf",
+      0
+    ],
+    [
+      "DEMO-UL-0349",
+      "Sensitive gums protection gel (UNILEVER Prototype)",
+      "oral_care",
+      "unilever",
+      0
+    ],
+    [
+      "DEMO-SHI-0350",
+      "Atopic dermatitis therapeutic lotion (SHISEIDO Prototype)",
+      "therapeutic_application",
+      "shiseido",
+      0
+    ]
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "companies": [
+    {"key": "loreal", "name": "L'Oreal"},
+    {"key": "beiersdorf", "name": "Beiersdorf AG"},
+    {"key": "shiseido", "name": "Shiseido Company, Limited"},
+    {"key": "procter_gamble", "name": "The Procter & Gamble Company"},
+    {"key": "unilever", "name": "Unilever"}
+  ],
+  "global": {
+    "total_patents": 12450,
+    "total_families": 3480,
+    "top_authority": "US",
+    "top_domain": "skin_care",
+    "peak_year": 2021,
+    "domains": [
+      {"domain": "skin_care", "count": 2840},
+      {"domain": "hair_care", "count": 1820},
+      {"domain": "therapeutic_application", "count": 1450},
+      {"domain": "makeup_color_cosmetics", "count": 1210},
+      {"domain": "oral_care", "count": 980},
+      {"domain": "cleansing_formula", "count": 850},
+      {"domain": "food_beverage", "count": 620},
+      {"domain": "sunscreen_photoprotection", "count": 1940},
+      {"domain": "hair_color", "count": 740}
+    ],
+    "yearly_filings": [
+      {"year": 2010, "count": 180},
+      {"year": 2011, "count": 210},
+      {"year": 2012, "count": 240},
+      {"year": 2013, "count": 290},
+      {"year": 2014, "count": 310},
+      {"year": 2015, "count": 340},
+      {"year": 2016, "count": 380},
+      {"year": 2017, "count": 420},
+      {"year": 2018, "count": 490},
+      {"year": 2019, "count": 580},
+      {"year": 2020, "count": 610},
+      {"year": 2021, "count": 680},
+      {"year": 2022, "count": 640},
+      {"year": 2023, "count": 520},
+      {"year": 2024, "count": 310}
+    ],
+    "country_densities": {
+      "US": 4500,
+      "EP": 2800,
+      "CN": 1800,
+      "JP": 1500,
+      "KR": 950,
+      "FR": 600,
+      "DE": 300
+    }
+  },
+  "company_data": {
+    "loreal": {
+      "total_patents": 3840,
+      "total_families": 1120,
+      "top_authority": "FR",
+      "top_domain": "skin_care",
+      "peak_year": 2020,
+      "domains": [
+        {"domain": "skin_care", "count": 1200},
+        {"domain": "hair_care", "count": 850},
+        {"domain": "therapeutic_application", "count": 310},
+        {"domain": "makeup_color_cosmetics", "count": 480},
+        {"domain": "oral_care", "count": 110},
+        {"domain": "cleansing_formula", "count": 290},
+        {"domain": "food_beverage", "count": 50},
+        {"domain": "sunscreen_photoprotection", "count": 410},
+        {"domain": "hair_color", "count": 140}
+      ],
+      "yearly_filings": [
+        {"year": 2010, "count": 50},
+        {"year": 2011, "count": 62},
+        {"year": 2012, "count": 78},
+        {"year": 2013, "count": 85},
+        {"year": 2014, "count": 92},
+        {"year": 2015, "count": 105},
+        {"year": 2016, "count": 110},
+        {"year": 2017, "count": 115},
+        {"year": 2018, "count": 130},
+        {"year": 2019, "count": 150},
+        {"year": 2020, "count": 165},
+        {"year": 2021, "count": 140},
+        {"year": 2022, "count": 120},
+        {"year": 2023, "count": 95},
+        {"year": 2024, "count": 45}
+      ],
+      "country_densities": {
+        "US": 1200,
+        "EP": 980,
+        "FR": 600,
+        "CN": 450,
+        "JP": 380,
+        "KR": 210,
+        "DE": 20
+      }
+    },
+    "beiersdorf": {
+      "total_patents": 2150,
+      "total_families": 640,
+      "top_authority": "DE",
+      "top_domain": "skin_care",
+      "peak_year": 2021,
+      "domains": [
+        {"domain": "skin_care", "count": 980},
+        {"domain": "hair_care", "count": 180},
+        {"domain": "therapeutic_application", "count": 410},
+        {"domain": "makeup_color_cosmetics", "count": 120},
+        {"domain": "oral_care", "count": 40},
+        {"domain": "cleansing_formula", "count": 150},
+        {"domain": "food_beverage", "count": 10},
+        {"domain": "sunscreen_photoprotection", "count": 230},
+        {"domain": "hair_color", "count": 30}
+      ],
+      "yearly_filings": [
+        {"year": 2010, "count": 25},
+        {"year": 2011, "count": 30},
+        {"year": 2012, "count": 35},
+        {"year": 2013, "count": 42},
+        {"year": 2014, "count": 48},
+        {"year": 2015, "count": 52},
+        {"year": 2016, "count": 58},
+        {"year": 2017, "count": 64},
+        {"year": 2018, "count": 72},
+        {"year": 2019, "count": 88},
+        {"year": 2020, "count": 95},
+        {"year": 2021, "count": 110},
+        {"year": 2022, "count": 90},
+        {"year": 2023, "count": 78},
+        {"year": 2024, "count": 42}
+      ],
+      "country_densities": {
+        "DE": 480,
+        "EP": 450,
+        "US": 400,
+        "CN": 310,
+        "JP": 240,
+        "KR": 180,
+        "FR": 90
+      }
+    },
+    "shiseido": {
+      "total_patents": 2980,
+      "total_families": 810,
+      "top_authority": "JP",
+      "top_domain": "skin_care",
+      "peak_year": 2019,
+      "domains": [
+        {"domain": "skin_care", "count": 1150},
+        {"domain": "hair_care", "count": 320},
+        {"domain": "therapeutic_application", "count": 280},
+        {"domain": "makeup_color_cosmetics", "count": 520},
+        {"domain": "oral_care", "count": 50},
+        {"domain": "cleansing_formula", "count": 190},
+        {"domain": "food_beverage", "count": 120},
+        {"domain": "sunscreen_photoprotection", "count": 310},
+        {"domain": "hair_color", "count": 40}
+      ],
+      "yearly_filings": [
+        {"year": 2010, "count": 40},
+        {"year": 2011, "count": 48},
+        {"year": 2012, "count": 52},
+        {"year": 2013, "count": 60},
+        {"year": 2014, "count": 68},
+        {"year": 2015, "count": 74},
+        {"year": 2016, "count": 82},
+        {"year": 2017, "count": 90},
+        {"year": 2018, "count": 105},
+        {"year": 2019, "count": 120},
+        {"year": 2020, "count": 110},
+        {"year": 2021, "count": 98},
+        {"year": 2022, "count": 85},
+        {"year": 2023, "count": 72},
+        {"year": 2024, "count": 46}
+      ],
+      "country_densities": {
+        "JP": 900,
+        "US": 720,
+        "EP": 580,
+        "CN": 420,
+        "KR": 280,
+        "FR": 80,
+        "DE": 20
+      }
+    },
+    "procter_gamble": {
+      "total_patents": 3480,
+      "total_families": 910,
+      "top_authority": "US",
+      "top_domain": "skin_care",
+      "peak_year": 2022,
+      "domains": [
+        {"domain": "skin_care", "count": 980},
+        {"domain": "hair_care", "count": 720},
+        {"domain": "therapeutic_application", "count": 310},
+        {"domain": "makeup_color_cosmetics", "count": 280},
+        {"domain": "oral_care", "count": 680},
+        {"domain": "cleansing_formula", "count": 290},
+        {"domain": "food_beverage", "count": 110},
+        {"domain": "sunscreen_photoprotection", "count": 100},
+        {"domain": "hair_color", "count": 220}
+      ],
+      "yearly_filings": [
+        {"year": 2010, "count": 45},
+        {"year": 2011, "count": 52},
+        {"year": 2012, "count": 60},
+        {"year": 2013, "count": 68},
+        {"year": 2014, "count": 72},
+        {"year": 2015, "count": 80},
+        {"year": 2016, "count": 88},
+        {"year": 2017, "count": 95},
+        {"year": 2018, "count": 110},
+        {"year": 2019, "count": 125},
+        {"year": 2020, "count": 130},
+        {"year": 2021, "count": 145},
+        {"year": 2022, "count": 150},
+        {"year": 2023, "count": 132},
+        {"year": 2024, "count": 75}
+      ],
+      "country_densities": {
+        "US": 1600,
+        "EP": 720,
+        "CN": 480,
+        "JP": 320,
+        "KR": 210,
+        "DE": 110,
+        "FR": 40
+      }
+    },
+    "unilever": {
+      "total_patents": 2980,
+      "total_families": 780,
+      "top_authority": "EP",
+      "top_domain": "skin_care",
+      "peak_year": 2020,
+      "domains": [
+        {"domain": "skin_care", "count": 920},
+        {"domain": "hair_care", "count": 580},
+        {"domain": "therapeutic_application", "count": 190},
+        {"domain": "makeup_color_cosmetics", "count": 110},
+        {"domain": "oral_care", "count": 410},
+        {"domain": "cleansing_formula", "count": 380},
+        {"domain": "food_beverage", "count": 210},
+        {"domain": "sunscreen_photoprotection", "count": 160},
+        {"domain": "hair_color", "count": 20}
+      ],
+      "yearly_filings": [
+        {"year": 2010, "count": 35},
+        {"year": 2011, "count": 42},
+        {"year": 2012, "count": 48},
+        {"year": 2013, "count": 52},
+        {"year": 2014, "count": 58},
+        {"year": 2015, "count": 65},
+        {"year": 2016, "count": 72},
+        {"year": 2017, "count": 78},
+        {"year": 2018, "count": 90},
+        {"year": 2019, "count": 105},
+        {"year": 2020, "count": 110},
+        {"year": 2021, "count": 102},
+        {"year": 2022, "count": 92},
+        {"year": 2023, "count": 78},
+        {"year": 2024, "count": 42}
+      ],
+      "country_densities": {
+        "EP": 720,
+        "US": 650,
+        "CN": 450,
+        "JP": 280,
+        "KR": 190,
+        "DE": 110,
+        "FR": 80
+      }
+    }
+  }
+}

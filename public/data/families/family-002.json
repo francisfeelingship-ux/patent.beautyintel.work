@@ -1,0 +1,39 @@
+{
+  "familyPublicId": "DEMO-FAMILY-002",
+  "displayName": "High-Efficiency Skin Hydration Peptide Complex",
+  "company": "Beiersdorf AG",
+  "priorityYear": 2020,
+  "summary": "This patent family relates to synthetic peptide complexes that stimulate natural fillagrin synthesis inside human skin cells. This enhances epidermal barrier properties and increases water retention inside the stratum corneum.",
+  "representative": {
+    "publicationNumber": "DEMO-PATENT-EP02",
+    "title": "Peptide-based complexes for skin moisturizing and barrier restoration"
+  },
+  "jurisdictions": ["EP", "US"],
+  "members": [
+    {
+      "publicationNumber": "DEMO-PATENT-EP02",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration",
+      "jurisdiction": "EP",
+      "kind": "grant",
+      "type": "core"
+    },
+    {
+      "publicationNumber": "DEMO-PATENT-US02",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration",
+      "jurisdiction": "US",
+      "kind": "grant",
+      "type": "equivalent_with_text"
+    }
+  ],
+  "nodes": [
+    {"id": "DEMO-PATENT-EP02", "label": "DEMO-PATENT-EP02", "type": "core", "is_representative": true, "country": "EP", "title": "Peptide-based complexes for skin moisturizing and barrier restoration", "assignee": "Beiersdorf AG"},
+    {"id": "DEMO-PATENT-US02", "label": "DEMO-PATENT-US02", "type": "equivalent_with_text", "is_representative": false, "country": "US", "title": "Peptide-based complexes for skin moisturizing and barrier restoration", "assignee": "Beiersdorf AG"},
+    {"id": "REF-EP-02A", "label": "REF-EP-02A", "type": "citation", "is_representative": false, "country": "EP", "title": "Peptides in cosmetic formulations", "assignee": "L'Oreal"},
+    {"id": "REF-EP-02B", "label": "REF-EP-02B", "type": "citation", "is_representative": false, "country": "EP", "title": "Moisturizing lipid barrier creams", "assignee": "Unilever"}
+  ],
+  "edges": [
+    {"source": "DEMO-PATENT-EP02", "target": "DEMO-PATENT-US02", "type": "equivalent"},
+    {"source": "REF-EP-02A", "target": "DEMO-PATENT-EP02", "type": "citation"},
+    {"source": "REF-EP-02B", "target": "DEMO-PATENT-EP02", "type": "citation"}
+  ]
+}

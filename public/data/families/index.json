@@ -1,0 +1,38 @@
+[
+  {
+    "familyPublicId": "DEMO-FAMILY-001",
+    "displayName": "Active UV Filter Stabilization System",
+    "company": "L'Oreal",
+    "priorityYear": 2018,
+    "familySize": 5,
+    "jurisdictionCount": 3,
+    "representative": {
+      "publicationNumber": "DEMO-PATENT-US01",
+      "title": "Method for stabilizing active UV filters in skin care compositions"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-002",
+    "displayName": "High-Efficiency Skin Hydration Peptide Complex",
+    "company": "Beiersdorf AG",
+    "priorityYear": 2020,
+    "familySize": 4,
+    "jurisdictionCount": 2,
+    "representative": {
+      "publicationNumber": "DEMO-PATENT-EP02",
+      "title": "Peptide-based complexes for skin moisturizing and barrier restoration"
+    }
+  },
+  {
+    "familyPublicId": "DEMO-FAMILY-003",
+    "displayName": "Melanin Transfer Inhibition Compounds",
+    "company": "Shiseido Company, Limited",
+    "priorityYear": 2019,
+    "familySize": 6,
+    "jurisdictionCount": 4,
+    "representative": {
+      "publicationNumber": "DEMO-PATENT-JP03",
+      "title": "Compositions inhibiting melanin transfer for skin brightening applications"
+    }
+  }
+]
