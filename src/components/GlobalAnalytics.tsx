@@ -314,27 +314,32 @@ export default function GlobalAnalytics({
         .attr('d', path)
         .attr('class', 'country')
         .attr('fill', (d: any) => {
-          const alpha2 = numericToAlpha2[d.id];
+          let alpha2 = numericToAlpha2[d.id];
+          if (alpha2 === 'TW') alpha2 = 'CN';
           const count = densities[alpha2] || 0;
           return count > 0 ? colorScale(count) : 'rgba(255, 255, 255, 0.03)';
         })
         .attr('stroke', (d: any) => {
-          const alpha2 = numericToAlpha2[d.id];
+          let alpha2 = numericToAlpha2[d.id];
+          if (alpha2 === 'TW') alpha2 = 'CN';
           return alpha2 === selectedCountry ? '#ffffff' : '#161c28';
         })
         .attr('stroke-width', (d: any) => {
-          const alpha2 = numericToAlpha2[d.id];
+          let alpha2 = numericToAlpha2[d.id];
+          if (alpha2 === 'TW') alpha2 = 'CN';
           return alpha2 === selectedCountry ? '2.2px' : '0.5px';
         })
         .style('opacity', (d: any) => {
-          const alpha2 = numericToAlpha2[d.id];
+          let alpha2 = numericToAlpha2[d.id];
+          if (alpha2 === 'TW') alpha2 = 'CN';
           if (selectedCountry) {
             return alpha2 === selectedCountry ? 1.0 : 0.45;
           }
           return 1.0;
         })
         .on('click', (_event: any, d: any) => {
-          const alpha2 = numericToAlpha2[d.id];
+          let alpha2 = numericToAlpha2[d.id];
+          if (alpha2 === 'TW') alpha2 = 'CN';
           if (alpha2) {
             if (selectedCountry === alpha2) {
               onCountryChange(null);
@@ -344,14 +349,16 @@ export default function GlobalAnalytics({
           }
         })
         .on('mouseover', (_event: any, d: any) => {
-          const alpha2 = numericToAlpha2[d.id] || 'Unknown';
+          let alpha2 = numericToAlpha2[d.id] || 'Unknown';
+          const displayCode = alpha2;
+          if (alpha2 === 'TW') alpha2 = 'CN';
           const countryName = d.properties.name;
           const count = densities[alpha2] || 0;
 
           if (tooltip) {
             tooltip.style.opacity = '1';
             tooltip.innerHTML = `
-              <div style="font-weight:600;margin-bottom:4px;">${countryName} (${alpha2})</div>
+              <div style="font-weight:600;margin-bottom:4px;">${countryName} (${displayCode})</div>
               <div>Filings: <span style="color:#00d2ff;font-weight:700;">${count.toLocaleString()}</span></div>
             `;
           }
