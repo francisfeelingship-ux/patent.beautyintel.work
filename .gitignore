@@ -141,3 +141,77 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+# --------------------------------------------------
+# Patent Library private data
+# --------------------------------------------------
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Private source data and exports
+/private/
+/private-data/
+/local-data/
+/source-exports/
+/database-exports/
+/backups/
+/cache/
+
+# Patent Librarian internal assets
+/embeddings/
+/vectors/
+/reports-internal/
+/audit-results/
+/raw-sources/
+
+# Vector and model artifacts
+*.npy
+*.npz
+*.faiss
+*.index
+*.pkl
+*.pickle
+*.parquet
+
+# Large raw data formats
+*.jsonl
+*.csv.gz
+*.json.gz
+
+# --------------------------------------------------
+# Python utilities
+# --------------------------------------------------
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit secrets, in case old code is copied
+.streamlit/secrets.toml
+
+# --------------------------------------------------
+# Cloudflare local development
+# --------------------------------------------------
+
+.dev.vars
+.dev.vars.*
+.wrangler/
+
+# --------------------------------------------------
+# Editors and operating systems
+# --------------------------------------------------
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
