@@ -1,3 +1,5 @@
+/// <reference types="@cloudflare/workers-types" />
+
 interface Env {
   DB: D1Database;
 }
@@ -8,7 +10,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   const companyFilter = url.searchParams.get('company');
 
   try {
-    // 1. Total counts
     let totalPatentsQuery = "SELECT COUNT(*) as cnt FROM publications";
     let totalFamiliesQuery = "SELECT COUNT(*) as cnt FROM families";
     const totalPatentsParams: any[] = [];
@@ -27,7 +28,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     const total_patents = patentsRes?.cnt || 0;
     const total_families = familiesRes?.cnt || 0;
 
-    // 2. Company breakdown
     const companyRows = await env.DB.prepare(
       `SELECT company_key, company_display_name as name, COUNT(*) as family_count 
        FROM families 
@@ -42,7 +42,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       families_count: c.family_count,
     }));
 
-    // 3. Yearly trend (priority_date)
     let yearlySql = `
       SELECT strftime('%Y', priority_date) as year, COUNT(*) as cnt 
       FROM families 
@@ -71,7 +70,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       }
     });
 
-    // 4. Domain / Tag distribution
     let tagSql = `
       SELECT ft.tag, COUNT(*) as cnt 
       FROM family_tags ft
@@ -96,7 +94,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       }
     });
 
-    // 5. Country / Jurisdiction densities
     let jurSql = `
       SELECT fj.jurisdiction, SUM(fj.publication_count) as cnt 
       FROM family_jurisdictions fj
@@ -121,7 +118,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       }
     });
 
-    // Construct response JSON matching FullAnalyticsJSON interface
     const responsePayload = {
       global: {
         total_patents,

@@ -1,3 +1,5 @@
+/// <reference types="@cloudflare/workers-types" />
+
 interface Env {
   DB: D1Database;
 }
@@ -43,12 +45,10 @@ export const onRequest: PagesFunction<Env> = async (context) => {
 
     const whereStr = whereClause.length > 0 ? " WHERE " + whereClause.join(" AND ") : "";
 
-    // Count query
     const countSql = `SELECT COUNT(DISTINCT f.family_id) as cnt FROM families f${ftsJoin}${whereStr}`;
     const countRes = await env.DB.prepare(countSql).bind(...params).first<{ cnt: number }>();
     const totalCount = countRes?.cnt || 0;
 
-    // Items query
     const itemsSql = `
       SELECT DISTINCT 
         f.family_id,
@@ -71,7 +71,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     const itemsRes = await env.DB.prepare(itemsSql).bind(...params, limit, offset).all<any>();
     const familyRows = itemsRes.results || [];
 
-    // Fetch tags and member publications for returned family IDs
     const familyIds = familyRows.map((r: any) => r.family_id);
     let tagsByFamily: Record<string, string[]> = {};
     let pubByFamily: Record<string, any[]> = {};
@@ -79,7 +78,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     if (familyIds.length > 0) {
       const placeholders = familyIds.map(() => '?').join(',');
 
-      // Tags
       const tagsRes = await env.DB.prepare(
         `SELECT family_id, tag FROM family_tags WHERE family_id IN (${placeholders})`
       ).bind(...familyIds).all<{ family_id: string; tag: string }>();
@@ -89,7 +87,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
         if (!tagsByFamily[t.family_id].includes(t.tag)) tagsByFamily[t.family_id].push(t.tag);
       });
 
-      // Member publications
       const pubsRes = await env.DB.prepare(
         `SELECT publication_id, publication_number, family_id, title, jurisdiction, priority_date, publication_date 
          FROM publications WHERE family_id IN (${placeholders}) ORDER BY publication_date DESC`
@@ -107,7 +104,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       });
     }
 
-    // Map to frontend PatentFamily structure
     const families = familyRows.map((r: any) => ({
       family_id: r.family_id,
       public_id: r.public_representative_publication || r.family_id,

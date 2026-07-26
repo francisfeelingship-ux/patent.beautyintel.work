@@ -1,3 +1,5 @@
+/// <reference types="@cloudflare/workers-types" />
+
 interface Env {
   DB: D1Database;
 }
@@ -11,7 +13,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   }
 
   try {
-    // 1. Find family row by family_id or public_representative_publication
     let familyRow = await env.DB.prepare(
       `SELECT * FROM families WHERE family_id = ? OR public_representative_publication = ? LIMIT 1`
     ).bind(familyIdOrPublicId, familyIdOrPublicId).first<any>();
@@ -22,17 +23,14 @@ export const onRequest: PagesFunction<Env> = async (context) => {
 
     const family_id = familyRow.family_id;
 
-    // 2. Fetch all publications for this family
     const pubsRes = await env.DB.prepare(
       `SELECT * FROM publications WHERE family_id = ? ORDER BY publication_date DESC`
     ).bind(family_id).all<any>();
 
-    // 3. Fetch tags for this family
     const tagsRes = await env.DB.prepare(
       `SELECT tag FROM family_tags WHERE family_id = ?`
     ).bind(family_id).all<{ tag: string }>();
 
-    // 4. Fetch jurisdictions for this family
     const jurRes = await env.DB.prepare(
       `SELECT jurisdiction, publication_count FROM family_jurisdictions WHERE family_id = ?`
     ).bind(family_id).all<{ jurisdiction: string; publication_count: number }>();
