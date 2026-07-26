@@ -50,8 +50,8 @@ export default function FamilyNetwork({ family, onNodeSelect }: FamilyNetworkPro
     svg.call(zoom);
 
     // Deep copy nodes and edges to avoid mutation of state by D3 force layout
-    const nodes = family.nodes.map(n => ({ ...n }));
-    const edges = family.edges.map(e => ({ ...e }));
+    const nodes = (family.nodes || []).map(n => ({ ...n }));
+    const edges = (family.edges || []).map(e => ({ ...e }));
 
     const simulation = d3.forceSimulation(nodes)
       .force('link', d3.forceLink(edges).id((d: any) => d.id).distance((d: any) => d.type === 'equivalent' ? 70 : 130))

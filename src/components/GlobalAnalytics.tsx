@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useMemo } from 'react';
 import { FullAnalyticsJSON } from '../data/types';
 
 interface GlobalAnalyticsProps {
@@ -74,26 +74,46 @@ export default function GlobalAnalytics({
   const yearlyChartRef = useRef<any>(null);
 
   // Get active company data (fallback to global)
-  const baseData = selectedCompany 
+  const baseData = (selectedCompany && analyticsData.company_data?.[selectedCompany])
     ? analyticsData.company_data[selectedCompany] 
     : analyticsData.global;
+
+  const yearly_filings = useMemo(() => {
+    const bd = baseData as any;
+    if (bd?.yearly_filings) return bd.yearly_filings;
+    if (bd?.yearly_patent_families) {
+      return Object.entries(bd.yearly_patent_families)
+        .map(([yr, count]) => ({ year: parseInt(yr, 10), count }))
+        .sort((a, b) => a.year - b.year);
+    }
+    return [];
+  }, [baseData]);
+
+  const domains = useMemo(() => {
+    const bd = baseData as any;
+    if (bd?.domains) return bd.domains;
+    if (bd?.domain_distribution) {
+      return Object.entries(bd.domain_distribution)
+        .map(([domain, count]) => ({ domain: domain as string, count: count as number }))
+        .sort((a, b) => b.count - a.count);
+    }
+    return [];
+  }, [baseData]);
 
   // Compute filtered metrics based on selectedYear and selectedCountry sub-filters
   const computedMetrics = (() => {
     let patents = baseData.total_patents;
     let families = baseData.total_families;
 
-    // Apply sub-filters (simulated deterministically for the static UI)
     if (selectedYear !== null) {
-      const yearObj = baseData.yearly_filings.find(y => y.year === selectedYear);
+      const yearObj = yearly_filings.find((y: any) => y.year === selectedYear);
       patents = yearObj ? yearObj.count : Math.round(patents / 15);
       families = Math.round(patents * 0.28);
     }
     
     if (selectedCountry !== null) {
-      const countryCount = baseData.country_densities[selectedCountry];
+      const countryCount = (baseData.country_densities || {})[selectedCountry];
       if (selectedYear !== null) {
-        // Compound filter
         patents = Math.round((countryCount || patents * 0.1) * 0.08);
       } else {
         patents = countryCount || Math.round(patents * 0.1);
@@ -102,17 +122,17 @@ export default function GlobalAnalytics({
     }
 
     // Sort countries to find top authority
-    const sortedCountries = Object.entries(baseData.country_densities)
+    const sortedCountries = Object.entries(baseData.country_densities || {})
       .filter(([c]) => c !== "WO" && c !== "EP" && c !== "IB")
       .sort((a, b) => b[1] - a[1]);
-    const topCountry = sortedCountries.length > 0 ? sortedCountries[0][0] : 'N/A';
+    const topCountry = baseData.top_authority || (sortedCountries.length > 0 ? sortedCountries[0][0] : 'US');
 
     // Find top technology domain
-    const topDomain = baseData.domains.length > 0 ? baseData.domains[0].domain : 'N/A';
+    const topDomain = baseData.top_domain || (domains.length > 0 ? domains[0].domain : 'Skin Care');
 
     // Find peak year
-    const sortedYears = [...baseData.yearly_filings].sort((a, b) => b.count - a.count);
-    const peakYear = sortedYears.length > 0 ? sortedYears[0].year : 0;
+    const sortedYears = [...yearly_filings].sort((a: any, b: any) => b.count - a.count);
+    const peakYear = baseData.peak_year || (sortedYears.length > 0 ? sortedYears[0].year : 2023);
 
     return {
       patents,
@@ -140,8 +160,8 @@ export default function GlobalAnalytics({
           domainsChartRef.current.destroy();
         }
 
-        const domainLabels = baseData.domains.map(d => formatDomainTag(d.domain));
-        const domainCounts = baseData.domains.map(d => d.count);
+        const domainLabels = domains.map((d: any) => formatDomainTag(d.domain));
+        const domainCounts = domains.map((d: any) => d.count);
         const colors = [
           '#00d2ff', '#8b5cf6', '#ec4899', '#3b82f6', '#10b981', 
           '#f59e0b', '#ef4444', '#6366f1', '#a855f7', '#06b6d4',
@@ -154,9 +174,9 @@ export default function GlobalAnalytics({
             labels: domainLabels,
             datasets: [{
               data: domainCounts,
-              backgroundColor: colors.slice(0, domainLabels.length),
-              borderWidth: 1,
-              borderColor: '#0b101b'
+              backgroundColor: colors.slice(0, domainCounts.length),
+              borderWidth: 0,
+              hoverOffset: 6
             }]
           },
           options: {
@@ -166,24 +186,13 @@ export default function GlobalAnalytics({
               legend: {
                 position: 'right',
                 labels: {
-                  color: '#9ca3af',
-                  font: { family: 'Inter', size: 10 },
-                  padding: 8,
-                  boxWidth: 10
-                }
-              },
-              tooltip: {
-                callbacks: {
-                  label: function(context: any) {
-                    const value = context.raw;
-                    const total = context.dataset.data.reduce((a: number, b: number) => a + b, 0);
-                    const percentage = Math.round((value / total) * 100);
-                    return ` ${context.label}: ${value} (${percentage}%)`;
-                  }
+                  color: '#94a3b8',
+                  font: { family: 'Inter', size: 11 },
+                  boxWidth: 12,
+                  padding: 10
                 }
               }
-            },
-            cutout: '62%'
+            }
           }
         });
       }
@@ -197,14 +206,14 @@ export default function GlobalAnalytics({
           yearlyChartRef.current.destroy();
         }
 
-        const yearlyLabels = baseData.yearly_filings.map(d => d.year);
-        const yearlyCounts = baseData.yearly_filings.map(d => d.count);
+        const yearlyLabels = yearly_filings.map((d: any) => d.year);
+        const yearlyCounts = yearly_filings.map((d: any) => d.count);
 
         const gradient = ctx.createLinearGradient(0, 0, 0, 300);
         gradient.addColorStop(0, '#00d2ff');
         gradient.addColorStop(1, '#8b5cf6');
 
-        const barColors = yearlyLabels.map(year => {
+        const barColors = yearlyLabels.map((year: any) => {
           if (selectedYear !== null) {
             return year === selectedYear ? '#00d2ff' : 'rgba(59, 130, 246, 0.12)';
           }

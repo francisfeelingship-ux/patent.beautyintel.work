@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "patent-beautyintel-work",
+  "pages_build_output_dir": "dist",
+  "compatibility_date": "2024-09-23",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "patent_library_lite",
+      "database_id": "04719057-4102-4c35-8c9c-4d77c9227906"
+    }
+  ]
+}
