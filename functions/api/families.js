@@ -1,10 +1,4 @@
-/// <reference types="@cloudflare/workers-types" />
-
-interface Env {
-  DB: D1Database;
-}
-
-export const onRequest: PagesFunction<Env> = async (context) => {
+export async function onRequest(context) {
   const { env, request } = context;
   const url = new URL(request.url);
 
@@ -18,8 +12,8 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   const year = url.searchParams.get('year');
 
   try {
-    const whereClause: string[] = [];
-    const params: any[] = [];
+    const whereClause = [];
+    const params = [];
 
     if (company) {
       whereClause.push("f.company_key = ?");
@@ -46,7 +40,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     const whereStr = whereClause.length > 0 ? " WHERE " + whereClause.join(" AND ") : "";
 
     const countSql = `SELECT COUNT(DISTINCT f.family_id) as cnt FROM families f${ftsJoin}${whereStr}`;
-    const countRes = await env.DB.prepare(countSql).bind(...params).first<{ cnt: number }>();
+    const countRes = await env.DB.prepare(countSql).bind(...params).first();
     const totalCount = countRes?.cnt || 0;
 
     const itemsSql = `
@@ -68,19 +62,19 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       LIMIT ? OFFSET ?
     `;
 
-    const itemsRes = await env.DB.prepare(itemsSql).bind(...params, limit, offset).all<any>();
+    const itemsRes = await env.DB.prepare(itemsSql).bind(...params, limit, offset).all();
     const familyRows = itemsRes.results || [];
 
-    const familyIds = familyRows.map((r: any) => r.family_id);
-    let tagsByFamily: Record<string, string[]> = {};
-    let pubByFamily: Record<string, any[]> = {};
+    const familyIds = familyRows.map((r) => r.family_id);
+    let tagsByFamily = {};
+    let pubByFamily = {};
 
     if (familyIds.length > 0) {
       const placeholders = familyIds.map(() => '?').join(',');
 
       const tagsRes = await env.DB.prepare(
         `SELECT family_id, tag FROM family_tags WHERE family_id IN (${placeholders})`
-      ).bind(...familyIds).all<{ family_id: string; tag: string }>();
+      ).bind(...familyIds).all();
 
       (tagsRes.results || []).forEach((t) => {
         if (!tagsByFamily[t.family_id]) tagsByFamily[t.family_id] = [];
@@ -90,7 +84,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       const pubsRes = await env.DB.prepare(
         `SELECT publication_id, publication_number, family_id, title, jurisdiction, priority_date, publication_date 
          FROM publications WHERE family_id IN (${placeholders}) ORDER BY publication_date DESC`
-      ).bind(...familyIds).all<any>();
+      ).bind(...familyIds).all();
 
       (pubsRes.results || []).forEach((p) => {
         if (!pubByFamily[p.family_id]) pubByFamily[p.family_id] = [];
@@ -104,7 +98,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       });
     }
 
-    const families = familyRows.map((r: any) => ({
+    const families = familyRows.map((r) => ({
       family_id: r.family_id,
       public_id: r.public_representative_publication || r.family_id,
       display_title: r.display_title,
@@ -131,10 +125,10 @@ export const onRequest: PagesFunction<Env> = async (context) => {
         "Cache-Control": "public, max-age=30, s-maxage=120",
       },
     });
-  } catch (err: any) {
+  } catch (err) {
     return new Response(JSON.stringify({ error: err.message || "Failed to query families from D1" }), {
       status: 500,
       headers: { "Content-Type": "application/json" },
     });
   }
-};
+}

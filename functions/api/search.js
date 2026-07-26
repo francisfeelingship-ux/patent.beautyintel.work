@@ -1,10 +1,4 @@
-/// <reference types="@cloudflare/workers-types" />
-
-interface Env {
-  DB: D1Database;
-}
-
-export const onRequest: PagesFunction<Env> = async (context) => {
+export async function onRequest(context) {
   const { env, request } = context;
   const url = new URL(request.url);
   const q = url.searchParams.get('q');
@@ -17,8 +11,8 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   }
 
   try {
-    const whereClause: string[] = ["family_search MATCH ?"];
-    const params: any[] = [q.trim()];
+    const whereClause = ["family_search MATCH ?"];
+    const params = [q.trim()];
 
     if (company) {
       whereClause.push("f.company_key = ?");
@@ -44,10 +38,10 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       LIMIT 50
     `;
 
-    const res = await env.DB.prepare(sql).bind(...params).all<any>();
+    const res = await env.DB.prepare(sql).bind(...params).all();
     const rows = res.results || [];
 
-    const results = rows.map((r: any) => ({
+    const results = rows.map((r) => ({
       family_id: r.family_id,
       public_id: r.public_representative_publication || r.family_id,
       display_title: r.display_title,
@@ -64,10 +58,10 @@ export const onRequest: PagesFunction<Env> = async (context) => {
         "Cache-Control": "public, max-age=60, s-maxage=300",
       },
     });
-  } catch (err: any) {
+  } catch (err) {
     return new Response(JSON.stringify({ error: err.message || "Failed to search D1 database" }), {
       status: 500,
       headers: { "Content-Type": "application/json" },
     });
   }
-};
+}
