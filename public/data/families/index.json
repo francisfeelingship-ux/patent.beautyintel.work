@@ -1,0 +1,652 @@
+[
+  {
+    "familyPublicId": "FAM-001",
+    "displayName": "Active UV Filter Stabilization System (L'Oreal)",
+    "company": "L'Oreal",
+    "companyKey": "loreal",
+    "priorityYear": 2019,
+    "familySize": 14,
+    "jurisdictionCount": 7,
+    "representative": {
+      "publicationNumber": "EP2021904524A1",
+      "title": "Active UV Filter Stabilization System (L'Oreal)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-002",
+    "displayName": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+    "company": "L'Oreal",
+    "companyKey": "loreal",
+    "priorityYear": 2020,
+    "familySize": 18,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "DE2022175063A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-003",
+    "displayName": "Melanin Transfer Inhibition Compounds (Beiersdorf AG)",
+    "company": "Beiersdorf AG",
+    "companyKey": "beiersdorf",
+    "priorityYear": 2021,
+    "familySize": 24,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "JP2023841355A1",
+      "title": "Melanin Transfer Inhibition Compounds (Beiersdorf AG)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-004",
+    "displayName": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
+    "company": "Beiersdorf AG",
+    "companyKey": "beiersdorf",
+    "priorityYear": 2022,
+    "familySize": 12,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "US2024471013A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-005",
+    "displayName": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+    "company": "Shiseido Company, Limited",
+    "companyKey": "shiseido",
+    "priorityYear": 2023,
+    "familySize": 10,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "KR2025787014A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-006",
+    "displayName": "Liquid Crystal Skin Barrier Emulsion (Shiseido Company, Limited)",
+    "company": "Shiseido Company, Limited",
+    "companyKey": "shiseido",
+    "priorityYear": 2024,
+    "familySize": 18,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "EP2020789136A1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Shiseido Company, Limited)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-007",
+    "displayName": "Encapsulated Retinol Delivery Microcapsules (The Procter & Gamble Company)",
+    "company": "The Procter & Gamble Company",
+    "companyKey": "procter_gamble",
+    "priorityYear": 2018,
+    "familySize": 18,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "US2021720630A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (The Procter & Gamble Company)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-008",
+    "displayName": "Long-Wear Surfactant-Free Facial Cleansers (The Procter & Gamble Company)",
+    "company": "The Procter & Gamble Company",
+    "companyKey": "procter_gamble",
+    "priorityYear": 2019,
+    "familySize": 20,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "US2022925895A1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (The Procter & Gamble Company)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-009",
+    "displayName": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+    "company": "The Estee Lauder Companies Inc.",
+    "companyKey": "estee_lauder",
+    "priorityYear": 2020,
+    "familySize": 10,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "US2023939367A1",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-010",
+    "displayName": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+    "company": "The Estee Lauder Companies Inc.",
+    "companyKey": "estee_lauder",
+    "priorityYear": 2021,
+    "familySize": 10,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "JP2024763429A1",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-011",
+    "displayName": "Active UV Filter Stabilization System (Revlon)",
+    "company": "Revlon",
+    "companyKey": "revlon",
+    "priorityYear": 2022,
+    "familySize": 14,
+    "jurisdictionCount": 7,
+    "representative": {
+      "publicationNumber": "EP2025923890A1",
+      "title": "Active UV Filter Stabilization System (Revlon)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-012",
+    "displayName": "High-Efficiency Skin Hydration Peptide Complex (Revlon)",
+    "company": "Revlon",
+    "companyKey": "revlon",
+    "priorityYear": 2023,
+    "familySize": 12,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "DE2020649630A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Revlon)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-013",
+    "displayName": "Melanin Transfer Inhibition Compounds (Kenvue)",
+    "company": "Kenvue",
+    "companyKey": "kenvue",
+    "priorityYear": 2024,
+    "familySize": 12,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "JP2021652995A1",
+      "title": "Melanin Transfer Inhibition Compounds (Kenvue)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-014",
+    "displayName": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+    "company": "Kenvue",
+    "companyKey": "kenvue",
+    "priorityYear": 2018,
+    "familySize": 12,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "US2022895030A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-015",
+    "displayName": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+    "company": "Colgate-Palmolive Company",
+    "companyKey": "colgate_palmolive",
+    "priorityYear": 2019,
+    "familySize": 15,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "KR2023449822A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-016",
+    "displayName": "Liquid Crystal Skin Barrier Emulsion (Colgate-Palmolive Company)",
+    "company": "Colgate-Palmolive Company",
+    "companyKey": "colgate_palmolive",
+    "priorityYear": 2020,
+    "familySize": 12,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "EP2024921423A1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Colgate-Palmolive Company)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-017",
+    "displayName": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
+    "company": "Amorepacific",
+    "companyKey": "amorepacific",
+    "priorityYear": 2021,
+    "familySize": 18,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "US2025297558A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-018",
+    "displayName": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
+    "company": "Amorepacific",
+    "companyKey": "amorepacific",
+    "priorityYear": 2022,
+    "familySize": 20,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "US2020382217A1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-019",
+    "displayName": "Probiotic Skin Microbiome Regulators (Unilever)",
+    "company": "Unilever",
+    "companyKey": "unilever",
+    "priorityYear": 2023,
+    "familySize": 10,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "US2021350036A1",
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-020",
+    "displayName": "Natural Ceramide Complex Emulsions (Unilever)",
+    "company": "Unilever",
+    "companyKey": "unilever",
+    "priorityYear": 2024,
+    "familySize": 10,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "JP2022807636A1",
+      "title": "Natural Ceramide Complex Emulsions (Unilever)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-021",
+    "displayName": "Active UV Filter Stabilization System (Givaudan)",
+    "company": "Givaudan",
+    "companyKey": "givaudan",
+    "priorityYear": 2018,
+    "familySize": 28,
+    "jurisdictionCount": 7,
+    "representative": {
+      "publicationNumber": "EP2023455200A1",
+      "title": "Active UV Filter Stabilization System (Givaudan)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-022",
+    "displayName": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+    "company": "Givaudan",
+    "companyKey": "givaudan",
+    "priorityYear": 2019,
+    "familySize": 12,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "DE2024783760A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-023",
+    "displayName": "Melanin Transfer Inhibition Compounds (Kao Corp)",
+    "company": "Kao Corp",
+    "companyKey": "kao_corp",
+    "priorityYear": 2020,
+    "familySize": 18,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "JP2025328921A1",
+      "title": "Melanin Transfer Inhibition Compounds (Kao Corp)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-024",
+    "displayName": "Advanced Surfactant Emulsion Stabilization Matrix (Kao Corp)",
+    "company": "Kao Corp",
+    "companyKey": "kao_corp",
+    "priorityYear": 2021,
+    "familySize": 24,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "US2020694757A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kao Corp)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-025",
+    "displayName": "Sustainable Squalane Extraction and Fermentation Process (Symrise)",
+    "company": "Symrise",
+    "companyKey": "symrise",
+    "priorityYear": 2022,
+    "familySize": 10,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "KR2021600754A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Symrise)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-026",
+    "displayName": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+    "company": "Symrise",
+    "companyKey": "symrise",
+    "priorityYear": 2023,
+    "familySize": 12,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "EP2022558955A1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-027",
+    "displayName": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+    "company": "Evonik",
+    "companyKey": "evonik",
+    "priorityYear": 2024,
+    "familySize": 12,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "US2023397375A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-028",
+    "displayName": "Long-Wear Surfactant-Free Facial Cleansers (Evonik)",
+    "company": "Evonik",
+    "companyKey": "evonik",
+    "priorityYear": 2018,
+    "familySize": 10,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "US2024277665A1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Evonik)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-029",
+    "displayName": "Probiotic Skin Microbiome Regulators (Henkel)",
+    "company": "Henkel",
+    "companyKey": "henkel",
+    "priorityYear": 2019,
+    "familySize": 20,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "US2025665042A1",
+      "title": "Probiotic Skin Microbiome Regulators (Henkel)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-030",
+    "displayName": "Natural Ceramide Complex Emulsions (Henkel)",
+    "company": "Henkel",
+    "companyKey": "henkel",
+    "priorityYear": 2020,
+    "familySize": 15,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "JP2020685727A1",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-031",
+    "displayName": "Active UV Filter Stabilization System (Firmenich)",
+    "company": "Firmenich",
+    "companyKey": "firmenich",
+    "priorityYear": 2021,
+    "familySize": 14,
+    "jurisdictionCount": 7,
+    "representative": {
+      "publicationNumber": "EP2021637080A1",
+      "title": "Active UV Filter Stabilization System (Firmenich)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-032",
+    "displayName": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+    "company": "Firmenich",
+    "companyKey": "firmenich",
+    "priorityYear": 2022,
+    "familySize": 24,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "DE2022761786A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-033",
+    "displayName": "Melanin Transfer Inhibition Compounds (DSM)",
+    "company": "DSM",
+    "companyKey": "dsm",
+    "priorityYear": 2023,
+    "familySize": 24,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "JP2023447231A1",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-034",
+    "displayName": "Advanced Surfactant Emulsion Stabilization Matrix (DSM)",
+    "company": "DSM",
+    "companyKey": "dsm",
+    "priorityYear": 2024,
+    "familySize": 24,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "US2024816507A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (DSM)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-035",
+    "displayName": "Sustainable Squalane Extraction and Fermentation Process (Dow)",
+    "company": "Dow",
+    "companyKey": "dow",
+    "priorityYear": 2018,
+    "familySize": 10,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "KR2025586045A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Dow)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-036",
+    "displayName": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+    "company": "Dow",
+    "companyKey": "dow",
+    "priorityYear": 2019,
+    "familySize": 18,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "EP2020725859A1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-037",
+    "displayName": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+    "company": "Seppic",
+    "companyKey": "seppic",
+    "priorityYear": 2020,
+    "familySize": 24,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "US2021807298A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-038",
+    "displayName": "Long-Wear Surfactant-Free Facial Cleansers (Seppic)",
+    "company": "Seppic",
+    "companyKey": "seppic",
+    "priorityYear": 2021,
+    "familySize": 20,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "US2022828740A1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Seppic)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-039",
+    "displayName": "Probiotic Skin Microbiome Regulators (BASF)",
+    "company": "BASF",
+    "companyKey": "basf",
+    "priorityYear": 2022,
+    "familySize": 15,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "US2023278924A1",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-040",
+    "displayName": "Natural Ceramide Complex Emulsions (BASF)",
+    "company": "BASF",
+    "companyKey": "basf",
+    "priorityYear": 2023,
+    "familySize": 10,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "JP2024896698A1",
+      "title": "Natural Ceramide Complex Emulsions (BASF)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-041",
+    "displayName": "Active UV Filter Stabilization System (Coty)",
+    "company": "Coty",
+    "companyKey": "coty",
+    "priorityYear": 2024,
+    "familySize": 14,
+    "jurisdictionCount": 7,
+    "representative": {
+      "publicationNumber": "EP2025559060A1",
+      "title": "Active UV Filter Stabilization System (Coty)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-042",
+    "displayName": "High-Efficiency Skin Hydration Peptide Complex (Coty)",
+    "company": "Coty",
+    "companyKey": "coty",
+    "priorityYear": 2018,
+    "familySize": 18,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "DE2020359791A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Coty)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-043",
+    "displayName": "Melanin Transfer Inhibition Compounds (Cosmax)",
+    "company": "Cosmax",
+    "companyKey": "cosmax",
+    "priorityYear": 2019,
+    "familySize": 12,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "JP2021501710A1",
+      "title": "Melanin Transfer Inhibition Compounds (Cosmax)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-044",
+    "displayName": "Advanced Surfactant Emulsion Stabilization Matrix (Cosmax)",
+    "company": "Cosmax",
+    "companyKey": "cosmax",
+    "priorityYear": 2020,
+    "familySize": 24,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "US2022113179A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Cosmax)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-045",
+    "displayName": "Sustainable Squalane Extraction and Fermentation Process (Croda)",
+    "company": "Croda",
+    "companyKey": "croda",
+    "priorityYear": 2021,
+    "familySize": 20,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "KR2023524832A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Croda)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-046",
+    "displayName": "Liquid Crystal Skin Barrier Emulsion (Croda)",
+    "company": "Croda",
+    "companyKey": "croda",
+    "priorityYear": 2022,
+    "familySize": 18,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "EP2024362459A1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Croda)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-047",
+    "displayName": "Encapsulated Retinol Delivery Microcapsules (Intercos)",
+    "company": "Intercos",
+    "companyKey": "intercos",
+    "priorityYear": 2023,
+    "familySize": 12,
+    "jurisdictionCount": 6,
+    "representative": {
+      "publicationNumber": "US2025131580A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Intercos)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-048",
+    "displayName": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+    "company": "Intercos",
+    "companyKey": "intercos",
+    "priorityYear": 2024,
+    "familySize": 15,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "US2020529694A1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-049",
+    "displayName": "Probiotic Skin Microbiome Regulators (Ashland)",
+    "company": "Ashland",
+    "companyKey": "ashland",
+    "priorityYear": 2018,
+    "familySize": 20,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "US2021402072A1",
+      "title": "Probiotic Skin Microbiome Regulators (Ashland)"
+    }
+  },
+  {
+    "familyPublicId": "FAM-050",
+    "displayName": "Natural Ceramide Complex Emulsions (Ashland)",
+    "company": "Ashland",
+    "companyKey": "ashland",
+    "priorityYear": 2019,
+    "familySize": 10,
+    "jurisdictionCount": 5,
+    "representative": {
+      "publicationNumber": "JP2022650851A1",
+      "title": "Natural Ceramide Complex Emulsions (Ashland)"
+    }
+  }
+]

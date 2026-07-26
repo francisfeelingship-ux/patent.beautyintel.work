@@ -1,0 +1,147 @@
+{
+  "familyPublicId": "FAM-032",
+  "displayName": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+  "company": "Firmenich",
+  "companyKey": "firmenich",
+  "priorityYear": 2022,
+  "summary": "Biomimetic palmitoyl pentapeptide emulsion formulation that accelerates hyaluronic acid synthesis in epidermal keratinocytes and reinforces basement membrane dermal integrity.",
+  "representative": {
+    "publicationNumber": "DE2022761786A1",
+    "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)"
+  },
+  "jurisdictions": [
+    "DE",
+    "EP",
+    "US",
+    "CN",
+    "JP",
+    "KR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DE2022872465A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "jurisdiction": "DE",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2022864220B1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2022335604B1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "jurisdiction": "US",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2022256530B2",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2022500673B1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "jurisdiction": "JP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2022925553A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DE2022761786A1",
+      "label": "DE2022761786A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "DE",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "EP2022864220B1",
+      "label": "EP2022864220B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "US2022335604B1",
+      "label": "US2022335604B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "CN2022256530B2",
+      "label": "CN2022256530B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "JP2022500673B1",
+      "label": "JP2022500673B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "KR2022925553A1",
+      "label": "KR2022925553A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Firmenich)",
+      "assignee": "Firmenich"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DE2022761786A1",
+      "target": "EP2022864220B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2022761786A1",
+      "target": "US2022335604B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2022761786A1",
+      "target": "CN2022256530B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2022761786A1",
+      "target": "JP2022500673B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2022761786A1",
+      "target": "KR2022925553A1",
+      "type": "priority_claim"
+    }
+  ]
+}

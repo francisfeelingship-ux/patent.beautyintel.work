@@ -1,0 +1,147 @@
+{
+  "familyPublicId": "FAM-036",
+  "displayName": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+  "company": "Dow",
+  "companyKey": "dow",
+  "priorityYear": 2019,
+  "summary": "Lamellar structure lipid emulsion mimicking natural stratum corneum intercellular membrane layer for rapid barrier repair and moisture retention.",
+  "representative": {
+    "publicationNumber": "EP2020725859A1",
+    "title": "Liquid Crystal Skin Barrier Emulsion (Dow)"
+  },
+  "jurisdictions": [
+    "EP",
+    "US",
+    "JP",
+    "CN",
+    "GB",
+    "DE"
+  ],
+  "members": [
+    {
+      "publicationNumber": "EP2020720065A1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "jurisdiction": "EP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2020636191B2",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "jurisdiction": "US",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2020830820B1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "jurisdiction": "JP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2020343931B1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "GB2020603440A1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "jurisdiction": "GB",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "DE2020480936B2",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "jurisdiction": "DE",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "EP2020725859A1",
+      "label": "EP2020725859A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "EP",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "assignee": "Dow"
+    },
+    {
+      "id": "US2020636191B2",
+      "label": "US2020636191B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "assignee": "Dow"
+    },
+    {
+      "id": "JP2020830820B1",
+      "label": "JP2020830820B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "assignee": "Dow"
+    },
+    {
+      "id": "CN2020343931B1",
+      "label": "CN2020343931B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "assignee": "Dow"
+    },
+    {
+      "id": "GB2020603440A1",
+      "label": "GB2020603440A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "assignee": "Dow"
+    },
+    {
+      "id": "DE2020480936B2",
+      "label": "DE2020480936B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Dow)",
+      "assignee": "Dow"
+    }
+  ],
+  "edges": [
+    {
+      "source": "EP2020725859A1",
+      "target": "US2020636191B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2020725859A1",
+      "target": "JP2020830820B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2020725859A1",
+      "target": "CN2020343931B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2020725859A1",
+      "target": "GB2020603440A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2020725859A1",
+      "target": "DE2020480936B2",
+      "type": "priority_claim"
+    }
+  ]
+}

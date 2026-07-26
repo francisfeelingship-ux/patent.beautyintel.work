@@ -1,0 +1,125 @@
+{
+  "familyPublicId": "FAM-009",
+  "displayName": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+  "company": "The Estee Lauder Companies Inc.",
+  "companyKey": "estee_lauder",
+  "priorityYear": 2020,
+  "summary": "Lactobacillus postbiotic ferment lysate composition modulating Cutibacterium acnes colonization while enhancing anti-microbial peptide expression.",
+  "representative": {
+    "publicationNumber": "US2023939367A1",
+    "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)"
+  },
+  "jurisdictions": [
+    "US",
+    "EP",
+    "CN",
+    "JP",
+    "KR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "US2023834775A1",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "US",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2023113919B1",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2023965287B2",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2023463221A1",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2023899204A1",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "US2023939367A1",
+      "label": "US2023939367A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "US",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "EP2023113919B1",
+      "label": "EP2023113919B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "CN2023965287B2",
+      "label": "CN2023965287B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "JP2023463221A1",
+      "label": "JP2023463221A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "KR2023899204A1",
+      "label": "KR2023899204A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    }
+  ],
+  "edges": [
+    {
+      "source": "US2023939367A1",
+      "target": "EP2023113919B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2023939367A1",
+      "target": "CN2023965287B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2023939367A1",
+      "target": "JP2023463221A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2023939367A1",
+      "target": "KR2023899204A1",
+      "type": "priority_claim"
+    }
+  ]
+}

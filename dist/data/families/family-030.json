@@ -1,0 +1,125 @@
+{
+  "familyPublicId": "FAM-030",
+  "displayName": "Natural Ceramide Complex Emulsions (Henkel)",
+  "company": "Henkel",
+  "companyKey": "henkel",
+  "priorityYear": 2020,
+  "summary": "Stereospecific synthetic ceramide NP and AP liposomal dispersion improving barrier lipid packing density and reducing trans-epidermal water loss.",
+  "representative": {
+    "publicationNumber": "JP2020685727A1",
+    "title": "Natural Ceramide Complex Emulsions (Henkel)"
+  },
+  "jurisdictions": [
+    "JP",
+    "US",
+    "EP",
+    "CN",
+    "DE"
+  ],
+  "members": [
+    {
+      "publicationNumber": "JP2020877284A1",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2020355595A1",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)",
+      "jurisdiction": "US",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2020840408A1",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)",
+      "jurisdiction": "EP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2020581906B1",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "DE2020987299B2",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)",
+      "jurisdiction": "DE",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "JP2020685727A1",
+      "label": "JP2020685727A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "JP",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "US2020355595A1",
+      "label": "US2020355595A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "EP2020840408A1",
+      "label": "EP2020840408A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "CN2020581906B1",
+      "label": "CN2020581906B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)",
+      "assignee": "Henkel"
+    },
+    {
+      "id": "DE2020987299B2",
+      "label": "DE2020987299B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Natural Ceramide Complex Emulsions (Henkel)",
+      "assignee": "Henkel"
+    }
+  ],
+  "edges": [
+    {
+      "source": "JP2020685727A1",
+      "target": "US2020355595A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "JP2020685727A1",
+      "target": "EP2020840408A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "JP2020685727A1",
+      "target": "CN2020581906B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "JP2020685727A1",
+      "target": "DE2020987299B2",
+      "type": "priority_claim"
+    }
+  ]
+}

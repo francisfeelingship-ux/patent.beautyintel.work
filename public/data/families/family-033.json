@@ -1,0 +1,147 @@
+{
+  "familyPublicId": "FAM-033",
+  "displayName": "Melanin Transfer Inhibition Compounds (DSM)",
+  "company": "DSM",
+  "companyKey": "dsm",
+  "priorityYear": 2023,
+  "summary": "Substituted resorcinol derivative cosmetic compositions for inhibiting melanosome transport into superficial keratinocytes, achieving even tone brightening.",
+  "representative": {
+    "publicationNumber": "JP2023447231A1",
+    "title": "Melanin Transfer Inhibition Compounds (DSM)"
+  },
+  "jurisdictions": [
+    "JP",
+    "US",
+    "EP",
+    "CN",
+    "KR",
+    "TW"
+  ],
+  "members": [
+    {
+      "publicationNumber": "JP2023823880A1",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2023557334B2",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "jurisdiction": "US",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2023105704B1",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2023157367B2",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2023923334B1",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "jurisdiction": "KR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "TW2023167645B2",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "jurisdiction": "TW",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "JP2023447231A1",
+      "label": "JP2023447231A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "JP",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "assignee": "DSM"
+    },
+    {
+      "id": "US2023557334B2",
+      "label": "US2023557334B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "assignee": "DSM"
+    },
+    {
+      "id": "EP2023105704B1",
+      "label": "EP2023105704B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "assignee": "DSM"
+    },
+    {
+      "id": "CN2023157367B2",
+      "label": "CN2023157367B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "assignee": "DSM"
+    },
+    {
+      "id": "KR2023923334B1",
+      "label": "KR2023923334B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "assignee": "DSM"
+    },
+    {
+      "id": "TW2023167645B2",
+      "label": "TW2023167645B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "TW",
+      "title": "Melanin Transfer Inhibition Compounds (DSM)",
+      "assignee": "DSM"
+    }
+  ],
+  "edges": [
+    {
+      "source": "JP2023447231A1",
+      "target": "US2023557334B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "JP2023447231A1",
+      "target": "EP2023105704B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "JP2023447231A1",
+      "target": "CN2023157367B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "JP2023447231A1",
+      "target": "KR2023923334B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "JP2023447231A1",
+      "target": "TW2023167645B2",
+      "type": "priority_claim"
+    }
+  ]
+}

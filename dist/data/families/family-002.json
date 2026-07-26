@@ -1,0 +1,147 @@
+{
+  "familyPublicId": "FAM-002",
+  "displayName": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+  "company": "L'Oreal",
+  "companyKey": "loreal",
+  "priorityYear": 2020,
+  "summary": "Biomimetic palmitoyl pentapeptide emulsion formulation that accelerates hyaluronic acid synthesis in epidermal keratinocytes and reinforces basement membrane dermal integrity.",
+  "representative": {
+    "publicationNumber": "DE2022175063A1",
+    "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)"
+  },
+  "jurisdictions": [
+    "DE",
+    "EP",
+    "US",
+    "CN",
+    "JP",
+    "KR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DE2022921836A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "jurisdiction": "DE",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2022584365B1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2022754212B1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "jurisdiction": "US",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2022370450A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "jurisdiction": "CN",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2022959748A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2022864276A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DE2022175063A1",
+      "label": "DE2022175063A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "DE",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "EP2022584365B1",
+      "label": "EP2022584365B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "US2022754212B1",
+      "label": "US2022754212B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "CN2022370450A1",
+      "label": "CN2022370450A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "JP2022959748A1",
+      "label": "JP2022959748A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "KR2022864276A1",
+      "label": "KR2022864276A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DE2022175063A1",
+      "target": "EP2022584365B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2022175063A1",
+      "target": "US2022754212B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2022175063A1",
+      "target": "CN2022370450A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2022175063A1",
+      "target": "JP2022959748A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2022175063A1",
+      "target": "KR2022864276A1",
+      "type": "priority_claim"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "familyPublicId": "FAM-026",
+  "displayName": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+  "company": "Symrise",
+  "companyKey": "symrise",
+  "priorityYear": 2023,
+  "summary": "Lamellar structure lipid emulsion mimicking natural stratum corneum intercellular membrane layer for rapid barrier repair and moisture retention.",
+  "representative": {
+    "publicationNumber": "EP2022558955A1",
+    "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)"
+  },
+  "jurisdictions": [
+    "EP",
+    "US",
+    "JP",
+    "CN",
+    "GB",
+    "DE"
+  ],
+  "members": [
+    {
+      "publicationNumber": "EP2022472921A1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "jurisdiction": "EP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2022619158A1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "jurisdiction": "US",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2022212390B2",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "jurisdiction": "JP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2022279680B2",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "GB2022544113B2",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "jurisdiction": "GB",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "DE2022956044B1",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "jurisdiction": "DE",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "EP2022558955A1",
+      "label": "EP2022558955A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "EP",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "US2022619158A1",
+      "label": "US2022619158A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "JP2022212390B2",
+      "label": "JP2022212390B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "CN2022279680B2",
+      "label": "CN2022279680B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "GB2022544113B2",
+      "label": "GB2022544113B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "GB",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "assignee": "Symrise"
+    },
+    {
+      "id": "DE2022956044B1",
+      "label": "DE2022956044B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Liquid Crystal Skin Barrier Emulsion (Symrise)",
+      "assignee": "Symrise"
+    }
+  ],
+  "edges": [
+    {
+      "source": "EP2022558955A1",
+      "target": "US2022619158A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2022558955A1",
+      "target": "JP2022212390B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2022558955A1",
+      "target": "CN2022279680B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2022558955A1",
+      "target": "GB2022544113B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2022558955A1",
+      "target": "DE2022956044B1",
+      "type": "priority_claim"
+    }
+  ]
+}

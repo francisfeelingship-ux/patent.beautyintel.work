@@ -1,0 +1,125 @@
+{
+  "familyPublicId": "FAM-015",
+  "displayName": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+  "company": "Colgate-Palmolive Company",
+  "companyKey": "colgate_palmolive",
+  "priorityYear": 2019,
+  "summary": "Bio-fermentative manufacturing process utilizing genetically optimized yeast strain to convert renewable plant sugars into high-purity cosmetic squalane.",
+  "representative": {
+    "publicationNumber": "KR2023449822A1",
+    "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)"
+  },
+  "jurisdictions": [
+    "KR",
+    "US",
+    "EP",
+    "CN",
+    "JP"
+  ],
+  "members": [
+    {
+      "publicationNumber": "KR2023630692A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2023906218B2",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "jurisdiction": "US",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2023512077B2",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2023171530A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "jurisdiction": "CN",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2023873443A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "KR2023449822A1",
+      "label": "KR2023449822A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "KR",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "US2023906218B2",
+      "label": "US2023906218B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "EP2023512077B2",
+      "label": "EP2023512077B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "CN2023171530A1",
+      "label": "CN2023171530A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "assignee": "Colgate-Palmolive Company"
+    },
+    {
+      "id": "JP2023873443A1",
+      "label": "JP2023873443A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "assignee": "Colgate-Palmolive Company"
+    }
+  ],
+  "edges": [
+    {
+      "source": "KR2023449822A1",
+      "target": "US2023906218B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "KR2023449822A1",
+      "target": "EP2023512077B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "KR2023449822A1",
+      "target": "CN2023171530A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "KR2023449822A1",
+      "target": "JP2023873443A1",
+      "type": "priority_claim"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "familyPublicId": "FAM-010",
+  "displayName": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+  "company": "The Estee Lauder Companies Inc.",
+  "companyKey": "estee_lauder",
+  "priorityYear": 2021,
+  "summary": "Stereospecific synthetic ceramide NP and AP liposomal dispersion improving barrier lipid packing density and reducing trans-epidermal water loss.",
+  "representative": {
+    "publicationNumber": "JP2024763429A1",
+    "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)"
+  },
+  "jurisdictions": [
+    "JP",
+    "US",
+    "EP",
+    "CN",
+    "DE"
+  ],
+  "members": [
+    {
+      "publicationNumber": "JP2024800357A1",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2024181221B2",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "US",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2024441204B1",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2024195420A1",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "CN",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "DE2024119067B2",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "DE",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "JP2024763429A1",
+      "label": "JP2024763429A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "JP",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "US2024181221B2",
+      "label": "US2024181221B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "EP2024441204B1",
+      "label": "EP2024441204B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "CN2024195420A1",
+      "label": "CN2024195420A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "DE2024119067B2",
+      "label": "DE2024119067B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "DE",
+      "title": "Natural Ceramide Complex Emulsions (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    }
+  ],
+  "edges": [
+    {
+      "source": "JP2024763429A1",
+      "target": "US2024181221B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "JP2024763429A1",
+      "target": "EP2024441204B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "JP2024763429A1",
+      "target": "CN2024195420A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "JP2024763429A1",
+      "target": "DE2024119067B2",
+      "type": "priority_claim"
+    }
+  ]
+}

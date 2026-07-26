@@ -1,0 +1,125 @@
+{
+  "familyPublicId": "FAM-048",
+  "displayName": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+  "company": "Intercos",
+  "companyKey": "intercos",
+  "priorityYear": 2024,
+  "summary": "Oil-in-water micellar hydrogel cleanser removing waterproof silicone pigments without stripping natural cutaneous sebum.",
+  "representative": {
+    "publicationNumber": "US2020529694A1",
+    "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)"
+  },
+  "jurisdictions": [
+    "US",
+    "EP",
+    "CN",
+    "JP",
+    "MX"
+  ],
+  "members": [
+    {
+      "publicationNumber": "US2020462014A1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+      "jurisdiction": "US",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2020370947A1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+      "jurisdiction": "EP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2020746761B1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2020589315B2",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+      "jurisdiction": "JP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "MX2020326437A1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+      "jurisdiction": "MX",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "US2020529694A1",
+      "label": "US2020529694A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "US",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "EP2020370947A1",
+      "label": "EP2020370947A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "CN2020746761B1",
+      "label": "CN2020746761B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "JP2020589315B2",
+      "label": "JP2020589315B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+      "assignee": "Intercos"
+    },
+    {
+      "id": "MX2020326437A1",
+      "label": "MX2020326437A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "MX",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Intercos)",
+      "assignee": "Intercos"
+    }
+  ],
+  "edges": [
+    {
+      "source": "US2020529694A1",
+      "target": "EP2020370947A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2020529694A1",
+      "target": "CN2020746761B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2020529694A1",
+      "target": "JP2020589315B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2020529694A1",
+      "target": "MX2020326437A1",
+      "type": "priority_claim"
+    }
+  ]
+}

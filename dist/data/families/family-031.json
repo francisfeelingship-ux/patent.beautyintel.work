@@ -1,0 +1,169 @@
+{
+  "familyPublicId": "FAM-031",
+  "displayName": "Active UV Filter Stabilization System (Firmenich)",
+  "company": "Firmenich",
+  "companyKey": "firmenich",
+  "priorityYear": 2021,
+  "summary": "Photostable UV filter matrix combining avobenzone with synergistic antioxidant triazines for broad-spectrum UVA/UVB photoprotection without degradation under solar radiation.",
+  "representative": {
+    "publicationNumber": "EP2021637080A1",
+    "title": "Active UV Filter Stabilization System (Firmenich)"
+  },
+  "jurisdictions": [
+    "EP",
+    "US",
+    "JP",
+    "CN",
+    "KR",
+    "BR",
+    "CA"
+  ],
+  "members": [
+    {
+      "publicationNumber": "EP2021491626A1",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "jurisdiction": "EP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2021224972B2",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "jurisdiction": "US",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2021496374B1",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "jurisdiction": "JP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2021359908B2",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2021439003A1",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "BR2021334647B2",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "jurisdiction": "BR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CA2021894294A1",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "jurisdiction": "CA",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "EP2021637080A1",
+      "label": "EP2021637080A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "EP",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "US2021224972B2",
+      "label": "US2021224972B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "JP2021496374B1",
+      "label": "JP2021496374B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "CN2021359908B2",
+      "label": "CN2021359908B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "KR2021439003A1",
+      "label": "KR2021439003A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "BR2021334647B2",
+      "label": "BR2021334647B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "BR",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "assignee": "Firmenich"
+    },
+    {
+      "id": "CA2021894294A1",
+      "label": "CA2021894294A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Active UV Filter Stabilization System (Firmenich)",
+      "assignee": "Firmenich"
+    }
+  ],
+  "edges": [
+    {
+      "source": "EP2021637080A1",
+      "target": "US2021224972B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2021637080A1",
+      "target": "JP2021496374B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2021637080A1",
+      "target": "CN2021359908B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2021637080A1",
+      "target": "KR2021439003A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2021637080A1",
+      "target": "BR2021334647B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2021637080A1",
+      "target": "CA2021894294A1",
+      "type": "priority_claim"
+    }
+  ]
+}

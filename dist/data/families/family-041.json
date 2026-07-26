@@ -1,0 +1,169 @@
+{
+  "familyPublicId": "FAM-041",
+  "displayName": "Active UV Filter Stabilization System (Coty)",
+  "company": "Coty",
+  "companyKey": "coty",
+  "priorityYear": 2024,
+  "summary": "Photostable UV filter matrix combining avobenzone with synergistic antioxidant triazines for broad-spectrum UVA/UVB photoprotection without degradation under solar radiation.",
+  "representative": {
+    "publicationNumber": "EP2025559060A1",
+    "title": "Active UV Filter Stabilization System (Coty)"
+  },
+  "jurisdictions": [
+    "EP",
+    "US",
+    "JP",
+    "CN",
+    "KR",
+    "BR",
+    "CA"
+  ],
+  "members": [
+    {
+      "publicationNumber": "EP2025258060A1",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "jurisdiction": "EP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2025820715A1",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "jurisdiction": "US",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2025170585A1",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2025183619B1",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2025867858B2",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "jurisdiction": "KR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "BR2025123033B1",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "jurisdiction": "BR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CA2025410255B1",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "jurisdiction": "CA",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "EP2025559060A1",
+      "label": "EP2025559060A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "EP",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "assignee": "Coty"
+    },
+    {
+      "id": "US2025820715A1",
+      "label": "US2025820715A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "assignee": "Coty"
+    },
+    {
+      "id": "JP2025170585A1",
+      "label": "JP2025170585A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "assignee": "Coty"
+    },
+    {
+      "id": "CN2025183619B1",
+      "label": "CN2025183619B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "assignee": "Coty"
+    },
+    {
+      "id": "KR2025867858B2",
+      "label": "KR2025867858B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "assignee": "Coty"
+    },
+    {
+      "id": "BR2025123033B1",
+      "label": "BR2025123033B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "BR",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "assignee": "Coty"
+    },
+    {
+      "id": "CA2025410255B1",
+      "label": "CA2025410255B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CA",
+      "title": "Active UV Filter Stabilization System (Coty)",
+      "assignee": "Coty"
+    }
+  ],
+  "edges": [
+    {
+      "source": "EP2025559060A1",
+      "target": "US2025820715A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2025559060A1",
+      "target": "JP2025170585A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2025559060A1",
+      "target": "CN2025183619B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2025559060A1",
+      "target": "KR2025867858B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2025559060A1",
+      "target": "BR2025123033B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "EP2025559060A1",
+      "target": "CA2025410255B1",
+      "type": "priority_claim"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "familyPublicId": "FAM-037",
+  "displayName": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+  "company": "Seppic",
+  "companyKey": "seppic",
+  "priorityYear": 2020,
+  "summary": "Polymer-shell microencapsulation technology protecting pure vitamin A active against oxidative thermal degradation with sustained time-release dermal delivery.",
+  "representative": {
+    "publicationNumber": "US2021807298A1",
+    "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)"
+  },
+  "jurisdictions": [
+    "US",
+    "EP",
+    "JP",
+    "CN",
+    "KR",
+    "FR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "US2021714276A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "jurisdiction": "US",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2021901045B1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2021452533A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2021512709A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "jurisdiction": "CN",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2021795994B1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "jurisdiction": "KR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "FR2021388980B2",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "jurisdiction": "FR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "US2021807298A1",
+      "label": "US2021807298A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "US",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "EP2021901045B1",
+      "label": "EP2021901045B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "JP2021452533A1",
+      "label": "JP2021452533A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "CN2021512709A1",
+      "label": "CN2021512709A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "KR2021795994B1",
+      "label": "KR2021795994B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "assignee": "Seppic"
+    },
+    {
+      "id": "FR2021388980B2",
+      "label": "FR2021388980B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Seppic)",
+      "assignee": "Seppic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "US2021807298A1",
+      "target": "EP2021901045B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2021807298A1",
+      "target": "JP2021452533A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2021807298A1",
+      "target": "CN2021512709A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2021807298A1",
+      "target": "KR2021795994B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2021807298A1",
+      "target": "FR2021388980B2",
+      "type": "priority_claim"
+    }
+  ]
+}

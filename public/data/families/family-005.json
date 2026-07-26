@@ -1,0 +1,125 @@
+{
+  "familyPublicId": "FAM-005",
+  "displayName": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+  "company": "Shiseido Company, Limited",
+  "companyKey": "shiseido",
+  "priorityYear": 2023,
+  "summary": "Bio-fermentative manufacturing process utilizing genetically optimized yeast strain to convert renewable plant sugars into high-purity cosmetic squalane.",
+  "representative": {
+    "publicationNumber": "KR2025787014A1",
+    "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)"
+  },
+  "jurisdictions": [
+    "KR",
+    "US",
+    "EP",
+    "CN",
+    "JP"
+  ],
+  "members": [
+    {
+      "publicationNumber": "KR2025349591A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2025338698B1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+      "jurisdiction": "US",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2025694809B2",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2025838422B1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2025619061B2",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+      "jurisdiction": "JP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "KR2025787014A1",
+      "label": "KR2025787014A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "KR",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "US2025338698B1",
+      "label": "US2025338698B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "EP2025694809B2",
+      "label": "EP2025694809B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "CN2025838422B1",
+      "label": "CN2025838422B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+      "assignee": "Shiseido Company, Limited"
+    },
+    {
+      "id": "JP2025619061B2",
+      "label": "JP2025619061B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Shiseido Company, Limited)",
+      "assignee": "Shiseido Company, Limited"
+    }
+  ],
+  "edges": [
+    {
+      "source": "KR2025787014A1",
+      "target": "US2025338698B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "KR2025787014A1",
+      "target": "EP2025694809B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "KR2025787014A1",
+      "target": "CN2025838422B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "KR2025787014A1",
+      "target": "JP2025619061B2",
+      "type": "priority_claim"
+    }
+  ]
+}

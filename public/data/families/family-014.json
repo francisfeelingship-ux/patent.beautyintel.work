@@ -1,0 +1,147 @@
+{
+  "familyPublicId": "FAM-014",
+  "displayName": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+  "company": "Kenvue",
+  "companyKey": "kenvue",
+  "priorityYear": 2018,
+  "summary": "Sulfate-free cleansing surfactant system utilizing polymeric rheology modifiers to yield rich micro-lather while maintaining lipid barrier integrity.",
+  "representative": {
+    "publicationNumber": "US2022895030A1",
+    "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)"
+  },
+  "jurisdictions": [
+    "US",
+    "EP",
+    "JP",
+    "CN",
+    "BR",
+    "MX"
+  ],
+  "members": [
+    {
+      "publicationNumber": "US2022217558A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "jurisdiction": "US",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2022656410B2",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2022376228A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2022872072B2",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "BR2022196082B1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "jurisdiction": "BR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "MX2022855299A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "jurisdiction": "MX",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "US2022895030A1",
+      "label": "US2022895030A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "US",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "EP2022656410B2",
+      "label": "EP2022656410B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "JP2022376228A1",
+      "label": "JP2022376228A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "CN2022872072B2",
+      "label": "CN2022872072B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "BR2022196082B1",
+      "label": "BR2022196082B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "BR",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "assignee": "Kenvue"
+    },
+    {
+      "id": "MX2022855299A1",
+      "label": "MX2022855299A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "MX",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Kenvue)",
+      "assignee": "Kenvue"
+    }
+  ],
+  "edges": [
+    {
+      "source": "US2022895030A1",
+      "target": "EP2022656410B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2022895030A1",
+      "target": "JP2022376228A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2022895030A1",
+      "target": "CN2022872072B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2022895030A1",
+      "target": "BR2022196082B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2022895030A1",
+      "target": "MX2022855299A1",
+      "type": "priority_claim"
+    }
+  ]
+}
