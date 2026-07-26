@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useMemo } from 'react';
 import { fetchTechnologyLandscape } from '../data/loaders';
 import { LandscapeData } from '../data/types';
 
@@ -30,12 +30,26 @@ const COMPANY_COLORS: Record<string, { r: number; g: number; b: number; hex: str
   'ashland': { r: 0.65, g: 0.95, b: 0.99, hex: '#a5f3fc', name: "Ashland" }
 };
 
+// Helper for dynamic company color assignment if an unlisted company key appears
+const getCompanyColorDetails = (key: string) => {
+  if (COMPANY_COLORS[key]) return COMPANY_COLORS[key];
+  let hash = 0;
+  for (let i = 0; i < key.length; i++) {
+    hash = key.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const h = Math.abs(hash) % 360;
+  const hex = `hsl(${h}, 70%, 60%)`;
+  const name = key.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  return { r: 0.5, g: 0.7, b: 0.9, hex, name };
+};
+
 export default function TechnologyLandscape() {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const tooltipRef = useRef<HTMLDivElement | null>(null);
   
   const [landscapeData, setLandscapeData] = useState<LandscapeData | null>(null);
-  const [selectedCompanies, setSelectedCompanies] = useState<string[]>(['loreal', 'beiersdorf', 'procter_gamble', 'shiseido', 'unilever']);
+  const [selectedCompanies, setSelectedCompanies] = useState<string[]>([]);
+  const [companySearch, setCompanySearch] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -57,6 +71,9 @@ export default function TechnologyLandscape() {
       try {
         const data = await fetchTechnologyLandscape();
         setLandscapeData(data);
+        // Extract all company keys dynamically and select all by default
+        const allKeys = Array.from(new Set(data.points.map(p => p[3])));
+        setSelectedCompanies(allKeys);
       } catch (err: any) {
         console.error(err);
         setError('Failed to load technology landscape visualization data.');
@@ -67,18 +84,45 @@ export default function TechnologyLandscape() {
     getData();
   }, []);
 
+  // Compute available company list dynamically
+  const availableCompanies = useMemo(() => {
+    if (!landscapeData) return [];
+    const keys = Array.from(new Set(landscapeData.points.map(p => p[3])));
+    return keys.map(key => ({
+      key,
+      ...getCompanyColorDetails(key)
+    })).sort((a, b) => a.name.localeCompare(b.name));
+  }, [landscapeData]);
+
+  // Filtered company list based on search term
+  const filteredCompanyList = useMemo(() => {
+    if (!companySearch.trim()) return availableCompanies;
+    const query = companySearch.toLowerCase();
+    return availableCompanies.filter(c => c.name.toLowerCase().includes(query) || c.key.toLowerCase().includes(query));
+  }, [availableCompanies, companySearch]);
+
   const handleCompanyToggle = (companyKey: string) => {
     setSelectedCompanies(prev => {
       if (prev.includes(companyKey)) {
-        // Enforce at least 1 checked
-        if (prev.length <= 1) return prev;
+        if (prev.length <= 1) return prev; // Enforce at least 1 checked
         return prev.filter(c => c !== companyKey);
       } else {
-        // Enforce limit of 5 checked
-        if (prev.length >= 5) return prev;
         return [...prev, companyKey];
       }
     });
+  };
+
+  const handleSelectAll = () => {
+    if (!landscapeData) return;
+    const allKeys = Array.from(new Set(landscapeData.points.map(p => p[3])));
+    setSelectedCompanies(allKeys);
+  };
+
+  const handleDeselectAll = () => {
+    if (availableCompanies.length > 0) {
+      // Keep top company selected
+      setSelectedCompanies([availableCompanies[0].key]);
+    }
   };
 
   // Build and manage Three.js Scene
@@ -97,7 +141,7 @@ export default function TechnologyLandscape() {
     sceneRef.current = scene;
 
     const camera = new THREE.PerspectiveCamera(45, width / height, 1, 2000);
-    camera.position.set(0, 200, 480);
+    camera.position.set(0, 220, 520);
     cameraRef.current = camera;
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
@@ -111,8 +155,8 @@ export default function TechnologyLandscape() {
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.dampingFactor = 0.05;
-    controls.maxDistance = 800;
-    controls.minDistance = 100;
+    controls.maxDistance = 900;
+    controls.minDistance = 80;
     controlsRef.current = controls;
 
     // 3. Create Group for points
@@ -129,10 +173,10 @@ export default function TechnologyLandscape() {
     // Create domain text billboards / centers in a circle
     domains.forEach((dom, idx) => {
       const theta = (idx / domains.length) * Math.PI * 2;
-      const r = 170;
+      const r = 185;
       const x = r * Math.cos(theta);
       const z = r * Math.sin(theta);
-      const y = 30 * Math.sin(theta * 3);
+      const y = 35 * Math.sin(theta * 3);
       domainCenters[dom] = new THREE.Vector3(x, y, z);
 
       // Create text label billboard
@@ -141,13 +185,13 @@ export default function TechnologyLandscape() {
       canvas.height = 64;
       const ctx = canvas.getContext('2d');
       if (ctx) {
-        ctx.fillStyle = 'rgba(7, 9, 14, 0.75)';
+        ctx.fillStyle = 'rgba(7, 9, 14, 0.85)';
         ctx.fillRect(0, 0, 256, 64);
-        ctx.strokeStyle = 'rgba(0, 210, 255, 0.4)';
+        ctx.strokeStyle = 'rgba(0, 210, 255, 0.5)';
         ctx.lineWidth = 2;
         ctx.strokeRect(0, 0, 256, 64);
 
-        ctx.font = 'bold 16px Outfit, Inter, sans-serif';
+        ctx.font = 'bold 15px Outfit, Inter, sans-serif';
         ctx.fillStyle = '#ffffff';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
@@ -157,8 +201,8 @@ export default function TechnologyLandscape() {
       const texture = new THREE.CanvasTexture(canvas);
       const spriteMaterial = new THREE.SpriteMaterial({ map: texture, transparent: true });
       const sprite = new THREE.Sprite(spriteMaterial);
-      sprite.scale.set(70, 18, 1);
-      sprite.position.set(x, y + 36, z);
+      sprite.scale.set(72, 18, 1);
+      sprite.position.set(x, y + 42, z);
       pointsGroup.add(sprite);
     });
 
@@ -178,7 +222,7 @@ export default function TechnologyLandscape() {
     if (pCtx) {
       const gradient = pCtx.createRadialGradient(16, 16, 0, 16, 16, 16);
       gradient.addColorStop(0, 'rgba(255, 255, 255, 1)');
-      gradient.addColorStop(0.3, 'rgba(255, 255, 255, 0.8)');
+      gradient.addColorStop(0.3, 'rgba(255, 255, 255, 0.85)');
       gradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
       pCtx.fillStyle = gradient;
       pCtx.fillRect(0, 0, 32, 32);
@@ -186,7 +230,7 @@ export default function TechnologyLandscape() {
     const pTexture = new THREE.CanvasTexture(pCanvas);
 
     // Distribute points in clusters around domain centers (seeded random so they remain fixed)
-    let s = 999; // Seed
+    let s = 999;
     const rand = () => {
       const x = Math.sin(s++) * 10000;
       return x - Math.floor(x);
@@ -200,7 +244,7 @@ export default function TechnologyLandscape() {
       }
 
       // Spherical random offset
-      const rSpread = 28;
+      const rSpread = 36;
       const u = rand();
       const v = rand();
       const w = rand();
@@ -217,8 +261,8 @@ export default function TechnologyLandscape() {
       positions[i * 3 + 1] = center.y + dy;
       positions[i * 3 + 2] = center.z + dz;
 
-      // Color from company
-      const cColor = COMPANY_COLORS[companyKey] || { r: 0.6, g: 0.6, b: 0.6 };
+      // Color from company details
+      const cColor = getCompanyColorDetails(companyKey);
       colors[i * 3] = cColor.r;
       colors[i * 3 + 1] = cColor.g;
       colors[i * 3 + 2] = cColor.b;
@@ -229,7 +273,7 @@ export default function TechnologyLandscape() {
     geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
 
     const pointMaterial = new THREE.PointsMaterial({
-      size: 4.5,
+      size: 3.6,
       map: pTexture,
       transparent: true,
       depthWrite: false,
@@ -247,7 +291,7 @@ export default function TechnologyLandscape() {
       animationFrameIdRef.current = requestAnimationFrame(animate);
 
       // Slow passive rotation
-      angle += 0.0006;
+      angle += 0.0005;
       pointsGroup.rotation.y = angle;
 
       controls.update();
@@ -257,7 +301,7 @@ export default function TechnologyLandscape() {
 
     // 7. Raycaster / Mouse Interaction
     const raycaster = new THREE.Raycaster();
-    raycaster.params.Points.threshold = 4.0; // Click sensitivity threshold
+    raycaster.params.Points.threshold = 4.0;
     const mouse = new THREE.Vector2();
     const tooltip = tooltipRef.current;
 
@@ -268,23 +312,22 @@ export default function TechnologyLandscape() {
 
       raycaster.setFromCamera(mouse, camera);
 
-      // Need to transform points position by pointsGroup rotation to correctly intersect
       const intersects = raycaster.intersectObject(pointCloud);
 
       if (intersects.length > 0) {
         const index = intersects[0].index;
         if (index !== undefined && index >= 0 && index < allPointsMetaRef.current.length && tooltip) {
-          const [pub, title, domain, companyKey] = allPointsMetaRef.current[index];
-          const companyName = COMPANY_COLORS[companyKey]?.name || companyKey;
+          const [pub, title, domain, companyKey, famSize] = allPointsMetaRef.current[index];
+          const companyDetails = getCompanyColorDetails(companyKey);
           
           tooltip.classList.add('visible');
           tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
           tooltip.style.top = (event.clientY - rect.top - 15) + 'px';
           tooltip.innerHTML = `
-            <h4>${pub}</h4>
+            <h4>${pub} <span style="font-size:0.7rem; font-weight:normal; opacity:0.8; margin-left:6px;">(${famSize || 1} family members)</span></h4>
             <p>${title}</p>
             <span>${formatDomain(domain)}</span>
-            <div>${companyName}</div>
+            <div style="color:${companyDetails.hex}; font-weight:600;">${companyDetails.name}</div>
           `;
         }
       } else {
@@ -318,7 +361,6 @@ export default function TechnologyLandscape() {
       if (rendererRef.current) {
         rendererRef.current.dispose();
       }
-      // Clear geometries and materials
       pointCloud.geometry.dispose();
       (pointCloud.material as any).dispose();
       pointsGroup.children.forEach((c: any) => {
@@ -331,9 +373,9 @@ export default function TechnologyLandscape() {
 
   if (loading) {
     return (
-      <div style={{ display: 'flex', justifyContent: 'center', padding: '50px', color: 'var(--accent-blue)' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '60px', color: 'var(--accent-blue)' }}>
         <i className="fa-solid fa-circle-notch fa-spin" style={{ fontSize: '2rem', marginRight: '10px' }}></i>
-        <span>Loading technology landscape points...</span>
+        <span>Loading technology landscape dots (23,361 patent parent families)...</span>
       </div>
     );
   }
@@ -347,6 +389,9 @@ export default function TechnologyLandscape() {
     );
   }
 
+  const totalPoints = landscapeData ? landscapeData.points.length : 0;
+  const visiblePointsCount = allPointsMetaRef.current.length;
+
   return (
     <section className="tab-content active" style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
       
@@ -354,81 +399,142 @@ export default function TechnologyLandscape() {
       <div className="cloud-panel" style={{ background: 'var(--glass-bg)', border: '1px solid var(--glass-border)', padding: '20px 24px', borderRadius: 'var(--border-radius-md)' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '15px' }}>
           <div>
-            <h3 style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-bright)', fontSize: '1.2rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <i className="fa-solid fa-cube" style={{ color: 'var(--accent-blue)' }}></i> Technology Landscape Preview
+            <h3 style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-bright)', fontSize: '1.25rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
+              <i className="fa-solid fa-cube" style={{ color: 'var(--accent-blue)' }}></i> 3D Technology Landscape
+              <span 
+                style={{ 
+                  background: 'rgba(0, 210, 255, 0.12)', 
+                  border: '1px solid rgba(0, 210, 255, 0.3)', 
+                  color: 'var(--accent-blue)', 
+                  fontSize: '0.78rem', 
+                  padding: '3px 10px', 
+                  borderRadius: '12px',
+                  fontWeight: 600
+                }}
+              >
+                {visiblePointsCount.toLocaleString()} / {totalPoints.toLocaleString()} Parent Family Dots
+              </span>
             </h3>
-            <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '4px' }}>
-              Interactive 3D particle cluster of global cosmetic patent portfolios. Color-coded by company.
+            <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', marginTop: '4px' }}>
+              Interactive 3D cluster representing 100% of global cosmetic patent parent families across all company portfolios.
             </p>
           </div>
           
-          <div 
-            style={{ 
-              background: 'rgba(245, 158, 11, 0.08)', 
-              border: '1px solid rgba(245, 158, 11, 0.25)', 
-              padding: '8px 14px', 
-              borderRadius: '6px',
-              fontSize: '0.78rem',
-              color: 'var(--color-warning)',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '8px',
-              maxWidth: '460px'
-            }}
-          >
-            <i className="fa-solid fa-triangle-exclamation" style={{ fontSize: '1rem' }}></i>
-            <span><strong>Notice:</strong> Patent-level exploration is available in the full research environment.</span>
+          {/* Quick Controls */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
+            <button 
+              onClick={handleSelectAll}
+              style={{
+                background: 'rgba(0, 210, 255, 0.12)',
+                border: '1px solid rgba(0, 210, 255, 0.3)',
+                color: 'var(--text-bright)',
+                padding: '6px 14px',
+                borderRadius: '6px',
+                fontSize: '0.78rem',
+                cursor: 'pointer',
+                fontWeight: 600,
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}
+            >
+              <i className="fa-solid fa-check-double"></i> Select All Companies ({availableCompanies.length})
+            </button>
+            <button 
+              onClick={handleDeselectAll}
+              style={{
+                background: 'rgba(255, 255, 255, 0.05)',
+                border: '1px solid var(--glass-border)',
+                color: 'var(--text-secondary)',
+                padding: '6px 14px',
+                borderRadius: '6px',
+                fontSize: '0.78rem',
+                cursor: 'pointer',
+                fontWeight: 500,
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}
+            >
+              <i className="fa-solid fa-xmark"></i> Clear Filters
+            </button>
           </div>
         </div>
 
-        {/* Company filter list */}
-        <div className="cloud-company-selector" style={{ marginTop: '16px', borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '12px' }}>
-          <span className="selector-title" style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600, display: 'inline-block', marginBottom: '8px' }}>
-            <i className="fa-solid fa-filter" style={{ color: 'var(--accent-blue)', marginRight: '6px' }}></i> Filter Portfolios (Select up to 5):
-          </span>
+        {/* Company filter list & search */}
+        <div className="cloud-company-selector" style={{ marginTop: '16px', borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '14px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px', flexWrap: 'wrap', gap: '10px' }}>
+            <span className="selector-title" style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
+              <i className="fa-solid fa-filter" style={{ color: 'var(--accent-blue)', marginRight: '6px' }}></i> Filter Company Portfolios ({selectedCompanies.length} selected of {availableCompanies.length}):
+            </span>
+            
+            <div style={{ position: 'relative', width: '220px' }}>
+              <i className="fa-solid fa-magnifying-glass" style={{ position: 'absolute', left: '10px', top: '50%', transform: 'translateY(-50%)', fontSize: '0.75rem', color: 'var(--text-secondary)' }}></i>
+              <input 
+                type="text" 
+                placeholder="Search company..."
+                value={companySearch}
+                onChange={(e) => setCompanySearch(e.target.value)}
+                style={{
+                  width: '100%',
+                  padding: '5px 10px 5px 28px',
+                  background: 'rgba(0, 0, 0, 0.4)',
+                  border: '1px solid var(--glass-border)',
+                  borderRadius: '14px',
+                  color: 'var(--text-bright)',
+                  fontSize: '0.75rem',
+                  outline: 'none'
+                }}
+              />
+            </div>
+          </div>
+
           <div 
             className="company-checkboxes" 
             style={{ 
               display: 'grid', 
-              gridTemplateColumns: 'repeat(auto-fill, minmax(170px, 1fr))', 
+              gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', 
               gap: '8px',
-              maxHeight: '120px',
+              maxHeight: '140px',
               overflowY: 'auto',
               padding: '10px',
-              background: 'rgba(0,0,0,0.2)',
+              background: 'rgba(0,0,0,0.25)',
               borderRadius: '8px',
               border: '1px solid rgba(255,255,255,0.04)'
             }}
           >
-            {Object.entries(COMPANY_COLORS).map(([key, details]) => (
-              <label 
-                key={key} 
-                style={{ 
-                  display: 'flex', 
-                  alignItems: 'center', 
-                  gap: '8px', 
-                  fontSize: '0.8rem', 
-                  cursor: 'pointer',
-                  padding: '6px 12px',
-                  background: 'rgba(255,255,255,0.01)',
-                  border: '1px solid',
-                  borderColor: selectedCompanies.includes(key) ? details.hex : 'var(--glass-border)',
-                  borderRadius: '16px',
-                  color: selectedCompanies.includes(key) ? 'var(--text-bright)' : 'var(--text-secondary)',
-                  transition: 'all 0.2s ease'
-                }}
-              >
-                <input 
-                  type="checkbox" 
-                  value={key}
-                  checked={selectedCompanies.includes(key)}
-                  onChange={() => handleCompanyToggle(key)}
-                  style={{ display: 'none' }}
-                />
-                <span style={{ width: '8px', height: '8px', backgroundColor: details.hex, borderRadius: '50%', display: 'inline-block' }}></span>
-                {details.name}
-              </label>
-            ))}
+            {filteredCompanyList.map((details) => {
+              const isSelected = selectedCompanies.includes(details.key);
+              return (
+                <label 
+                  key={details.key} 
+                  style={{ 
+                    display: 'flex', 
+                    alignItems: 'center', 
+                    gap: '8px', 
+                    fontSize: '0.78rem', 
+                    cursor: 'pointer',
+                    padding: '5px 10px',
+                    background: isSelected ? 'rgba(255,255,255,0.04)' : 'transparent',
+                    border: '1px solid',
+                    borderColor: isSelected ? details.hex : 'transparent',
+                    borderRadius: '14px',
+                    color: isSelected ? 'var(--text-bright)' : 'var(--text-secondary)',
+                    transition: 'all 0.15s ease'
+                  }}
+                >
+                  <input 
+                    type="checkbox" 
+                    value={details.key}
+                    checked={isSelected}
+                    onChange={() => handleCompanyToggle(details.key)}
+                    style={{ display: 'none' }}
+                  />
+                  <span style={{ width: '9px', height: '9px', backgroundColor: details.hex, borderRadius: '50%', display: 'inline-block', flexShrink: 0 }}></span>
+                  <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{details.name}</span>
+                </label>
+              );
+            })}
           </div>
         </div>
       </div>
@@ -441,7 +547,7 @@ export default function TechnologyLandscape() {
           background: 'var(--glass-bg)', 
           border: '1px solid var(--glass-border)',
           borderRadius: 'var(--border-radius-md)',
-          height: '520px',
+          height: '560px',
           overflow: 'hidden'
         }}
       >
@@ -449,29 +555,44 @@ export default function TechnologyLandscape() {
         <div ref={containerRef} style={{ width: '100%', height: '100%' }}></div>
 
         {/* Legend overlay */}
-        <div className="cloud-legend-overlay" style={{ position: 'absolute', top: '15px', left: '15px', background: 'rgba(7, 10, 17, 0.85)', padding: '12px', border: '1px solid var(--glass-border)', borderRadius: '6px', fontSize: '0.72rem' }}>
-          <div className="cloud-legend-title" style={{ fontWeight: 700, color: 'var(--text-bright)', marginBottom: '8px' }}>
-            <i className="fa-solid fa-tags"></i> Company Color Legend
+        <div 
+          className="cloud-legend-overlay" 
+          style={{ 
+            position: 'absolute', 
+            top: '15px', 
+            left: '15px', 
+            background: 'rgba(7, 10, 17, 0.88)', 
+            padding: '12px 14px', 
+            border: '1px solid var(--glass-border)', 
+            borderRadius: '8px', 
+            fontSize: '0.72rem',
+            maxHeight: '220px',
+            overflowY: 'auto',
+            width: '210px'
+          }}
+        >
+          <div className="cloud-legend-title" style={{ fontWeight: 700, color: 'var(--text-bright)', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <i className="fa-solid fa-tags" style={{ color: 'var(--accent-blue)' }}></i> Company Color Legend ({selectedCompanies.length})
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-            {selectedCompanies.map(key => (
-              <div key={key} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <span style={{ display: 'inline-block', width: '8px', height: '8px', backgroundColor: COMPANY_COLORS[key].hex, borderRadius: '50%' }}></span>
-                <span>{COMPANY_COLORS[key].name}</span>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
+            {availableCompanies.filter(c => selectedCompanies.includes(c.key)).map(c => (
+              <div key={c.key} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span style={{ display: 'inline-block', width: '8px', height: '8px', backgroundColor: c.hex, borderRadius: '50%', flexShrink: 0 }}></span>
+                <span style={{ color: 'var(--text-bright)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{c.name}</span>
               </div>
             ))}
           </div>
         </div>
 
         {/* Navigation instructions */}
-        <div className="cloud-instructions-overlay" style={{ position: 'absolute', bottom: '15px', right: '15px', background: 'rgba(7, 10, 17, 0.85)', padding: '12px', border: '1px solid var(--glass-border)', borderRadius: '6px', fontSize: '0.72rem', display: 'flex', flexDirection: 'column', gap: '6px', pointerEvents: 'none' }}>
-          <div className="instruction-title" style={{ fontWeight: 700, color: 'var(--accent-blue)', marginBottom: '4px' }}>
-            <i className="fa-solid fa-hand-pointer"></i> Navigation Controls
+        <div className="cloud-instructions-overlay" style={{ position: 'absolute', bottom: '15px', right: '15px', background: 'rgba(7, 10, 17, 0.88)', padding: '12px 14px', border: '1px solid var(--glass-border)', borderRadius: '8px', fontSize: '0.72rem', display: 'flex', flexDirection: 'column', gap: '6px', pointerEvents: 'none' }}>
+          <div className="instruction-title" style={{ fontWeight: 700, color: 'var(--accent-blue)', marginBottom: '2px' }}>
+            <i className="fa-solid fa-hand-pointer"></i> 3D Navigation Controls
           </div>
-          <div><i className="fa-solid fa-arrows-spin" style={{ marginRight: '6px' }}></i> Drag Mouse: Spin Cloud</div>
+          <div><i className="fa-solid fa-arrows-spin" style={{ marginRight: '6px' }}></i> Left Click + Drag: Rotate Cloud</div>
           <div><i className="fa-solid fa-arrows-up-down" style={{ marginRight: '6px' }}></i> Scroll Wheel: Zoom In/Out</div>
-          <div><i className="fa-solid fa-up-down-left-right" style={{ marginRight: '6px' }}></i> Right Click + Drag: Pan Camera</div>
-          <div><i className="fa-solid fa-arrow-pointer" style={{ marginRight: '6px' }}></i> Hover Point: View Patent Info</div>
+          <div><i className="fa-solid fa-up-down-left-right" style={{ marginRight: '6px' }}></i> Right Click + Drag: Pan View</div>
+          <div><i className="fa-solid fa-arrow-pointer" style={{ marginRight: '6px' }}></i> Hover Point: Inspect Parent Family</div>
         </div>
 
         {/* Tooltip element */}
