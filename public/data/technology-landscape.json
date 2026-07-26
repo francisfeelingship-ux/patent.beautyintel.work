@@ -1,0 +1,8 @@
+{
+  "domains": ["Skin Care", "Hair Care", "Make-up & Cosmetics", "Cleansing & Hygiene", "Sun Protection", "Fragrance"],
+  "points": [
+    ["pt-0", "Skin Care", "Skin Care", "L'Oreal", 9840],
+    ["pt-1", "Hair Care", "Hair Care", "L'Oreal", 5420],
+    ["pt-2", "Make-up & Cosmetics", "Make-up & Cosmetics", "Shiseido Company, Limited", 4180]
+  ]
+}
