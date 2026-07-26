@@ -215,3 +215,6 @@ venv/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+.dev.vars*
+!.dev.vars.example
