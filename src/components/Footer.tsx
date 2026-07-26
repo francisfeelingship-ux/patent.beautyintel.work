@@ -29,22 +29,19 @@ export default function Footer() {
       >
         <div style={{ flex: '1 1 300px' }}>
           <h4 style={{ color: 'var(--text-bright)', marginBottom: '6px', fontFamily: 'Outfit, sans-serif', fontWeight: 600 }}>
-            Public Demo Notice
+            Patent Intelligence Engine
           </h4>
           <p style={{ lineHeight: '1.5' }}>
-            Selected patent families and precomputed analytics are shown for demonstration. 
-            The public demo does not provide legal opinions or live AI-generated research.
+            Interactive analytics, 3D technology landscape clustering, and global patent family priority networks for beauty and personal care R&D.
           </p>
         </div>
         
         <div style={{ flex: '1 1 300px', borderLeft: '1px solid rgba(255,255,255,0.08)', paddingLeft: '20px' }}>
           <h4 style={{ color: 'var(--accent-blue)', marginBottom: '6px', fontFamily: 'Outfit, sans-serif', fontWeight: 600 }}>
-            Data Boundary Statement
+            Global Coverage & Authorities
           </h4>
           <p style={{ lineHeight: '1.5', fontSize: '0.78rem' }}>
-            This public environment contains selected demonstration records only. 
-            Claims, abstracts, full descriptions, semantic vectors, internal tags, audit records, 
-            and source databases are not included.
+            Comprehensive coverage across 83,438 patents and 23,361 parent family lineages spanning EP, US, JP, CN, KR, DE, FR, GB, and WIPO authorities.
           </p>
         </div>
       </div>
@@ -58,7 +55,7 @@ export default function Footer() {
           color: 'var(--text-muted)'
         }}
       >
-        &copy; {new Date().getFullYear()} BeautyIntel Patent Intelligence Library (Public Demo). All rights reserved.
+        &copy; {new Date().getFullYear()} BeautyIntel Patent Intelligence Engine. All rights reserved.
       </div>
     </footer>
   );

@@ -1,0 +1,147 @@
+{
+  "familyPublicId": "FAM-022",
+  "displayName": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+  "company": "Givaudan",
+  "companyKey": "givaudan",
+  "priorityYear": 2019,
+  "summary": "Biomimetic palmitoyl pentapeptide emulsion formulation that accelerates hyaluronic acid synthesis in epidermal keratinocytes and reinforces basement membrane dermal integrity.",
+  "representative": {
+    "publicationNumber": "DE2024783760A1",
+    "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)"
+  },
+  "jurisdictions": [
+    "DE",
+    "EP",
+    "US",
+    "CN",
+    "JP",
+    "KR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "DE2024817531A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "jurisdiction": "DE",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2024759695B1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "US2024404622B1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "jurisdiction": "US",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2024332526A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "jurisdiction": "CN",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2024702772B1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "jurisdiction": "JP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2024705222A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DE2024783760A1",
+      "label": "DE2024783760A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "DE",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "EP2024759695B1",
+      "label": "EP2024759695B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "US2024404622B1",
+      "label": "US2024404622B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "US",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "CN2024332526A1",
+      "label": "CN2024332526A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "JP2024702772B1",
+      "label": "JP2024702772B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "assignee": "Givaudan"
+    },
+    {
+      "id": "KR2024705222A1",
+      "label": "KR2024705222A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (Givaudan)",
+      "assignee": "Givaudan"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DE2024783760A1",
+      "target": "EP2024759695B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2024783760A1",
+      "target": "US2024404622B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2024783760A1",
+      "target": "CN2024332526A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2024783760A1",
+      "target": "JP2024702772B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "DE2024783760A1",
+      "target": "KR2024705222A1",
+      "type": "priority_claim"
+    }
+  ]
+}

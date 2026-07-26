@@ -1,501 +1,125 @@
 {
-  "familyPublicId": "DEMO-FAMILY-019",
-  "displayName": "Oil-in-Water Matte Lipstick Emulsions",
-  "company": "Coty",
-  "priorityYear": 2021,
-  "summary": "Volatile silicone emulsions drying to a flexible matte film, providing 16-hour transfer-resistant color on lips.",
+  "familyPublicId": "FAM-019",
+  "displayName": "Probiotic Skin Microbiome Regulators (Unilever)",
+  "company": "Unilever",
+  "companyKey": "unilever",
+  "priorityYear": 2023,
+  "summary": "Lactobacillus postbiotic ferment lysate composition modulating Cutibacterium acnes colonization while enhancing anti-microbial peptide expression.",
   "representative": {
-    "publicationNumber": "DEMO-COT-1919",
-    "title": "Pigmented oil-in-water emulsions with matte film-forming polymers"
+    "publicationNumber": "US2021350036A1",
+    "title": "Probiotic Skin Microbiome Regulators (Unilever)"
   },
   "jurisdictions": [
     "US",
     "EP",
-    "FR",
-    "DE"
+    "CN",
+    "JP",
+    "KR"
   ],
   "members": [
     {
-      "publicationNumber": "DEMO-COT-1919",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers",
+      "publicationNumber": "US2021921179A1",
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)",
       "jurisdiction": "US",
-      "kind": "grant",
-      "type": "core"
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-COT-EQ01",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in EP)",
+      "publicationNumber": "EP2021818127B1",
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)",
       "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-COT-EQ02",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in FR)",
-      "jurisdiction": "FR",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "publicationNumber": "CN2021465036B1",
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-COT-EQ03",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in DE)",
-      "jurisdiction": "DE",
-      "kind": "application",
-      "type": "equivalent"
+      "publicationNumber": "JP2021489042A1",
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-COT-EQ04",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-COT-EQ05",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-COT-EQ06",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in FR)",
-      "jurisdiction": "FR",
-      "kind": "application",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-COT-EQ07",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in DE)",
-      "jurisdiction": "DE",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-COT-EQ08",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-COT-EQ09",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "application",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-COT-EQ10",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in FR)",
-      "jurisdiction": "FR",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "publicationNumber": "KR2021731591B2",
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)",
+      "jurisdiction": "KR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
     }
   ],
   "nodes": [
     {
-      "id": "DEMO-COT-1919",
-      "label": "DEMO-COT-1919",
-      "type": "core",
+      "id": "US2021350036A1",
+      "label": "US2021350036A1",
+      "type": "representative",
       "is_representative": true,
       "country": "US",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers",
-      "assignee": "Coty"
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)",
+      "assignee": "Unilever"
     },
     {
-      "id": "DEMO-COT-EQ01",
-      "label": "DEMO-COT-EQ01",
-      "type": "equivalent",
+      "id": "EP2021818127B1",
+      "label": "EP2021818127B1",
+      "type": "member",
       "is_representative": false,
       "country": "EP",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in EP)",
-      "assignee": "Coty"
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)",
+      "assignee": "Unilever"
     },
     {
-      "id": "DEMO-COT-EQ02",
-      "label": "DEMO-COT-EQ02",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in FR)",
-      "assignee": "Coty"
-    },
-    {
-      "id": "DEMO-COT-EQ03",
-      "label": "DEMO-COT-EQ03",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in DE)",
-      "assignee": "Coty"
-    },
-    {
-      "id": "DEMO-COT-EQ04",
-      "label": "DEMO-COT-EQ04",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in US)",
-      "assignee": "Coty"
-    },
-    {
-      "id": "DEMO-COT-EQ05",
-      "label": "DEMO-COT-EQ05",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in EP)",
-      "assignee": "Coty"
-    },
-    {
-      "id": "DEMO-COT-EQ06",
-      "label": "DEMO-COT-EQ06",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in FR)",
-      "assignee": "Coty"
-    },
-    {
-      "id": "DEMO-COT-EQ07",
-      "label": "DEMO-COT-EQ07",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in DE)",
-      "assignee": "Coty"
-    },
-    {
-      "id": "DEMO-COT-EQ08",
-      "label": "DEMO-COT-EQ08",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in US)",
-      "assignee": "Coty"
-    },
-    {
-      "id": "DEMO-COT-EQ09",
-      "label": "DEMO-COT-EQ09",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in EP)",
-      "assignee": "Coty"
-    },
-    {
-      "id": "DEMO-COT-EQ10",
-      "label": "DEMO-COT-EQ10",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Pigmented oil-in-water emulsions with matte film-forming polymers (Equivalent filing in FR)",
-      "assignee": "Coty"
-    },
-    {
-      "id": "REF-CRO-01",
-      "label": "REF-CRO-01",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Croda"
-    },
-    {
-      "id": "REF-KEN-02",
-      "label": "REF-KEN-02",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "REF-SHI-03",
-      "label": "REF-SHI-03",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-EST-04",
-      "label": "REF-EST-04",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Estee Lauder Companies Inc."
-    },
-    {
-      "id": "REF-COS-05",
-      "label": "REF-COS-05",
-      "type": "citation",
+      "id": "CN2021465036B1",
+      "label": "CN2021465036B1",
+      "type": "member",
       "is_representative": false,
       "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Cosmax"
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)",
+      "assignee": "Unilever"
     },
     {
-      "id": "REF-BAS-06",
-      "label": "REF-BAS-06",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "BASF"
-    },
-    {
-      "id": "REF-KAO-07",
-      "label": "REF-KAO-07",
-      "type": "citation",
+      "id": "JP2021489042A1",
+      "label": "JP2021489042A1",
+      "type": "member",
       "is_representative": false,
       "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kao Corp"
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)",
+      "assignee": "Unilever"
     },
     {
-      "id": "REF-CRO-08",
-      "label": "REF-CRO-08",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Croda"
-    },
-    {
-      "id": "REF-BEI-09",
-      "label": "REF-BEI-09",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "REF-COT-10",
-      "label": "REF-COT-10",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Coty"
-    },
-    {
-      "id": "REF-REV-11",
-      "label": "REF-REV-11",
-      "type": "citation",
+      "id": "KR2021731591B2",
+      "label": "KR2021731591B2",
+      "type": "member",
       "is_representative": false,
       "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Revlon"
-    },
-    {
-      "id": "REF-COL-12",
-      "label": "REF-COL-12",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "REF-BEI-13",
-      "label": "REF-BEI-13",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "REF-REV-14",
-      "label": "REF-REV-14",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Revlon"
-    },
-    {
-      "id": "REF-EST-15",
-      "label": "REF-EST-15",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Estee Lauder Companies Inc."
-    },
-    {
-      "id": "REF-KAO-16",
-      "label": "REF-KAO-16",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "REF-SHI-17",
-      "label": "REF-SHI-17",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-FIR-18",
-      "label": "REF-FIR-18",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Firmenich"
+      "title": "Probiotic Skin Microbiome Regulators (Unilever)",
+      "assignee": "Unilever"
     }
   ],
   "edges": [
     {
-      "source": "DEMO-COT-1919",
-      "target": "DEMO-COT-EQ01",
-      "type": "equivalent"
+      "source": "US2021350036A1",
+      "target": "EP2021818127B1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-COT-1919",
-      "target": "DEMO-COT-EQ02",
-      "type": "equivalent"
+      "source": "US2021350036A1",
+      "target": "CN2021465036B1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-COT-1919",
-      "target": "DEMO-COT-EQ03",
-      "type": "equivalent"
+      "source": "US2021350036A1",
+      "target": "JP2021489042A1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-COT-1919",
-      "target": "DEMO-COT-EQ04",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-COT-1919",
-      "target": "DEMO-COT-EQ05",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-COT-1919",
-      "target": "DEMO-COT-EQ06",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-COT-1919",
-      "target": "DEMO-COT-EQ07",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-COT-1919",
-      "target": "DEMO-COT-EQ08",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-COT-1919",
-      "target": "DEMO-COT-EQ09",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-COT-1919",
-      "target": "DEMO-COT-EQ10",
-      "type": "equivalent"
-    },
-    {
-      "source": "REF-CRO-01",
-      "target": "DEMO-COT-EQ03",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KEN-02",
-      "target": "DEMO-COT-1919",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-03",
-      "target": "DEMO-COT-1919",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EST-04",
-      "target": "DEMO-COT-EQ01",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COS-05",
-      "target": "DEMO-COT-EQ07",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BAS-06",
-      "target": "DEMO-COT-1919",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KAO-07",
-      "target": "DEMO-COT-EQ06",
-      "type": "citation"
-    },
-    {
-      "source": "REF-CRO-08",
-      "target": "REF-CRO-01",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BEI-09",
-      "target": "DEMO-COT-1919",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COT-10",
-      "target": "DEMO-COT-1919",
-      "type": "citation"
-    },
-    {
-      "source": "REF-REV-11",
-      "target": "DEMO-COT-1919",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COL-12",
-      "target": "DEMO-COT-1919",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BEI-13",
-      "target": "DEMO-COT-1919",
-      "type": "citation"
-    },
-    {
-      "source": "REF-REV-14",
-      "target": "DEMO-COT-1919",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EST-15",
-      "target": "DEMO-COT-EQ10",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KAO-16",
-      "target": "REF-KEN-02",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-17",
-      "target": "DEMO-COT-1919",
-      "type": "citation"
-    },
-    {
-      "source": "REF-FIR-18",
-      "target": "DEMO-COT-EQ02",
-      "type": "citation"
+      "source": "US2021350036A1",
+      "target": "KR2021731591B2",
+      "type": "priority_claim"
     }
   ]
 }

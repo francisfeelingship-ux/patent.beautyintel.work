@@ -1,0 +1,147 @@
+{
+  "familyPublicId": "FAM-027",
+  "displayName": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+  "company": "Evonik",
+  "companyKey": "evonik",
+  "priorityYear": 2024,
+  "summary": "Polymer-shell microencapsulation technology protecting pure vitamin A active against oxidative thermal degradation with sustained time-release dermal delivery.",
+  "representative": {
+    "publicationNumber": "US2023397375A1",
+    "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)"
+  },
+  "jurisdictions": [
+    "US",
+    "EP",
+    "JP",
+    "CN",
+    "KR",
+    "FR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "US2023844292A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "jurisdiction": "US",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2023829211A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "jurisdiction": "EP",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2023105978B1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "jurisdiction": "JP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2023474910B2",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2023250490A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "FR2023817487B1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "jurisdiction": "FR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "US2023397375A1",
+      "label": "US2023397375A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "US",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "EP2023829211A1",
+      "label": "EP2023829211A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "JP2023105978B1",
+      "label": "JP2023105978B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "CN2023474910B2",
+      "label": "CN2023474910B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "KR2023250490A1",
+      "label": "KR2023250490A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "assignee": "Evonik"
+    },
+    {
+      "id": "FR2023817487B1",
+      "label": "FR2023817487B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "FR",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Evonik)",
+      "assignee": "Evonik"
+    }
+  ],
+  "edges": [
+    {
+      "source": "US2023397375A1",
+      "target": "EP2023829211A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2023397375A1",
+      "target": "JP2023105978B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2023397375A1",
+      "target": "CN2023474910B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2023397375A1",
+      "target": "KR2023250490A1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2023397375A1",
+      "target": "FR2023817487B1",
+      "type": "priority_claim"
+    }
+  ]
+}

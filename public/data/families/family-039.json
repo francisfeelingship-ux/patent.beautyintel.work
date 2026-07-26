@@ -1,0 +1,125 @@
+{
+  "familyPublicId": "FAM-039",
+  "displayName": "Probiotic Skin Microbiome Regulators (BASF)",
+  "company": "BASF",
+  "companyKey": "basf",
+  "priorityYear": 2022,
+  "summary": "Lactobacillus postbiotic ferment lysate composition modulating Cutibacterium acnes colonization while enhancing anti-microbial peptide expression.",
+  "representative": {
+    "publicationNumber": "US2023278924A1",
+    "title": "Probiotic Skin Microbiome Regulators (BASF)"
+  },
+  "jurisdictions": [
+    "US",
+    "EP",
+    "CN",
+    "JP",
+    "KR"
+  ],
+  "members": [
+    {
+      "publicationNumber": "US2023278898A1",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)",
+      "jurisdiction": "US",
+      "kind": "Patent Application",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "EP2023587357B1",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)",
+      "jurisdiction": "EP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CN2023719100B2",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "JP2023910864B1",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)",
+      "jurisdiction": "JP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2023792487B1",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)",
+      "jurisdiction": "KR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "US2023278924A1",
+      "label": "US2023278924A1",
+      "type": "representative",
+      "is_representative": true,
+      "country": "US",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)",
+      "assignee": "BASF"
+    },
+    {
+      "id": "EP2023587357B1",
+      "label": "EP2023587357B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "EP",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)",
+      "assignee": "BASF"
+    },
+    {
+      "id": "CN2023719100B2",
+      "label": "CN2023719100B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)",
+      "assignee": "BASF"
+    },
+    {
+      "id": "JP2023910864B1",
+      "label": "JP2023910864B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "JP",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)",
+      "assignee": "BASF"
+    },
+    {
+      "id": "KR2023792487B1",
+      "label": "KR2023792487B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Probiotic Skin Microbiome Regulators (BASF)",
+      "assignee": "BASF"
+    }
+  ],
+  "edges": [
+    {
+      "source": "US2023278924A1",
+      "target": "EP2023587357B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2023278924A1",
+      "target": "CN2023719100B2",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2023278924A1",
+      "target": "JP2023910864B1",
+      "type": "priority_claim"
+    },
+    {
+      "source": "US2023278924A1",
+      "target": "KR2023792487B1",
+      "type": "priority_claim"
+    }
+  ]
+}

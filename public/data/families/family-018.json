@@ -1,515 +1,125 @@
 {
-  "familyPublicId": "DEMO-FAMILY-018",
-  "displayName": "Silicone-Free Hair Strengthening Complexes",
-  "company": "Kao Corp",
-  "priorityYear": 2019,
-  "summary": "Polyvalent organic acids that penetrate the hair cortex, rebuilding broken disulfide bonds and increasing tensile strength.",
+  "familyPublicId": "FAM-018",
+  "displayName": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
+  "company": "Amorepacific",
+  "companyKey": "amorepacific",
+  "priorityYear": 2022,
+  "summary": "Oil-in-water micellar hydrogel cleanser removing waterproof silicone pigments without stripping natural cutaneous sebum.",
   "representative": {
-    "publicationNumber": "DEMO-KAO-1818",
-    "title": "Anionic polymer complexes for building hair structural integrity"
+    "publicationNumber": "US2020382217A1",
+    "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)"
   },
   "jurisdictions": [
-    "JP",
     "US",
     "EP",
-    "GB"
+    "CN",
+    "JP",
+    "MX"
   ],
   "members": [
     {
-      "publicationNumber": "DEMO-KAO-1818",
-      "title": "Anionic polymer complexes for building hair structural integrity",
-      "jurisdiction": "JP",
-      "kind": "grant",
-      "type": "core"
-    },
-    {
-      "publicationNumber": "DEMO-KAO-EQ01",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in US)",
+      "publicationNumber": "US2020217398A1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
       "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent"
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-KAO-EQ02",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in EP)",
+      "publicationNumber": "EP2020997477B2",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
       "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-KAO-EQ03",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in GB)",
-      "jurisdiction": "GB",
-      "kind": "application",
-      "type": "equivalent"
+      "publicationNumber": "CN2020555583B2",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-KAO-EQ04",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in JP)",
+      "publicationNumber": "JP2020384571A1",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
       "jurisdiction": "JP",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-KAO-EQ05",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-KAO-EQ06",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "application",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-KAO-EQ07",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in GB)",
-      "jurisdiction": "GB",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-KAO-EQ08",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in JP)",
-      "jurisdiction": "JP",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-KAO-EQ09",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "application",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-KAO-EQ10",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "publicationNumber": "MX2020269916B2",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
+      "jurisdiction": "MX",
+      "kind": "Granted Patent",
+      "type": "Family Member"
     }
   ],
   "nodes": [
     {
-      "id": "DEMO-KAO-1818",
-      "label": "DEMO-KAO-1818",
-      "type": "core",
+      "id": "US2020382217A1",
+      "label": "US2020382217A1",
+      "type": "representative",
       "is_representative": true,
-      "country": "JP",
-      "title": "Anionic polymer complexes for building hair structural integrity",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "DEMO-KAO-EQ01",
-      "label": "DEMO-KAO-EQ01",
-      "type": "equivalent",
-      "is_representative": false,
       "country": "US",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in US)",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "DEMO-KAO-EQ02",
-      "label": "DEMO-KAO-EQ02",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in EP)",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "DEMO-KAO-EQ03",
-      "label": "DEMO-KAO-EQ03",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in GB)",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "DEMO-KAO-EQ04",
-      "label": "DEMO-KAO-EQ04",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in JP)",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "DEMO-KAO-EQ05",
-      "label": "DEMO-KAO-EQ05",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "US",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in US)",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "DEMO-KAO-EQ06",
-      "label": "DEMO-KAO-EQ06",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in EP)",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "DEMO-KAO-EQ07",
-      "label": "DEMO-KAO-EQ07",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in GB)",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "DEMO-KAO-EQ08",
-      "label": "DEMO-KAO-EQ08",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in JP)",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "DEMO-KAO-EQ09",
-      "label": "DEMO-KAO-EQ09",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "US",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in US)",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "DEMO-KAO-EQ10",
-      "label": "DEMO-KAO-EQ10",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Anionic polymer complexes for building hair structural integrity (Equivalent filing in EP)",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "REF-LOR-01",
-      "label": "REF-LOR-01",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "REF-GIV-02",
-      "label": "REF-GIV-02",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Givaudan"
-    },
-    {
-      "id": "REF-LOR-03",
-      "label": "REF-LOR-03",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "REF-GIV-04",
-      "label": "REF-GIV-04",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Givaudan"
-    },
-    {
-      "id": "REF-REV-05",
-      "label": "REF-REV-05",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Revlon"
-    },
-    {
-      "id": "REF-SEP-06",
-      "label": "REF-SEP-06",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Seppic"
-    },
-    {
-      "id": "REF-DSM-07",
-      "label": "REF-DSM-07",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "DSM"
-    },
-    {
-      "id": "REF-AMO-08",
-      "label": "REF-AMO-08",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
       "assignee": "Amorepacific"
     },
     {
-      "id": "REF-EST-09",
-      "label": "REF-EST-09",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Estee Lauder Companies Inc."
-    },
-    {
-      "id": "REF-FIR-10",
-      "label": "REF-FIR-10",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Firmenich"
-    },
-    {
-      "id": "REF-ASH-11",
-      "label": "REF-ASH-11",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Ashland"
-    },
-    {
-      "id": "REF-KAO-12",
-      "label": "REF-KAO-12",
-      "type": "citation",
+      "id": "EP2020997477B2",
+      "label": "EP2020997477B2",
+      "type": "member",
       "is_representative": false,
       "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kao Corp"
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
+      "assignee": "Amorepacific"
     },
     {
-      "id": "REF-PRO-13",
-      "label": "REF-PRO-13",
-      "type": "citation",
+      "id": "CN2020555583B2",
+      "label": "CN2020555583B2",
+      "type": "member",
       "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Procter & Gamble Company"
+      "country": "CN",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
+      "assignee": "Amorepacific"
     },
     {
-      "id": "REF-SHI-14",
-      "label": "REF-SHI-14",
-      "type": "citation",
+      "id": "JP2020384571A1",
+      "label": "JP2020384571A1",
+      "type": "member",
       "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Shiseido Company, Limited"
+      "country": "JP",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
+      "assignee": "Amorepacific"
     },
     {
-      "id": "REF-KEN-15",
-      "label": "REF-KEN-15",
-      "type": "citation",
+      "id": "MX2020269916B2",
+      "label": "MX2020269916B2",
+      "type": "member",
       "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "REF-ASH-16",
-      "label": "REF-ASH-16",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Ashland"
-    },
-    {
-      "id": "REF-COS-17",
-      "label": "REF-COS-17",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Cosmax"
-    },
-    {
-      "id": "REF-HEN-18",
-      "label": "REF-HEN-18",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Henkel"
-    },
-    {
-      "id": "REF-DOW-19",
-      "label": "REF-DOW-19",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Dow"
+      "country": "MX",
+      "title": "Long-Wear Surfactant-Free Facial Cleansers (Amorepacific)",
+      "assignee": "Amorepacific"
     }
   ],
   "edges": [
     {
-      "source": "DEMO-KAO-1818",
-      "target": "DEMO-KAO-EQ01",
-      "type": "equivalent"
+      "source": "US2020382217A1",
+      "target": "EP2020997477B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-KAO-1818",
-      "target": "DEMO-KAO-EQ02",
-      "type": "equivalent"
+      "source": "US2020382217A1",
+      "target": "CN2020555583B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-KAO-1818",
-      "target": "DEMO-KAO-EQ03",
-      "type": "equivalent"
+      "source": "US2020382217A1",
+      "target": "JP2020384571A1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-KAO-1818",
-      "target": "DEMO-KAO-EQ04",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KAO-1818",
-      "target": "DEMO-KAO-EQ05",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KAO-1818",
-      "target": "DEMO-KAO-EQ06",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KAO-1818",
-      "target": "DEMO-KAO-EQ07",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KAO-1818",
-      "target": "DEMO-KAO-EQ08",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KAO-1818",
-      "target": "DEMO-KAO-EQ09",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KAO-1818",
-      "target": "DEMO-KAO-EQ10",
-      "type": "equivalent"
-    },
-    {
-      "source": "REF-LOR-01",
-      "target": "DEMO-KAO-1818",
-      "type": "citation"
-    },
-    {
-      "source": "REF-GIV-02",
-      "target": "DEMO-KAO-EQ02",
-      "type": "citation"
-    },
-    {
-      "source": "REF-LOR-03",
-      "target": "DEMO-KAO-1818",
-      "type": "citation"
-    },
-    {
-      "source": "REF-GIV-04",
-      "target": "DEMO-KAO-EQ06",
-      "type": "citation"
-    },
-    {
-      "source": "REF-REV-05",
-      "target": "DEMO-KAO-1818",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SEP-06",
-      "target": "DEMO-KAO-1818",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DSM-07",
-      "target": "DEMO-KAO-1818",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-08",
-      "target": "DEMO-KAO-1818",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EST-09",
-      "target": "DEMO-KAO-1818",
-      "type": "citation"
-    },
-    {
-      "source": "REF-FIR-10",
-      "target": "REF-AMO-08",
-      "type": "citation"
-    },
-    {
-      "source": "REF-ASH-11",
-      "target": "DEMO-KAO-1818",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KAO-12",
-      "target": "DEMO-KAO-EQ03",
-      "type": "citation"
-    },
-    {
-      "source": "REF-PRO-13",
-      "target": "DEMO-KAO-1818",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-14",
-      "target": "DEMO-KAO-EQ06",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KEN-15",
-      "target": "REF-SEP-06",
-      "type": "citation"
-    },
-    {
-      "source": "REF-ASH-16",
-      "target": "REF-SEP-06",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COS-17",
-      "target": "REF-GIV-04",
-      "type": "citation"
-    },
-    {
-      "source": "REF-HEN-18",
-      "target": "DEMO-KAO-1818",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DOW-19",
-      "target": "DEMO-KAO-EQ04",
-      "type": "citation"
+      "source": "US2020382217A1",
+      "target": "MX2020269916B2",
+      "type": "priority_claim"
     }
   ]
 }

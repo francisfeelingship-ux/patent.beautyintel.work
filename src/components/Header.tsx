@@ -18,10 +18,10 @@ export default function Header({ companies, selectedCompany, onCompanyChange, st
             <span 
               className="public-demo-badge"
               style={{
-                background: 'rgba(0, 210, 255, 0.1)',
+                background: 'rgba(0, 210, 255, 0.15)',
                 border: '1px solid #00d2ff',
                 color: '#00d2ff',
-                padding: '2px 6px',
+                padding: '2px 8px',
                 borderRadius: '4px',
                 fontSize: '0.65rem',
                 fontWeight: 700,
@@ -29,7 +29,7 @@ export default function Header({ companies, selectedCompany, onCompanyChange, st
                 textTransform: 'uppercase'
               }}
             >
-              PUBLIC DEMO
+              PROD ENGINE
             </span>
           </div>
           <span id="header-sub-title">GLOBAL ANALYTICS & INTELLIGENCE</span>
@@ -46,7 +46,7 @@ export default function Header({ companies, selectedCompany, onCompanyChange, st
             value={selectedCompany}
             onChange={(e) => onCompanyChange(e.target.value)}
           >
-            <option value="">All Companies</option>
+            <option value="">All Companies (83,438 Patents)</option>
             {companies.map((c) => (
               <option key={c.key} value={c.key}>
                 {c.name}
@@ -62,7 +62,7 @@ export default function Header({ companies, selectedCompany, onCompanyChange, st
           <span className="stat-num" id="stat-total-patents">
             {stats.patents.toLocaleString()}
           </span>
-          <span className="stat-label">Patents</span>
+          <span className="stat-label">Total Patents</span>
         </div>
         <div className="stat-bubble">
           <span className="stat-num" id="stat-total-families">

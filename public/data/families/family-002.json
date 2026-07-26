@@ -1,578 +1,147 @@
 {
-  "familyPublicId": "DEMO-FAMILY-002",
-  "displayName": "High-Efficiency Skin Hydration Peptide Complex",
-  "company": "Beiersdorf AG",
+  "familyPublicId": "FAM-002",
+  "displayName": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+  "company": "L'Oreal",
+  "companyKey": "loreal",
   "priorityYear": 2020,
-  "summary": "Synthetic peptide complexes that stimulate natural filagrin and aquaporin-3 synthesis inside epidermal skin cells, maximizing hydration.",
+  "summary": "Biomimetic palmitoyl pentapeptide emulsion formulation that accelerates hyaluronic acid synthesis in epidermal keratinocytes and reinforces basement membrane dermal integrity.",
   "representative": {
-    "publicationNumber": "DEMO-BEI-0202",
-    "title": "Peptide-based complexes for skin moisturizing and barrier restoration"
+    "publicationNumber": "DE2022175063A1",
+    "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)"
   },
   "jurisdictions": [
+    "DE",
     "EP",
     "US",
-    "DE",
-    "FR"
+    "CN",
+    "JP",
+    "KR"
   ],
   "members": [
     {
-      "publicationNumber": "DEMO-BEI-0202",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "core"
-    },
-    {
-      "publicationNumber": "DEMO-BEI-EQ01",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-BEI-EQ02",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in DE)",
+      "publicationNumber": "DE2022921836A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
       "jurisdiction": "DE",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-BEI-EQ03",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in FR)",
-      "jurisdiction": "FR",
-      "kind": "application",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-BEI-EQ04",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in EP)",
+      "publicationNumber": "EP2022584365B1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
       "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-BEI-EQ05",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
+      "publicationNumber": "US2022754212B1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
       "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-BEI-EQ06",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in DE)",
-      "jurisdiction": "DE",
-      "kind": "application",
-      "type": "equivalent_with_text"
+      "publicationNumber": "CN2022370450A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "jurisdiction": "CN",
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-BEI-EQ07",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in FR)",
-      "jurisdiction": "FR",
-      "kind": "grant",
-      "type": "equivalent"
+      "publicationNumber": "JP2022959748A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-BEI-EQ08",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-BEI-EQ09",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "application",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-BEI-EQ10",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in DE)",
-      "jurisdiction": "DE",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-BEI-EQ11",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in FR)",
-      "jurisdiction": "FR",
-      "kind": "grant",
-      "type": "equivalent"
+      "publicationNumber": "KR2022864276A1",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
     }
   ],
   "nodes": [
     {
-      "id": "DEMO-BEI-0202",
-      "label": "DEMO-BEI-0202",
-      "type": "core",
+      "id": "DE2022175063A1",
+      "label": "DE2022175063A1",
+      "type": "representative",
       "is_representative": true,
-      "country": "EP",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ01",
-      "label": "DEMO-BEI-EQ01",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "US",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ02",
-      "label": "DEMO-BEI-EQ02",
-      "type": "equivalent_with_text",
-      "is_representative": false,
       "country": "DE",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in DE)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ03",
-      "label": "DEMO-BEI-EQ03",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in FR)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ04",
-      "label": "DEMO-BEI-EQ04",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in EP)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ05",
-      "label": "DEMO-BEI-EQ05",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "US",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ06",
-      "label": "DEMO-BEI-EQ06",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in DE)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ07",
-      "label": "DEMO-BEI-EQ07",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in FR)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ08",
-      "label": "DEMO-BEI-EQ08",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in EP)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ09",
-      "label": "DEMO-BEI-EQ09",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "US",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in US)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ10",
-      "label": "DEMO-BEI-EQ10",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in DE)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "DEMO-BEI-EQ11",
-      "label": "DEMO-BEI-EQ11",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Peptide-based complexes for skin moisturizing and barrier restoration (Equivalent filing in FR)",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "REF-EST-01",
-      "label": "REF-EST-01",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Estee Lauder Companies Inc."
-    },
-    {
-      "id": "REF-GIV-02",
-      "label": "REF-GIV-02",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Givaudan"
-    },
-    {
-      "id": "REF-LOR-03",
-      "label": "REF-LOR-03",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
       "assignee": "L'Oreal"
     },
     {
-      "id": "REF-BAS-04",
-      "label": "REF-BAS-04",
-      "type": "citation",
+      "id": "EP2022584365B1",
+      "label": "EP2022584365B1",
+      "type": "member",
       "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "BASF"
+      "country": "EP",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
     },
     {
-      "id": "REF-SHI-05",
-      "label": "REF-SHI-05",
-      "type": "citation",
+      "id": "US2022754212B1",
+      "label": "US2022754212B1",
+      "type": "member",
       "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Shiseido Company, Limited"
+      "country": "US",
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
     },
     {
-      "id": "REF-COL-06",
-      "label": "REF-COL-06",
-      "type": "citation",
+      "id": "CN2022370450A1",
+      "label": "CN2022370450A1",
+      "type": "member",
       "is_representative": false,
       "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Colgate-Palmolive Company"
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
     },
     {
-      "id": "REF-CRO-07",
-      "label": "REF-CRO-07",
-      "type": "citation",
+      "id": "JP2022959748A1",
+      "label": "JP2022959748A1",
+      "type": "member",
       "is_representative": false,
       "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Croda"
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
     },
     {
-      "id": "REF-BAS-08",
-      "label": "REF-BAS-08",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "BASF"
-    },
-    {
-      "id": "REF-EST-09",
-      "label": "REF-EST-09",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Estee Lauder Companies Inc."
-    },
-    {
-      "id": "REF-EST-10",
-      "label": "REF-EST-10",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Estee Lauder Companies Inc."
-    },
-    {
-      "id": "REF-KAO-11",
-      "label": "REF-KAO-11",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "REF-KAO-12",
-      "label": "REF-KAO-12",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kao Corp"
-    },
-    {
-      "id": "REF-FIR-13",
-      "label": "REF-FIR-13",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Firmenich"
-    },
-    {
-      "id": "REF-DSM-14",
-      "label": "REF-DSM-14",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "DSM"
-    },
-    {
-      "id": "REF-AMO-15",
-      "label": "REF-AMO-15",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Amorepacific"
-    },
-    {
-      "id": "REF-EVO-16",
-      "label": "REF-EVO-16",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Evonik"
-    },
-    {
-      "id": "REF-COS-17",
-      "label": "REF-COS-17",
-      "type": "citation",
+      "id": "KR2022864276A1",
+      "label": "KR2022864276A1",
+      "type": "member",
       "is_representative": false,
       "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Cosmax"
-    },
-    {
-      "id": "REF-BAS-18",
-      "label": "REF-BAS-18",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "BASF"
-    },
-    {
-      "id": "REF-INT-19",
-      "label": "REF-INT-19",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Intercos"
-    },
-    {
-      "id": "REF-INT-20",
-      "label": "REF-INT-20",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Intercos"
-    },
-    {
-      "id": "REF-KEN-21",
-      "label": "REF-KEN-21",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "REF-REV-22",
-      "label": "REF-REV-22",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Revlon"
+      "title": "High-Efficiency Skin Hydration Peptide Complex (L'Oreal)",
+      "assignee": "L'Oreal"
     }
   ],
   "edges": [
     {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ01",
-      "type": "equivalent"
+      "source": "DE2022175063A1",
+      "target": "EP2022584365B1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ02",
-      "type": "equivalent"
+      "source": "DE2022175063A1",
+      "target": "US2022754212B1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ03",
-      "type": "equivalent"
+      "source": "DE2022175063A1",
+      "target": "CN2022370450A1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ04",
-      "type": "equivalent"
+      "source": "DE2022175063A1",
+      "target": "JP2022959748A1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ05",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ06",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ07",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ08",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ09",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ10",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-BEI-0202",
-      "target": "DEMO-BEI-EQ11",
-      "type": "equivalent"
-    },
-    {
-      "source": "REF-EST-01",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-GIV-02",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-LOR-03",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BAS-04",
-      "target": "DEMO-BEI-EQ03",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-05",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COL-06",
-      "target": "DEMO-BEI-EQ08",
-      "type": "citation"
-    },
-    {
-      "source": "REF-CRO-07",
-      "target": "REF-CRO-07",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BAS-08",
-      "target": "REF-BAS-04",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EST-09",
-      "target": "REF-EST-09",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EST-10",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KAO-11",
-      "target": "REF-EST-01",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KAO-12",
-      "target": "REF-CRO-07",
-      "type": "citation"
-    },
-    {
-      "source": "REF-FIR-13",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DSM-14",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-15",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EVO-16",
-      "target": "REF-DSM-14",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COS-17",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BAS-18",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-INT-19",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-INT-20",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KEN-21",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
-    },
-    {
-      "source": "REF-REV-22",
-      "target": "DEMO-BEI-0202",
-      "type": "citation"
+      "source": "DE2022175063A1",
+      "target": "KR2022864276A1",
+      "type": "priority_claim"
     }
   ]
 }

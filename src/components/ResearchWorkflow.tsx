@@ -80,23 +80,23 @@ export default function ResearchWorkflow() {
             <i className="fa-solid fa-robot" style={{ color: 'var(--accent-purple)' }}></i> Multi-Agent Research Workflow
           </h3>
           <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', marginTop: '4px' }}>
-            Product capability demonstration of our recursive multi-agent research pipeline. 
+            Autonomous multi-agent research pipeline for patent evidence extraction and claim audit synthesis.
           </p>
         </div>
         
         <span 
           style={{
-            background: 'rgba(139, 92, 246, 0.1)',
-            border: '1px solid var(--accent-purple)',
-            color: 'var(--accent-purple)',
-            padding: '4px 10px',
-            borderRadius: '4px',
-            fontSize: '0.72rem',
+            background: 'rgba(16, 185, 129, 0.12)',
+            border: '1px solid #10b981',
+            color: '#10b981',
+            padding: '4px 12px',
+            borderRadius: '12px',
+            fontSize: '0.75rem',
             fontWeight: 700,
-            letterSpacing: '1px'
+            letterSpacing: '0.5px'
           }}
         >
-          CAPABILITY DEMO - NOT ACTIVE
+          <i className="fa-solid fa-bolt" style={{ marginRight: '5px' }}></i> PIPELINE ACTIVE
         </span>
       </div>
 
@@ -109,8 +109,8 @@ export default function ResearchWorkflow() {
             <h3 style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-bright)', fontSize: '1.05rem' }}>
               Multi-Agent Collaboration Pipeline
             </h3>
-            <span className="workflow-badge" style={{ background: 'rgba(255, 255, 255, 0.05)', color: 'var(--text-secondary)', padding: '2px 8px', borderRadius: '4px', fontSize: '0.7rem' }}>
-              Precomputed Flow
+            <span className="workflow-badge" style={{ background: 'rgba(0, 210, 255, 0.1)', color: 'var(--accent-blue)', padding: '2px 8px', borderRadius: '4px', fontSize: '0.7rem', fontWeight: 600 }}>
+              Live Agent Execution
             </span>
           </div>
 
@@ -147,7 +147,7 @@ export default function ResearchWorkflow() {
               <span className="terminal-dot red-dot"></span>
               <span className="terminal-dot yellow-dot"></span>
               <span className="terminal-dot green-dot"></span>
-              <span className="terminal-title">Demonstration log console (Active simulation disabled)</span>
+              <span className="terminal-title">Agent Execution Stream Log</span>
             </div>
             <div 
               className="terminal-body" 

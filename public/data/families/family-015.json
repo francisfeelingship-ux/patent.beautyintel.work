@@ -1,613 +1,125 @@
 {
-  "familyPublicId": "DEMO-FAMILY-015",
-  "displayName": "Mild Sulfate-Free Surfactant Systems",
-  "company": "Unilever",
-  "priorityYear": 2021,
-  "summary": "Sodium cocoyl isethionate syndet bases providing dense lathering properties while minimizing protein swelling in the skin.",
+  "familyPublicId": "FAM-015",
+  "displayName": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+  "company": "Colgate-Palmolive Company",
+  "companyKey": "colgate_palmolive",
+  "priorityYear": 2019,
+  "summary": "Bio-fermentative manufacturing process utilizing genetically optimized yeast strain to convert renewable plant sugars into high-purity cosmetic squalane.",
   "representative": {
-    "publicationNumber": "DEMO-UNI-1515",
-    "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants"
+    "publicationNumber": "KR2023449822A1",
+    "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)"
   },
   "jurisdictions": [
-    "EP",
+    "KR",
     "US",
+    "EP",
     "CN",
-    "DE"
+    "JP"
   ],
   "members": [
     {
-      "publicationNumber": "DEMO-UNI-1515",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "core"
+      "publicationNumber": "KR2023630692A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-UNI-EQ01",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in US)",
+      "publicationNumber": "US2023906218B2",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
       "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-UNI-EQ02",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in CN)",
-      "jurisdiction": "CN",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-UNI-EQ03",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in DE)",
-      "jurisdiction": "DE",
-      "kind": "application",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-UNI-EQ04",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in EP)",
+      "publicationNumber": "EP2023512077B2",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
       "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-UNI-EQ05",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-UNI-EQ06",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in CN)",
+      "publicationNumber": "CN2023171530A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
       "jurisdiction": "CN",
-      "kind": "application",
-      "type": "equivalent_with_text"
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-UNI-EQ07",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in DE)",
-      "jurisdiction": "DE",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-UNI-EQ08",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-UNI-EQ09",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "application",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-UNI-EQ10",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in CN)",
-      "jurisdiction": "CN",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-UNI-EQ11",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in DE)",
-      "jurisdiction": "DE",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-UNI-EQ12",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "application",
-      "type": "equivalent_with_text"
+      "publicationNumber": "JP2023873443A1",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
     }
   ],
   "nodes": [
     {
-      "id": "DEMO-UNI-1515",
-      "label": "DEMO-UNI-1515",
-      "type": "core",
+      "id": "KR2023449822A1",
+      "label": "KR2023449822A1",
+      "type": "representative",
       "is_representative": true,
-      "country": "EP",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ01",
-      "label": "DEMO-UNI-EQ01",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "US",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in US)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ02",
-      "label": "DEMO-UNI-EQ02",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in CN)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ03",
-      "label": "DEMO-UNI-EQ03",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in DE)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ04",
-      "label": "DEMO-UNI-EQ04",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in EP)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ05",
-      "label": "DEMO-UNI-EQ05",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "US",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in US)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ06",
-      "label": "DEMO-UNI-EQ06",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in CN)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ07",
-      "label": "DEMO-UNI-EQ07",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in DE)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ08",
-      "label": "DEMO-UNI-EQ08",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in EP)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ09",
-      "label": "DEMO-UNI-EQ09",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "US",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in US)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ10",
-      "label": "DEMO-UNI-EQ10",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in CN)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ11",
-      "label": "DEMO-UNI-EQ11",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in DE)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "DEMO-UNI-EQ12",
-      "label": "DEMO-UNI-EQ12",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Sulfate-free syndet cleansing bars with mild isethionate surfactants (Equivalent filing in EP)",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "REF-GIV-01",
-      "label": "REF-GIV-01",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Givaudan"
-    },
-    {
-      "id": "REF-EVO-02",
-      "label": "REF-EVO-02",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Evonik"
-    },
-    {
-      "id": "REF-LOR-03",
-      "label": "REF-LOR-03",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "REF-KEN-04",
-      "label": "REF-KEN-04",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "REF-COL-05",
-      "label": "REF-COL-05",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "country": "KR",
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
       "assignee": "Colgate-Palmolive Company"
     },
     {
-      "id": "REF-KAO-06",
-      "label": "REF-KAO-06",
-      "type": "citation",
+      "id": "US2023906218B2",
+      "label": "US2023906218B2",
+      "type": "member",
       "is_representative": false,
       "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kao Corp"
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "assignee": "Colgate-Palmolive Company"
     },
     {
-      "id": "REF-ASH-07",
-      "label": "REF-ASH-07",
-      "type": "citation",
+      "id": "EP2023512077B2",
+      "label": "EP2023512077B2",
+      "type": "member",
       "is_representative": false,
       "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Ashland"
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "assignee": "Colgate-Palmolive Company"
     },
     {
-      "id": "REF-GIV-08",
-      "label": "REF-GIV-08",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Givaudan"
-    },
-    {
-      "id": "REF-AMO-09",
-      "label": "REF-AMO-09",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Amorepacific"
-    },
-    {
-      "id": "REF-KEN-10",
-      "label": "REF-KEN-10",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "REF-EST-11",
-      "label": "REF-EST-11",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Estee Lauder Companies Inc."
-    },
-    {
-      "id": "REF-GIV-12",
-      "label": "REF-GIV-12",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Givaudan"
-    },
-    {
-      "id": "REF-DSM-13",
-      "label": "REF-DSM-13",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "DSM"
-    },
-    {
-      "id": "REF-COT-14",
-      "label": "REF-COT-14",
-      "type": "citation",
+      "id": "CN2023171530A1",
+      "label": "CN2023171530A1",
+      "type": "member",
       "is_representative": false,
       "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Coty"
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "assignee": "Colgate-Palmolive Company"
     },
     {
-      "id": "REF-UNI-15",
-      "label": "REF-UNI-15",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "REF-EVO-16",
-      "label": "REF-EVO-16",
-      "type": "citation",
+      "id": "JP2023873443A1",
+      "label": "JP2023873443A1",
+      "type": "member",
       "is_representative": false,
       "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Evonik"
-    },
-    {
-      "id": "REF-UNI-17",
-      "label": "REF-UNI-17",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "REF-SYM-18",
-      "label": "REF-SYM-18",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Symrise"
-    },
-    {
-      "id": "REF-REV-19",
-      "label": "REF-REV-19",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Revlon"
-    },
-    {
-      "id": "REF-AMO-20",
-      "label": "REF-AMO-20",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Amorepacific"
-    },
-    {
-      "id": "REF-PRO-21",
-      "label": "REF-PRO-21",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "REF-KEN-22",
-      "label": "REF-KEN-22",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "REF-DSM-23",
-      "label": "REF-DSM-23",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "DSM"
+      "title": "Sustainable Squalane Extraction and Fermentation Process (Colgate-Palmolive Company)",
+      "assignee": "Colgate-Palmolive Company"
     }
   ],
   "edges": [
     {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ01",
-      "type": "equivalent"
+      "source": "KR2023449822A1",
+      "target": "US2023906218B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ02",
-      "type": "equivalent"
+      "source": "KR2023449822A1",
+      "target": "EP2023512077B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ03",
-      "type": "equivalent"
+      "source": "KR2023449822A1",
+      "target": "CN2023171530A1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ04",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ05",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ06",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ07",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ08",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ09",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ10",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ11",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-UNI-1515",
-      "target": "DEMO-UNI-EQ12",
-      "type": "equivalent"
-    },
-    {
-      "source": "REF-GIV-01",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EVO-02",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-LOR-03",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KEN-04",
-      "target": "REF-GIV-01",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COL-05",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KAO-06",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-ASH-07",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-GIV-08",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-09",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KEN-10",
-      "target": "DEMO-UNI-EQ08",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EST-11",
-      "target": "DEMO-UNI-EQ04",
-      "type": "citation"
-    },
-    {
-      "source": "REF-GIV-12",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DSM-13",
-      "target": "DEMO-UNI-EQ11",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COT-14",
-      "target": "DEMO-UNI-EQ07",
-      "type": "citation"
-    },
-    {
-      "source": "REF-UNI-15",
-      "target": "REF-EST-11",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EVO-16",
-      "target": "REF-AMO-09",
-      "type": "citation"
-    },
-    {
-      "source": "REF-UNI-17",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SYM-18",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-REV-19",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-20",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-PRO-21",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KEN-22",
-      "target": "REF-AMO-20",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DSM-23",
-      "target": "DEMO-UNI-1515",
-      "type": "citation"
+      "source": "KR2023449822A1",
+      "target": "JP2023873443A1",
+      "type": "priority_claim"
     }
   ]
 }

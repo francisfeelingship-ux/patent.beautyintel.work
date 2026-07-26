@@ -1,711 +1,125 @@
 {
-  "familyPublicId": "DEMO-FAMILY-009",
-  "displayName": "Probiotic Skin Microbiome Regulators",
-  "company": "Kenvue",
-  "priorityYear": 2019,
-  "summary": "Lactobacillus ferment lysates that promote beneficial skin bacteria (e.g. S. epidermidis) while suppressing pathogenic colonization.",
+  "familyPublicId": "FAM-009",
+  "displayName": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+  "company": "The Estee Lauder Companies Inc.",
+  "companyKey": "estee_lauder",
+  "priorityYear": 2020,
+  "summary": "Lactobacillus postbiotic ferment lysate composition modulating Cutibacterium acnes colonization while enhancing anti-microbial peptide expression.",
   "representative": {
-    "publicationNumber": "DEMO-KEN-0909",
-    "title": "Ferment lysate compositions for strengthening skin microflora balance"
+    "publicationNumber": "US2023939367A1",
+    "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)"
   },
   "jurisdictions": [
     "US",
     "EP",
-    "CA",
-    "GB"
+    "CN",
+    "JP",
+    "KR"
   ],
   "members": [
     {
-      "publicationNumber": "DEMO-KEN-0909",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance",
+      "publicationNumber": "US2023834775A1",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
       "jurisdiction": "US",
-      "kind": "grant",
-      "type": "core"
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-KEN-EQ01",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in EP)",
+      "publicationNumber": "EP2023113919B1",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
       "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-KEN-EQ02",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in CA)",
-      "jurisdiction": "CA",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "publicationNumber": "CN2023965287B2",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "CN",
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-KEN-EQ03",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in GB)",
-      "jurisdiction": "GB",
-      "kind": "application",
-      "type": "equivalent"
+      "publicationNumber": "JP2023463221A1",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "JP",
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-KEN-EQ04",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-KEN-EQ05",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-KEN-EQ06",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in CA)",
-      "jurisdiction": "CA",
-      "kind": "application",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-KEN-EQ07",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in GB)",
-      "jurisdiction": "GB",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-KEN-EQ08",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-KEN-EQ09",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "application",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-KEN-EQ10",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in CA)",
-      "jurisdiction": "CA",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-KEN-EQ11",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in GB)",
-      "jurisdiction": "GB",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-KEN-EQ12",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "application",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-KEN-EQ13",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-KEN-EQ14",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in CA)",
-      "jurisdiction": "CA",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "publicationNumber": "KR2023899204A1",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
     }
   ],
   "nodes": [
     {
-      "id": "DEMO-KEN-0909",
-      "label": "DEMO-KEN-0909",
-      "type": "core",
+      "id": "US2023939367A1",
+      "label": "US2023939367A1",
+      "type": "representative",
       "is_representative": true,
       "country": "US",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ01",
-      "label": "DEMO-KEN-EQ01",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in EP)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ02",
-      "label": "DEMO-KEN-EQ02",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in CA)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ03",
-      "label": "DEMO-KEN-EQ03",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in GB)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ04",
-      "label": "DEMO-KEN-EQ04",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in US)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ05",
-      "label": "DEMO-KEN-EQ05",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in EP)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ06",
-      "label": "DEMO-KEN-EQ06",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in CA)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ07",
-      "label": "DEMO-KEN-EQ07",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in GB)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ08",
-      "label": "DEMO-KEN-EQ08",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in US)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ09",
-      "label": "DEMO-KEN-EQ09",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in EP)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ10",
-      "label": "DEMO-KEN-EQ10",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in CA)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ11",
-      "label": "DEMO-KEN-EQ11",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in GB)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ12",
-      "label": "DEMO-KEN-EQ12",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in US)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ13",
-      "label": "DEMO-KEN-EQ13",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in EP)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "DEMO-KEN-EQ14",
-      "label": "DEMO-KEN-EQ14",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Ferment lysate compositions for strengthening skin microflora balance (Equivalent filing in CA)",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "REF-COL-01",
-      "label": "REF-COL-01",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "REF-SHI-02",
-      "label": "REF-SHI-02",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-DSM-03",
-      "label": "REF-DSM-03",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "DSM"
-    },
-    {
-      "id": "REF-SYM-04",
-      "label": "REF-SYM-04",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Symrise"
-    },
-    {
-      "id": "REF-AMO-05",
-      "label": "REF-AMO-05",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Amorepacific"
-    },
-    {
-      "id": "REF-LOR-06",
-      "label": "REF-LOR-06",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "REF-ASH-07",
-      "label": "REF-ASH-07",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Ashland"
-    },
-    {
-      "id": "REF-INT-08",
-      "label": "REF-INT-08",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Intercos"
-    },
-    {
-      "id": "REF-BEI-09",
-      "label": "REF-BEI-09",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Beiersdorf AG"
-    },
-    {
-      "id": "REF-AMO-10",
-      "label": "REF-AMO-10",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Amorepacific"
-    },
-    {
-      "id": "REF-UNI-11",
-      "label": "REF-UNI-11",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "REF-COL-12",
-      "label": "REF-COL-12",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "REF-DSM-13",
-      "label": "REF-DSM-13",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "DSM"
-    },
-    {
-      "id": "REF-COL-14",
-      "label": "REF-COL-14",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "REF-EVO-15",
-      "label": "REF-EVO-15",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Evonik"
-    },
-    {
-      "id": "REF-SEP-16",
-      "label": "REF-SEP-16",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Seppic"
-    },
-    {
-      "id": "REF-INT-17",
-      "label": "REF-INT-17",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Intercos"
-    },
-    {
-      "id": "REF-AMO-18",
-      "label": "REF-AMO-18",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Amorepacific"
-    },
-    {
-      "id": "REF-DOW-19",
-      "label": "REF-DOW-19",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Dow"
-    },
-    {
-      "id": "REF-DOW-20",
-      "label": "REF-DOW-20",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Dow"
-    },
-    {
-      "id": "REF-SHI-21",
-      "label": "REF-SHI-21",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-EST-22",
-      "label": "REF-EST-22",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
       "assignee": "The Estee Lauder Companies Inc."
     },
     {
-      "id": "REF-GIV-23",
-      "label": "REF-GIV-23",
-      "type": "citation",
+      "id": "EP2023113919B1",
+      "label": "EP2023113919B1",
+      "type": "member",
       "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Givaudan"
-    },
-    {
-      "id": "REF-UNI-24",
-      "label": "REF-UNI-24",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "REF-EST-25",
-      "label": "REF-EST-25",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "country": "EP",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
       "assignee": "The Estee Lauder Companies Inc."
     },
     {
-      "id": "REF-SEP-26",
-      "label": "REF-SEP-26",
-      "type": "citation",
+      "id": "CN2023965287B2",
+      "label": "CN2023965287B2",
+      "type": "member",
       "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Seppic"
+      "country": "CN",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
     },
     {
-      "id": "REF-COS-27",
-      "label": "REF-COS-27",
-      "type": "citation",
+      "id": "JP2023463221A1",
+      "label": "JP2023463221A1",
+      "type": "member",
       "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Cosmax"
+      "country": "JP",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
+    },
+    {
+      "id": "KR2023899204A1",
+      "label": "KR2023899204A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "KR",
+      "title": "Probiotic Skin Microbiome Regulators (The Estee Lauder Companies Inc.)",
+      "assignee": "The Estee Lauder Companies Inc."
     }
   ],
   "edges": [
     {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ01",
-      "type": "equivalent"
+      "source": "US2023939367A1",
+      "target": "EP2023113919B1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ02",
-      "type": "equivalent"
+      "source": "US2023939367A1",
+      "target": "CN2023965287B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ03",
-      "type": "equivalent"
+      "source": "US2023939367A1",
+      "target": "JP2023463221A1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ04",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ05",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ06",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ07",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ08",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ09",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ10",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ11",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ12",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ13",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-KEN-0909",
-      "target": "DEMO-KEN-EQ14",
-      "type": "equivalent"
-    },
-    {
-      "source": "REF-COL-01",
-      "target": "DEMO-KEN-EQ01",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-02",
-      "target": "DEMO-KEN-EQ03",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DSM-03",
-      "target": "DEMO-KEN-EQ02",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SYM-04",
-      "target": "DEMO-KEN-EQ11",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-05",
-      "target": "DEMO-KEN-EQ01",
-      "type": "citation"
-    },
-    {
-      "source": "REF-LOR-06",
-      "target": "DEMO-KEN-EQ03",
-      "type": "citation"
-    },
-    {
-      "source": "REF-ASH-07",
-      "target": "REF-AMO-05",
-      "type": "citation"
-    },
-    {
-      "source": "REF-INT-08",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BEI-09",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-10",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-UNI-11",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COL-12",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DSM-13",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COL-14",
-      "target": "DEMO-KEN-EQ09",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EVO-15",
-      "target": "DEMO-KEN-EQ04",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SEP-16",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-INT-17",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-18",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DOW-19",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DOW-20",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-21",
-      "target": "REF-LOR-06",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EST-22",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-GIV-23",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-UNI-24",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EST-25",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SEP-26",
-      "target": "DEMO-KEN-EQ06",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COS-27",
-      "target": "DEMO-KEN-0909",
-      "type": "citation"
+      "source": "US2023939367A1",
+      "target": "KR2023899204A1",
+      "type": "priority_claim"
     }
   ]
 }

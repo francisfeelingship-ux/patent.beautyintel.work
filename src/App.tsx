@@ -107,7 +107,7 @@ export default function App() {
           <div className="loading-box">
             <i className="fa-solid fa-flask-vial loading-logo-icon"></i>
             <h2>PATENT LIBRARY</h2>
-            <h3>PUBLIC DEMONSTRATION</h3>
+            <h3>PATENT INTELLIGENCE ENGINE</h3>
             <p>{error || loadingStatus}</p>
             <div className="progress-container">
               <div 

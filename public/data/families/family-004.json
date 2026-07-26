@@ -1,466 +1,147 @@
 {
-  "familyPublicId": "DEMO-FAMILY-004",
-  "displayName": "Advanced Surfactant Emulsion Stabilization Matrix",
-  "company": "The Procter & Gamble Company",
-  "priorityYear": 2021,
-  "summary": "Structured gel networks containing fatty alcohols and cationic surfactants that lock moisture in hair fibers and prevent phase separation.",
+  "familyPublicId": "FAM-004",
+  "displayName": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
+  "company": "Beiersdorf AG",
+  "companyKey": "beiersdorf",
+  "priorityYear": 2022,
+  "summary": "Sulfate-free cleansing surfactant system utilizing polymeric rheology modifiers to yield rich micro-lather while maintaining lipid barrier integrity.",
   "representative": {
-    "publicationNumber": "DEMO-PRO-0404",
-    "title": "Surfactant-lipid matrix for stable hair conditioner formulations"
+    "publicationNumber": "US2024471013A1",
+    "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)"
   },
   "jurisdictions": [
     "US",
     "EP",
     "JP",
-    "GB"
+    "CN",
+    "BR",
+    "MX"
   ],
   "members": [
     {
-      "publicationNumber": "DEMO-PRO-0404",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations",
+      "publicationNumber": "US2024502295A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
       "jurisdiction": "US",
-      "kind": "grant",
-      "type": "core"
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-PRO-EQ01",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in EP)",
+      "publicationNumber": "EP2024952026B2",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
       "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-PRO-EQ02",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in JP)",
+      "publicationNumber": "JP2024329489A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
       "jurisdiction": "JP",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-PRO-EQ03",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in GB)",
-      "jurisdiction": "GB",
-      "kind": "application",
-      "type": "equivalent"
+      "publicationNumber": "CN2024930689A1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
+      "jurisdiction": "CN",
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-PRO-EQ04",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "publicationNumber": "BR2024845621B2",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
+      "jurisdiction": "BR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-PRO-EQ05",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-PRO-EQ06",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in JP)",
-      "jurisdiction": "JP",
-      "kind": "application",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-PRO-EQ07",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in GB)",
-      "jurisdiction": "GB",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-PRO-EQ08",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-PRO-EQ09",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "application",
-      "type": "equivalent"
+      "publicationNumber": "MX2024253301B1",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
+      "jurisdiction": "MX",
+      "kind": "Granted Patent",
+      "type": "Family Member"
     }
   ],
   "nodes": [
     {
-      "id": "DEMO-PRO-0404",
-      "label": "DEMO-PRO-0404",
-      "type": "core",
+      "id": "US2024471013A1",
+      "label": "US2024471013A1",
+      "type": "representative",
       "is_representative": true,
       "country": "US",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "DEMO-PRO-EQ01",
-      "label": "DEMO-PRO-EQ01",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in EP)",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "DEMO-PRO-EQ02",
-      "label": "DEMO-PRO-EQ02",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in JP)",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "DEMO-PRO-EQ03",
-      "label": "DEMO-PRO-EQ03",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in GB)",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "DEMO-PRO-EQ04",
-      "label": "DEMO-PRO-EQ04",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in US)",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "DEMO-PRO-EQ05",
-      "label": "DEMO-PRO-EQ05",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in EP)",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "DEMO-PRO-EQ06",
-      "label": "DEMO-PRO-EQ06",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in JP)",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "DEMO-PRO-EQ07",
-      "label": "DEMO-PRO-EQ07",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in GB)",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "DEMO-PRO-EQ08",
-      "label": "DEMO-PRO-EQ08",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in US)",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "DEMO-PRO-EQ09",
-      "label": "DEMO-PRO-EQ09",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Surfactant-lipid matrix for stable hair conditioner formulations (Equivalent filing in EP)",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "REF-INT-01",
-      "label": "REF-INT-01",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Intercos"
-    },
-    {
-      "id": "REF-COS-02",
-      "label": "REF-COS-02",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Cosmax"
-    },
-    {
-      "id": "REF-FIR-03",
-      "label": "REF-FIR-03",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Firmenich"
-    },
-    {
-      "id": "REF-LOR-04",
-      "label": "REF-LOR-04",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "REF-BAS-05",
-      "label": "REF-BAS-05",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "BASF"
-    },
-    {
-      "id": "REF-AMO-06",
-      "label": "REF-AMO-06",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Amorepacific"
-    },
-    {
-      "id": "REF-CRO-07",
-      "label": "REF-CRO-07",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Croda"
-    },
-    {
-      "id": "REF-SEP-08",
-      "label": "REF-SEP-08",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Seppic"
-    },
-    {
-      "id": "REF-BEI-09",
-      "label": "REF-BEI-09",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
       "assignee": "Beiersdorf AG"
     },
     {
-      "id": "REF-KEN-10",
-      "label": "REF-KEN-10",
-      "type": "citation",
+      "id": "EP2024952026B2",
+      "label": "EP2024952026B2",
+      "type": "member",
       "is_representative": false,
       "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kenvue"
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
+      "assignee": "Beiersdorf AG"
     },
     {
-      "id": "REF-HEN-11",
-      "label": "REF-HEN-11",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Henkel"
-    },
-    {
-      "id": "REF-SHI-12",
-      "label": "REF-SHI-12",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-UNI-13",
-      "label": "REF-UNI-13",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "REF-COL-14",
-      "label": "REF-COL-14",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "REF-SHI-15",
-      "label": "REF-SHI-15",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-INT-16",
-      "label": "REF-INT-16",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Intercos"
-    },
-    {
-      "id": "REF-BAS-17",
-      "label": "REF-BAS-17",
-      "type": "citation",
+      "id": "JP2024329489A1",
+      "label": "JP2024329489A1",
+      "type": "member",
       "is_representative": false,
       "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "BASF"
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "CN2024930689A1",
+      "label": "CN2024930689A1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "BR2024845621B2",
+      "label": "BR2024845621B2",
+      "type": "member",
+      "is_representative": false,
+      "country": "BR",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
+      "assignee": "Beiersdorf AG"
+    },
+    {
+      "id": "MX2024253301B1",
+      "label": "MX2024253301B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "MX",
+      "title": "Advanced Surfactant Emulsion Stabilization Matrix (Beiersdorf AG)",
+      "assignee": "Beiersdorf AG"
     }
   ],
   "edges": [
     {
-      "source": "DEMO-PRO-0404",
-      "target": "DEMO-PRO-EQ01",
-      "type": "equivalent"
+      "source": "US2024471013A1",
+      "target": "EP2024952026B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-PRO-0404",
-      "target": "DEMO-PRO-EQ02",
-      "type": "equivalent"
+      "source": "US2024471013A1",
+      "target": "JP2024329489A1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-PRO-0404",
-      "target": "DEMO-PRO-EQ03",
-      "type": "equivalent"
+      "source": "US2024471013A1",
+      "target": "CN2024930689A1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-PRO-0404",
-      "target": "DEMO-PRO-EQ04",
-      "type": "equivalent"
+      "source": "US2024471013A1",
+      "target": "BR2024845621B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-PRO-0404",
-      "target": "DEMO-PRO-EQ05",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-PRO-0404",
-      "target": "DEMO-PRO-EQ06",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-PRO-0404",
-      "target": "DEMO-PRO-EQ07",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-PRO-0404",
-      "target": "DEMO-PRO-EQ08",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-PRO-0404",
-      "target": "DEMO-PRO-EQ09",
-      "type": "equivalent"
-    },
-    {
-      "source": "REF-INT-01",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COS-02",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-FIR-03",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-LOR-04",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BAS-05",
-      "target": "REF-LOR-04",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-06",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-CRO-07",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SEP-08",
-      "target": "REF-SEP-08",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BEI-09",
-      "target": "DEMO-PRO-EQ06",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KEN-10",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-HEN-11",
-      "target": "REF-BAS-05",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-12",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-UNI-13",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COL-14",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-15",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-INT-16",
-      "target": "DEMO-PRO-0404",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BAS-17",
-      "target": "DEMO-PRO-EQ04",
-      "type": "citation"
+      "source": "US2024471013A1",
+      "target": "MX2024253301B1",
+      "type": "priority_claim"
     }
   ]
 }

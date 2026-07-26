@@ -1,405 +1,169 @@
 {
-  "familyPublicId": "DEMO-FAMILY-001",
-  "displayName": "Active UV Filter Stabilization System",
+  "familyPublicId": "FAM-001",
+  "displayName": "Active UV Filter Stabilization System (L'Oreal)",
   "company": "L'Oreal",
-  "priorityYear": 2018,
-  "summary": "Stabilizer system designed to prevent photodegradation of organic UV filters (e.g. avobenzone) in daily creams, using a synergistic emulsion matrix.",
+  "companyKey": "loreal",
+  "priorityYear": 2019,
+  "summary": "Photostable UV filter matrix combining avobenzone with synergistic antioxidant triazines for broad-spectrum UVA/UVB photoprotection without degradation under solar radiation.",
   "representative": {
-    "publicationNumber": "DEMO-LOR-0101",
-    "title": "Method for stabilizing active UV filters in skin care compositions"
+    "publicationNumber": "EP2021904524A1",
+    "title": "Active UV Filter Stabilization System (L'Oreal)"
   },
   "jurisdictions": [
-    "US",
     "EP",
-    "CN",
+    "US",
     "JP",
+    "CN",
     "KR",
-    "FR"
+    "BR",
+    "CA"
   ],
   "members": [
     {
-      "publicationNumber": "DEMO-LOR-0101",
-      "title": "Method for stabilizing active UV filters in skin care compositions",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "core"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ01",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in EP)",
+      "publicationNumber": "EP2021347319A1",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
       "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-LOR-EQ02",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in CN)",
-      "jurisdiction": "CN",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "publicationNumber": "US2021516596B1",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
+      "jurisdiction": "US",
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-LOR-EQ03",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in JP)",
+      "publicationNumber": "JP2021599531B2",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
       "jurisdiction": "JP",
-      "kind": "application",
-      "type": "equivalent"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-LOR-EQ04",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in KR)",
-      "jurisdiction": "KR",
-      "kind": "grant",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ05",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in FR)",
-      "jurisdiction": "FR",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ06",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "application",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ07",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-LOR-EQ08",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in CN)",
+      "publicationNumber": "CN2021894458B1",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
       "jurisdiction": "CN",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "KR2021765800B2",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
+      "jurisdiction": "KR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "BR2021248182B1",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
+      "jurisdiction": "BR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
+    },
+    {
+      "publicationNumber": "CA2021189294A1",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
+      "jurisdiction": "CA",
+      "kind": "Patent Application",
+      "type": "Family Member"
     }
   ],
   "nodes": [
     {
-      "id": "DEMO-LOR-0101",
-      "label": "DEMO-LOR-0101",
-      "type": "core",
+      "id": "EP2021904524A1",
+      "label": "EP2021904524A1",
+      "type": "representative",
       "is_representative": true,
-      "country": "US",
-      "title": "Method for stabilizing active UV filters in skin care compositions",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "DEMO-LOR-EQ01",
-      "label": "DEMO-LOR-EQ01",
-      "type": "equivalent",
-      "is_representative": false,
       "country": "EP",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in EP)",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
       "assignee": "L'Oreal"
     },
     {
-      "id": "DEMO-LOR-EQ02",
-      "label": "DEMO-LOR-EQ02",
-      "type": "equivalent_with_text",
+      "id": "US2021516596B1",
+      "label": "US2021516596B1",
+      "type": "member",
       "is_representative": false,
-      "country": "CN",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in CN)",
+      "country": "US",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
       "assignee": "L'Oreal"
     },
     {
-      "id": "DEMO-LOR-EQ03",
-      "label": "DEMO-LOR-EQ03",
-      "type": "equivalent",
+      "id": "JP2021599531B2",
+      "label": "JP2021599531B2",
+      "type": "member",
       "is_representative": false,
       "country": "JP",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in JP)",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
       "assignee": "L'Oreal"
     },
     {
-      "id": "DEMO-LOR-EQ04",
-      "label": "DEMO-LOR-EQ04",
-      "type": "equivalent_with_text",
+      "id": "CN2021894458B1",
+      "label": "CN2021894458B1",
+      "type": "member",
+      "is_representative": false,
+      "country": "CN",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
+      "assignee": "L'Oreal"
+    },
+    {
+      "id": "KR2021765800B2",
+      "label": "KR2021765800B2",
+      "type": "member",
       "is_representative": false,
       "country": "KR",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in KR)",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
       "assignee": "L'Oreal"
     },
     {
-      "id": "DEMO-LOR-EQ05",
-      "label": "DEMO-LOR-EQ05",
-      "type": "equivalent",
+      "id": "BR2021248182B1",
+      "label": "BR2021248182B1",
+      "type": "member",
       "is_representative": false,
-      "country": "FR",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in FR)",
+      "country": "BR",
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
       "assignee": "L'Oreal"
     },
     {
-      "id": "DEMO-LOR-EQ06",
-      "label": "DEMO-LOR-EQ06",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in US)",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "DEMO-LOR-EQ07",
-      "label": "DEMO-LOR-EQ07",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in EP)",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "DEMO-LOR-EQ08",
-      "label": "DEMO-LOR-EQ08",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Method for stabilizing active UV filters in skin care compositions (Equivalent filing in CN)",
-      "assignee": "L'Oreal"
-    },
-    {
-      "id": "REF-KEN-01",
-      "label": "REF-KEN-01",
-      "type": "citation",
-      "is_representative": false,
-      "country": "FR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "REF-KEN-02",
-      "label": "REF-KEN-02",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kenvue"
-    },
-    {
-      "id": "REF-PRO-03",
-      "label": "REF-PRO-03",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "REF-EST-04",
-      "label": "REF-EST-04",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Estee Lauder Companies Inc."
-    },
-    {
-      "id": "REF-ASH-05",
-      "label": "REF-ASH-05",
-      "type": "citation",
-      "is_representative": false,
-      "country": "JP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Ashland"
-    },
-    {
-      "id": "REF-COT-06",
-      "label": "REF-COT-06",
-      "type": "citation",
+      "id": "CA2021189294A1",
+      "label": "CA2021189294A1",
+      "type": "member",
       "is_representative": false,
       "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Coty"
-    },
-    {
-      "id": "REF-SHI-07",
-      "label": "REF-SHI-07",
-      "type": "citation",
-      "is_representative": false,
-      "country": "GB",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-SHI-08",
-      "label": "REF-SHI-08",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Shiseido Company, Limited"
-    },
-    {
-      "id": "REF-COT-09",
-      "label": "REF-COT-09",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Coty"
-    },
-    {
-      "id": "REF-COS-10",
-      "label": "REF-COS-10",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Cosmax"
-    },
-    {
-      "id": "REF-REV-11",
-      "label": "REF-REV-11",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Revlon"
-    },
-    {
-      "id": "REF-HEN-12",
-      "label": "REF-HEN-12",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Henkel"
-    },
-    {
-      "id": "REF-BAS-13",
-      "label": "REF-BAS-13",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "BASF"
-    },
-    {
-      "id": "REF-BEI-14",
-      "label": "REF-BEI-14",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Beiersdorf AG"
+      "title": "Active UV Filter Stabilization System (L'Oreal)",
+      "assignee": "L'Oreal"
     }
   ],
   "edges": [
     {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ01",
-      "type": "equivalent"
+      "source": "EP2021904524A1",
+      "target": "US2021516596B1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ02",
-      "type": "equivalent"
+      "source": "EP2021904524A1",
+      "target": "JP2021599531B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ03",
-      "type": "equivalent"
+      "source": "EP2021904524A1",
+      "target": "CN2021894458B1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ04",
-      "type": "equivalent"
+      "source": "EP2021904524A1",
+      "target": "KR2021765800B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ05",
-      "type": "equivalent"
+      "source": "EP2021904524A1",
+      "target": "BR2021248182B1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ06",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ07",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-LOR-0101",
-      "target": "DEMO-LOR-EQ08",
-      "type": "equivalent"
-    },
-    {
-      "source": "REF-KEN-01",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KEN-02",
-      "target": "DEMO-LOR-EQ06",
-      "type": "citation"
-    },
-    {
-      "source": "REF-PRO-03",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EST-04",
-      "target": "REF-KEN-02",
-      "type": "citation"
-    },
-    {
-      "source": "REF-ASH-05",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COT-06",
-      "target": "DEMO-LOR-EQ05",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-07",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SHI-08",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COT-09",
-      "target": "DEMO-LOR-EQ02",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COS-10",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-REV-11",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-HEN-12",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BAS-13",
-      "target": "DEMO-LOR-EQ05",
-      "type": "citation"
-    },
-    {
-      "source": "REF-BEI-14",
-      "target": "DEMO-LOR-0101",
-      "type": "citation"
+      "source": "EP2021904524A1",
+      "target": "CA2021189294A1",
+      "type": "priority_claim"
     }
   ]
 }

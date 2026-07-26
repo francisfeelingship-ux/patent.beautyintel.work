@@ -1,431 +1,147 @@
 {
-  "familyPublicId": "DEMO-FAMILY-017",
-  "displayName": "Teeth Whitening Enamel Defense",
-  "company": "Colgate-Palmolive Company",
-  "priorityYear": 2020,
-  "summary": "Dual-chamber toothpastes that deliver hydrogen peroxide whitening alongside calcium silicate to seal exposed dentin tubules.",
+  "familyPublicId": "FAM-017",
+  "displayName": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
+  "company": "Amorepacific",
+  "companyKey": "amorepacific",
+  "priorityYear": 2021,
+  "summary": "Polymer-shell microencapsulation technology protecting pure vitamin A active against oxidative thermal degradation with sustained time-release dermal delivery.",
   "representative": {
-    "publicationNumber": "DEMO-COL-1717",
-    "title": "Peroxide whitening gels with calcium silicate enamel sealant"
+    "publicationNumber": "US2025297558A1",
+    "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)"
   },
   "jurisdictions": [
     "US",
     "EP",
-    "CA",
-    "CN"
+    "JP",
+    "CN",
+    "KR",
+    "FR"
   ],
   "members": [
     {
-      "publicationNumber": "DEMO-COL-1717",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant",
+      "publicationNumber": "US2025892624A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
       "jurisdiction": "US",
-      "kind": "grant",
-      "type": "core"
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-COL-EQ01",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in EP)",
+      "publicationNumber": "EP2025235377B2",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
       "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-COL-EQ02",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CA)",
-      "jurisdiction": "CA",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "publicationNumber": "JP2025562916B2",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
+      "jurisdiction": "JP",
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-COL-EQ03",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CN)",
+      "publicationNumber": "CN2025391470B1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
       "jurisdiction": "CN",
-      "kind": "application",
-      "type": "equivalent"
+      "kind": "Granted Patent",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-COL-EQ04",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "publicationNumber": "KR2025394951A1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
+      "jurisdiction": "KR",
+      "kind": "Patent Application",
+      "type": "Family Member"
     },
     {
-      "publicationNumber": "DEMO-COL-EQ05",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in EP)",
-      "jurisdiction": "EP",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-COL-EQ06",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CA)",
-      "jurisdiction": "CA",
-      "kind": "application",
-      "type": "equivalent_with_text"
-    },
-    {
-      "publicationNumber": "DEMO-COL-EQ07",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CN)",
-      "jurisdiction": "CN",
-      "kind": "grant",
-      "type": "equivalent"
-    },
-    {
-      "publicationNumber": "DEMO-COL-EQ08",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in US)",
-      "jurisdiction": "US",
-      "kind": "grant",
-      "type": "equivalent_with_text"
+      "publicationNumber": "FR2025938091B1",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
+      "jurisdiction": "FR",
+      "kind": "Granted Patent",
+      "type": "Family Member"
     }
   ],
   "nodes": [
     {
-      "id": "DEMO-COL-1717",
-      "label": "DEMO-COL-1717",
-      "type": "core",
+      "id": "US2025297558A1",
+      "label": "US2025297558A1",
+      "type": "representative",
       "is_representative": true,
       "country": "US",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "DEMO-COL-EQ01",
-      "label": "DEMO-COL-EQ01",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in EP)",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "DEMO-COL-EQ02",
-      "label": "DEMO-COL-EQ02",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CA)",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "DEMO-COL-EQ03",
-      "label": "DEMO-COL-EQ03",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CN)",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "DEMO-COL-EQ04",
-      "label": "DEMO-COL-EQ04",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in US)",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "DEMO-COL-EQ05",
-      "label": "DEMO-COL-EQ05",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in EP)",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "DEMO-COL-EQ06",
-      "label": "DEMO-COL-EQ06",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CA)",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "DEMO-COL-EQ07",
-      "label": "DEMO-COL-EQ07",
-      "type": "equivalent",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in CN)",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "DEMO-COL-EQ08",
-      "label": "DEMO-COL-EQ08",
-      "type": "equivalent_with_text",
-      "is_representative": false,
-      "country": "US",
-      "title": "Peroxide whitening gels with calcium silicate enamel sealant (Equivalent filing in US)",
-      "assignee": "Colgate-Palmolive Company"
-    },
-    {
-      "id": "REF-PRO-01",
-      "label": "REF-PRO-01",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CA",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Procter & Gamble Company"
-    },
-    {
-      "id": "REF-ASH-02",
-      "label": "REF-ASH-02",
-      "type": "citation",
-      "is_representative": false,
-      "country": "CN",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Ashland"
-    },
-    {
-      "id": "REF-AMO-03",
-      "label": "REF-AMO-03",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
       "assignee": "Amorepacific"
     },
     {
-      "id": "REF-EST-04",
-      "label": "REF-EST-04",
-      "type": "citation",
+      "id": "EP2025235377B2",
+      "label": "EP2025235377B2",
+      "type": "member",
       "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "The Estee Lauder Companies Inc."
-    },
-    {
-      "id": "REF-AMO-05",
-      "label": "REF-AMO-05",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "country": "EP",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
       "assignee": "Amorepacific"
     },
     {
-      "id": "REF-LOR-06",
-      "label": "REF-LOR-06",
-      "type": "citation",
+      "id": "JP2025562916B2",
+      "label": "JP2025562916B2",
+      "type": "member",
       "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "L'Oreal"
+      "country": "JP",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
+      "assignee": "Amorepacific"
     },
     {
-      "id": "REF-KEN-07",
-      "label": "REF-KEN-07",
-      "type": "citation",
+      "id": "CN2025391470B1",
+      "label": "CN2025391470B1",
+      "type": "member",
       "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Kenvue"
+      "country": "CN",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
+      "assignee": "Amorepacific"
     },
     {
-      "id": "REF-SEP-08",
-      "label": "REF-SEP-08",
-      "type": "citation",
+      "id": "KR2025394951A1",
+      "label": "KR2025394951A1",
+      "type": "member",
       "is_representative": false,
       "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Seppic"
-    },
-    {
-      "id": "REF-COT-09",
-      "label": "REF-COT-09",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Coty"
-    },
-    {
-      "id": "REF-AMO-10",
-      "label": "REF-AMO-10",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
       "assignee": "Amorepacific"
     },
     {
-      "id": "REF-AMO-11",
-      "label": "REF-AMO-11",
-      "type": "citation",
+      "id": "FR2025938091B1",
+      "label": "FR2025938091B1",
+      "type": "member",
       "is_representative": false,
-      "country": "CH",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
+      "country": "FR",
+      "title": "Encapsulated Retinol Delivery Microcapsules (Amorepacific)",
       "assignee": "Amorepacific"
-    },
-    {
-      "id": "REF-UNI-12",
-      "label": "REF-UNI-12",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Unilever"
-    },
-    {
-      "id": "REF-COT-13",
-      "label": "REF-COT-13",
-      "type": "citation",
-      "is_representative": false,
-      "country": "DE",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Coty"
-    },
-    {
-      "id": "REF-INT-14",
-      "label": "REF-INT-14",
-      "type": "citation",
-      "is_representative": false,
-      "country": "EP",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Intercos"
-    },
-    {
-      "id": "REF-SYM-15",
-      "label": "REF-SYM-15",
-      "type": "citation",
-      "is_representative": false,
-      "country": "KR",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "Symrise"
-    },
-    {
-      "id": "REF-DSM-16",
-      "label": "REF-DSM-16",
-      "type": "citation",
-      "is_representative": false,
-      "country": "US",
-      "title": "Prior art reference relating to cosmetic formulations, surfactant systems, and active agents.",
-      "assignee": "DSM"
     }
   ],
   "edges": [
     {
-      "source": "DEMO-COL-1717",
-      "target": "DEMO-COL-EQ01",
-      "type": "equivalent"
+      "source": "US2025297558A1",
+      "target": "EP2025235377B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-COL-1717",
-      "target": "DEMO-COL-EQ02",
-      "type": "equivalent"
+      "source": "US2025297558A1",
+      "target": "JP2025562916B2",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-COL-1717",
-      "target": "DEMO-COL-EQ03",
-      "type": "equivalent"
+      "source": "US2025297558A1",
+      "target": "CN2025391470B1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-COL-1717",
-      "target": "DEMO-COL-EQ04",
-      "type": "equivalent"
+      "source": "US2025297558A1",
+      "target": "KR2025394951A1",
+      "type": "priority_claim"
     },
     {
-      "source": "DEMO-COL-1717",
-      "target": "DEMO-COL-EQ05",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-COL-1717",
-      "target": "DEMO-COL-EQ06",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-COL-1717",
-      "target": "DEMO-COL-EQ07",
-      "type": "equivalent"
-    },
-    {
-      "source": "DEMO-COL-1717",
-      "target": "DEMO-COL-EQ08",
-      "type": "equivalent"
-    },
-    {
-      "source": "REF-PRO-01",
-      "target": "DEMO-COL-EQ03",
-      "type": "citation"
-    },
-    {
-      "source": "REF-ASH-02",
-      "target": "REF-ASH-02",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-03",
-      "target": "DEMO-COL-1717",
-      "type": "citation"
-    },
-    {
-      "source": "REF-EST-04",
-      "target": "REF-EST-04",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-05",
-      "target": "DEMO-COL-1717",
-      "type": "citation"
-    },
-    {
-      "source": "REF-LOR-06",
-      "target": "REF-ASH-02",
-      "type": "citation"
-    },
-    {
-      "source": "REF-KEN-07",
-      "target": "DEMO-COL-1717",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SEP-08",
-      "target": "REF-LOR-06",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COT-09",
-      "target": "DEMO-COL-EQ08",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-10",
-      "target": "DEMO-COL-1717",
-      "type": "citation"
-    },
-    {
-      "source": "REF-AMO-11",
-      "target": "DEMO-COL-1717",
-      "type": "citation"
-    },
-    {
-      "source": "REF-UNI-12",
-      "target": "DEMO-COL-1717",
-      "type": "citation"
-    },
-    {
-      "source": "REF-COT-13",
-      "target": "DEMO-COL-1717",
-      "type": "citation"
-    },
-    {
-      "source": "REF-INT-14",
-      "target": "DEMO-COL-1717",
-      "type": "citation"
-    },
-    {
-      "source": "REF-SYM-15",
-      "target": "REF-SYM-15",
-      "type": "citation"
-    },
-    {
-      "source": "REF-DSM-16",
-      "target": "REF-DSM-16",
-      "type": "citation"
+      "source": "US2025297558A1",
+      "target": "FR2025938091B1",
+      "type": "priority_claim"
     }
   ]
 }
