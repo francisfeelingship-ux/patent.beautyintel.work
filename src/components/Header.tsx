@@ -46,7 +46,7 @@ export default function Header({ companies, selectedCompany, onCompanyChange, st
             value={selectedCompany}
             onChange={(e) => onCompanyChange(e.target.value)}
           >
-            <option value="">All Companies (83,438 Patents)</option>
+            <option value="">All Companies (69,119 Core Patents)</option>
             {companies.map((c) => (
               <option key={c.key} value={c.key}>
                 {c.name}

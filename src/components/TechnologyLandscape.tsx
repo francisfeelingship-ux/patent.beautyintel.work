@@ -375,7 +375,7 @@ export default function TechnologyLandscape() {
     return (
       <div style={{ display: 'flex', justifyContent: 'center', padding: '60px', color: 'var(--accent-blue)' }}>
         <i className="fa-solid fa-circle-notch fa-spin" style={{ fontSize: '2rem', marginRight: '10px' }}></i>
-        <span>Loading technology landscape dots (23,361 patent parent families)...</span>
+        <span>Loading technology landscape dots (28,190 patent parent families)...</span>
       </div>
     );
   }

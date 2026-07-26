@@ -41,7 +41,7 @@ export default function Footer() {
             Global Coverage & Authorities
           </h4>
           <p style={{ lineHeight: '1.5', fontSize: '0.78rem' }}>
-            Comprehensive coverage across 83,438 patents and 23,361 parent family lineages spanning EP, US, JP, CN, KR, DE, FR, GB, and WIPO authorities.
+            Comprehensive coverage across 69,119 core patents and 28,190 parent family lineages spanning EP, US, JP, CN, KR, DE, FR, GB, and WIPO authorities.
           </p>
         </div>
       </div>
