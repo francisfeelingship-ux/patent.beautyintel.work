@@ -10,7 +10,7 @@ import { fetchAnalytics } from './data/loaders';
 import { FullAnalyticsJSON, Company } from './data/types';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'analytics' | 'families' | 'landscape' | 'workflow'>('analytics');
+  const [activeTab, setActiveTab] = useState<'analytics' | 'families' | 'landscape' | 'workflow'>('families');
   const [selectedCompany, setSelectedCompany] = useState<string>('');
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
