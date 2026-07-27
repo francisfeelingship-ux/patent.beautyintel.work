@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "patent-beautyintel-work",
-  "pages_build_output_dir": "dist",
+  "main": "src/worker.ts",
   "assets": {
     "directory": "./dist"
   },
