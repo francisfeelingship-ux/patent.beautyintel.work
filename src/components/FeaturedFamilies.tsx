@@ -99,6 +99,7 @@ export default function FeaturedFamilies() {
 
   const COMPANY_OPTIONS = [
     { key: '', name: 'All Companies' },
+    { key: 'elc_management', name: 'ELC Management LLC' },
     { key: 'loreal', name: "L'Oreal" },
     { key: 'shiseido', name: 'Shiseido Company, Limited' },
     { key: 'procter_gamble', name: 'The Procter & Gamble Company' },
@@ -109,6 +110,15 @@ export default function FeaturedFamilies() {
     { key: 'kenvue', name: 'Kenvue' },
     { key: 'colgate_palmolive', name: 'Colgate-Palmolive Company' },
     { key: 'basf', name: 'BASF' },
+    { key: 'givaudan', name: 'Givaudan' },
+    { key: 'evonik', name: 'Evonik' },
+    { key: 'dow', name: 'Dow' },
+    { key: 'beiersdorf', name: 'Beiersdorf AG' },
+    { key: 'croda', name: 'Croda' },
+    { key: 'symrise', name: 'Symrise' },
+    { key: 'cosmax', name: 'Cosmax' },
+    { key: 'ashland', name: 'Ashland' },
+    { key: 'seppic', name: 'Seppic' },
   ];
 
   return (
