@@ -1,34 +1,3 @@
-const FALLBACK_FAMILIES = [
-  {
-    family_id: "SF_EPO_AU2013217556B2",
-    public_id: "AU2013217556B2",
-    display_title: "Personal care compositions containing volumizing, fixative, and conditioning particles for fine hair",
-    display_abstract: "Personal care compositions containing volumizing and fixative particles for hair treatment.",
-    company_key: "loreal",
-    company_name: "ELC Management LLC",
-    priority_date: "2012-02-08",
-    member_count: 1,
-    jurisdiction_count: 1,
-    is_core_family: true,
-    tags: ["Hair Care"],
-    members: [{ id: "AU2013217556B2", authority: "AU", title: "Personal care compositions", priority_date: "2012-02-08" }]
-  },
-  {
-    family_id: "SF_EPO_CA3104441C",
-    public_id: "CA3104441C",
-    display_title: "Photostabilizing compounds, compositions, and methods",
-    display_abstract: "Photostabilizing compounds and compositions for sun care and skin protection.",
-    company_key: "loreal",
-    company_name: "ELC Management LLC",
-    priority_date: "2018-06-18",
-    member_count: 1,
-    jurisdiction_count: 1,
-    is_core_family: true,
-    tags: ["Sun Protection"],
-    members: [{ id: "CA3104441C", authority: "CA", title: "Photostabilizing compounds", priority_date: "2018-06-18" }]
-  }
-];
-
 export async function onRequest(context) {
   const { env, request } = context;
   const url = new URL(request.url);
@@ -44,13 +13,15 @@ export async function onRequest(context) {
 
   if (!env || !env.DB) {
     return new Response(JSON.stringify({
-      total: 28190,
+      error: "D1 Database binding 'DB' unavailable",
+      total: 0,
       page,
       limit,
-      total_pages: Math.ceil(28190 / limit),
-      families: FALLBACK_FAMILIES,
+      total_pages: 0,
+      families: [],
     }), {
-      headers: { "Content-Type": "application/json", "Cache-Control": "public, max-age=60" },
+      status: 500,
+      headers: { "Content-Type": "application/json" },
     });
   }
 
@@ -73,7 +44,6 @@ export async function onRequest(context) {
       params.push(country);
     }
 
-    let ftsJoin = "";
     if (q && q.trim().length > 0) {
       const cleanQ = q.trim();
       const safeTerms = cleanQ.replace(/[^a-zA-Z0-9]/g, ' ').trim().split(/\s+/).filter(Boolean);
@@ -81,8 +51,7 @@ export async function onRequest(context) {
       const searchClauses = [];
       if (safeTerms.length > 0) {
         const ftsExpr = safeTerms.map(t => `"${t}"*`).join(' AND ');
-        ftsJoin = " LEFT JOIN family_search fs ON f.family_id = fs.family_id";
-        searchClauses.push("(fs.family_id IS NOT NULL AND family_search MATCH ?)");
+        searchClauses.push("f.family_id IN (SELECT family_id FROM family_search WHERE family_search MATCH ?)");
         params.push(ftsExpr);
       }
 
@@ -92,6 +61,8 @@ export async function onRequest(context) {
       params.push(`%${cleanQ}%`);
       searchClauses.push("f.display_title LIKE ?");
       params.push(`%${cleanQ}%`);
+      searchClauses.push("f.display_abstract LIKE ?");
+      params.push(`%${cleanQ}%`);
       searchClauses.push("f.family_id IN (SELECT family_id FROM publications WHERE publication_number LIKE ? OR title LIKE ?)");
       params.push(`%${cleanQ}%`, `%${cleanQ}%`);
 
@@ -100,7 +71,7 @@ export async function onRequest(context) {
 
     const whereStr = whereClause.length > 0 ? " WHERE " + whereClause.join(" AND ") : "";
 
-    const countSql = `SELECT COUNT(DISTINCT f.family_id) as cnt FROM families f${ftsJoin}${whereStr}`;
+    const countSql = `SELECT COUNT(DISTINCT f.family_id) as cnt FROM families f${whereStr}`;
     const countRes = await env.DB.prepare(countSql).bind(...params).first();
     const totalCount = countRes?.cnt || 0;
 
@@ -117,7 +88,6 @@ export async function onRequest(context) {
         f.jurisdiction_count,
         f.is_core_family
       FROM families f
-      ${ftsJoin}
       ${whereStr}
       ORDER BY f.priority_date DESC, f.family_id ASC
       LIMIT ? OFFSET ?
@@ -187,13 +157,16 @@ export async function onRequest(context) {
       },
     });
   } catch (err) {
+    console.error("D1 families query error:", err);
     return new Response(JSON.stringify({
-      total: 28190,
+      error: err.message || "Database query failed",
+      total: 0,
       page,
       limit,
-      total_pages: Math.ceil(28190 / limit),
-      families: FALLBACK_FAMILIES,
+      total_pages: 0,
+      families: [],
     }), {
+      status: 500,
       headers: { "Content-Type": "application/json" },
     });
   }
