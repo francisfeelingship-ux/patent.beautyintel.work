@@ -219,24 +219,51 @@ export async function fetchFamilyDetails(familyPublicId: string): Promise<Patent
   };
 }
 
-export async function fetchTechnologyLandscape(companyKey?: string): Promise<LandscapeData> {
-  try {
-    const data = await fetchAnalytics(companyKey);
-    const points = Object.entries(data.global?.domain_distribution || {}).map(([tag, count], index) => ([
-      `pt-${index}`,
-      tag,
-      'Skin Care',
-      'L\'Oreal',
-      count as number
-    ]));
-    return { domains: Object.keys(data.global?.domain_distribution || {}), points };
-  } catch (e) {
-    return {
-      domains: ["Skin Care", "Hair Care", "Make-up & Cosmetics", "Sun Protection"],
-      points: [
-        ["pt-0", "Skin Care", "Skin Care", "L'Oreal", 9840],
-        ["pt-1", "Hair Care", "Hair Care", "L'Oreal", 5420]
-      ]
-    };
+export async function fetchTechnologyLandscape(companyKeys?: string | string[]): Promise<LandscapeData> {
+  let keysStr = '';
+  if (Array.isArray(companyKeys)) {
+    keysStr = companyKeys.join(',');
+  } else if (typeof companyKeys === 'string') {
+    keysStr = companyKeys;
   }
+
+  const url = keysStr ? `/api/domain-cloud-data?companies=${encodeURIComponent(keysStr)}` : '/api/domain-cloud-data';
+  try {
+    const response = await fetch(url);
+    if (response.ok) {
+      return await response.json();
+    }
+  } catch (e) {
+    console.warn('Live API technology landscape fetch error, trying static fallback:', e);
+  }
+
+  try {
+    const fallbackRes = await fetch('/data/technology-landscape.json');
+    if (fallbackRes.ok) {
+      return await fallbackRes.json();
+    }
+  } catch (e) {
+    console.warn('Static technology landscape fallback fetch error:', e);
+  }
+
+  return {
+    domains: [
+      'skin_care',
+      'hair_care',
+      'therapeutic_application',
+      'makeup_color_cosmetics',
+      'oral_care',
+      'cleansing_formula',
+      'food_beverage',
+      'sunscreen_photoprotection',
+      'hair_color'
+    ],
+    points: [
+      ['US20180123456A1', 'Dynamic skincare composition comprising active peptides', 'skin_care', 'loreal', 0],
+      ['EP3456789A1', 'Hair conditioning formulation with silicone polymers', 'hair_care', 'beiersdorf', 0],
+      ['JP2020500123A', 'Novel UV photoprotective sun filter compound', 'sunscreen_photoprotection', 'shiseido', 0],
+      ['WO2021098765A1', 'Cleansing surfactant composition for sensitive skin', 'cleansing_formula', 'procter_gamble', 0],
+      ['US20220345678A1', 'Oral care whitening toothpaste with hydroxyapatite', 'oral_care', 'unilever', 0]
+    ]
+  };
 }
