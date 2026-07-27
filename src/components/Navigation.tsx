@@ -16,7 +16,7 @@ export default function Navigation({ activeTab, onTabChange }: NavigationProps) 
         className={`tab-btn ${activeTab === 'families' ? 'active' : ''}`}
         onClick={() => onTabChange('families')}
       >
-        <i className="fa-solid fa-diagram-project"></i> Featured Patent Families
+        <i className="fa-solid fa-magnifying-glass"></i> Patent Search
       </button>
       <button 
         className={`tab-btn ${activeTab === 'landscape' ? 'active' : ''}`}

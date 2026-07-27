@@ -132,7 +132,7 @@ export default function FeaturedFamilies() {
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: '10px' }}>
           <h3 style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-bright)', fontSize: '1.1rem', margin: 0 }}>
-            <i className="fa-solid fa-database" style={{ color: 'var(--accent-blue)', marginRight: '8px' }}></i> Live D1 Families ({totalCount.toLocaleString()})
+            <i className="fa-solid fa-database" style={{ color: 'var(--accent-blue)', marginRight: '8px' }}></i> Live D1 Patent Search ({totalCount.toLocaleString()})
           </h3>
         </div>
 

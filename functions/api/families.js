@@ -75,9 +75,27 @@ export async function onRequest(context) {
 
     let ftsJoin = "";
     if (q && q.trim().length > 0) {
-      ftsJoin = " JOIN family_search fs ON f.family_id = fs.family_id";
-      whereClause.push("family_search MATCH ?");
-      params.push(q.trim());
+      const cleanQ = q.trim();
+      const safeTerms = cleanQ.replace(/[^a-zA-Z0-9]/g, ' ').trim().split(/\s+/).filter(Boolean);
+
+      const searchClauses = [];
+      if (safeTerms.length > 0) {
+        const ftsExpr = safeTerms.map(t => `"${t}"*`).join(' AND ');
+        ftsJoin = " LEFT JOIN family_search fs ON f.family_id = fs.family_id";
+        searchClauses.push("(fs.family_id IS NOT NULL AND family_search MATCH ?)");
+        params.push(ftsExpr);
+      }
+
+      searchClauses.push("f.public_representative_publication LIKE ?");
+      params.push(`%${cleanQ}%`);
+      searchClauses.push("f.family_id LIKE ?");
+      params.push(`%${cleanQ}%`);
+      searchClauses.push("f.display_title LIKE ?");
+      params.push(`%${cleanQ}%`);
+      searchClauses.push("f.family_id IN (SELECT family_id FROM publications WHERE publication_number LIKE ? OR title LIKE ?)");
+      params.push(`%${cleanQ}%`, `%${cleanQ}%`);
+
+      whereClause.push(`(${searchClauses.join(" OR ")})`);
     }
 
     const whereStr = whereClause.length > 0 ? " WHERE " + whereClause.join(" AND ") : "";

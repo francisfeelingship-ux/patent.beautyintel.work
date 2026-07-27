@@ -26,8 +26,8 @@ export default function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#/', '');
-      if (['analytics', 'families', 'landscape', 'cloud', 'workflow'].includes(hash)) {
-        const targetTab = hash === 'cloud' ? 'landscape' : hash;
+      if (['analytics', 'families', 'search', 'family', 'landscape', 'cloud', 'workflow'].includes(hash)) {
+        const targetTab = (hash === 'search' || hash === 'family') ? 'families' : (hash === 'cloud' ? 'landscape' : hash);
         setActiveTab(targetTab as any);
       }
     };
