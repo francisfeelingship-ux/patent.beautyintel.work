@@ -50,10 +50,10 @@ export async function fetchFamilyDetails(familyPublicId: string): Promise<Patent
       publicationNumber: data.public_id || data.family_id,
       title: data.display_title,
     },
-    nodes: (data.members || []).map((m: any) => ({
+    nodes: data.nodes || (data.members || []).map((m: any) => ({
       id: m.id || m.publicationNumber,
       label: m.id || m.publicationNumber,
-      type: m.authority || 'PUB',
+      type: m.is_representative ? 'core' : (m.abstract ? 'equivalent_with_text' : 'equivalent'),
       is_representative: Boolean(m.is_representative),
       country: m.authority || 'WO',
       title: m.title,
@@ -63,7 +63,7 @@ export async function fetchFamilyDetails(familyPublicId: string): Promise<Patent
       kindCode: m.kind,
       publicationDate: m.publication_date,
     })),
-    edges: (data.members || []).slice(1).map((m: any, idx: number) => ({
+    edges: data.edges || (data.members || []).slice(1).map((m: any, idx: number) => ({
       source: data.members[0]?.id || data.public_id,
       target: m.id || m.publicationNumber,
       type: idx % 2 === 0 ? 'continuation' : 'priority',
@@ -87,15 +87,6 @@ export async function fetchTechnologyLandscape(companyKeys?: string | string[]):
     }
   } catch (e) {
     console.warn('Live API technology landscape fetch error, trying static fallback:', e);
-  }
-
-  try {
-    const fallbackRes = await fetch('/data/technology-landscape.json');
-    if (fallbackRes.ok) {
-      return await fallbackRes.json();
-    }
-  } catch (e) {
-    console.warn('Static technology landscape fallback fetch error:', e);
   }
 
   return {

@@ -419,6 +419,65 @@ async function handleFamilyDetail(familyIdOrPublicId: string, env: Env): Promise
 
       const repPub = familyRow.public_representative_publication || (memberRows[0]?.publication_number);
 
+      const nodes = memberRows.map((p: any) => ({
+        id: p.publication_number,
+        label: p.publication_number,
+        type: p.publication_number === repPub ? 'core' : (p.abstract ? 'equivalent_with_text' : 'equivalent'),
+        is_representative: Boolean(p.is_public_representative || p.is_technical_representative || p.publication_number === repPub),
+        country: p.jurisdiction || p.publication_number?.slice(0, 2) || "US",
+        title: p.title || familyRow.display_title,
+        assignee: p.assignee_display || familyRow.company_display_name,
+        publicationNumber: p.publication_number,
+        authority: p.jurisdiction || p.publication_number?.slice(0, 2) || "US",
+        kindCode: p.kind_code || "",
+        publicationDate: p.publication_date || "",
+      }));
+
+      const edges: any[] = [];
+      const seenEdges = new Set<string>();
+
+      const byJur: Record<string, any[]> = {};
+      memberRows.forEach((m: any) => {
+        const jur = m.jurisdiction || m.publication_number?.slice(0, 2) || "US";
+        if (!byJur[jur]) byJur[jur] = [];
+        byJur[jur].push(m);
+      });
+
+      Object.values(byJur).forEach((jurMembers) => {
+        const sorted = [...jurMembers].sort((a, b) => {
+          const da = a.filing_date || a.publication_date || a.priority_date || "";
+          const db = b.filing_date || b.publication_date || b.priority_date || "";
+          return da.localeCompare(db);
+        });
+        for (let i = 1; i < sorted.length; i++) {
+          const src = sorted[i - 1].publication_number;
+          const tgt = sorted[i].publication_number;
+          if (src && tgt && src !== tgt) {
+            const key = `${src}->${tgt}`;
+            if (!seenEdges.has(key)) {
+              seenEdges.add(key);
+              edges.push({ source: src, target: tgt, type: "continuation" });
+            }
+          }
+        }
+      });
+
+      const primaryId = repPub || memberRows[0]?.publication_number;
+      memberRows.forEach((m: any) => {
+        const mId = m.publication_number;
+        if (mId && mId !== primaryId) {
+          const isAlreadyTarget = edges.some((e) => e.target === mId);
+          if (!isAlreadyTarget) {
+            const key = `${primaryId}->${mId}`;
+            if (!seenEdges.has(key)) {
+              seenEdges.add(key);
+              const edgeType = m.priority_date && m.priority_date === familyRow.priority_date ? "equivalent" : "priority";
+              edges.push({ source: primaryId, target: mId, type: edgeType });
+            }
+          }
+        }
+      });
+
       const payload = {
         family_id: familyRow.family_id,
         public_id: familyRow.public_representative_publication || familyRow.family_id,
@@ -443,6 +502,8 @@ async function handleFamilyDetail(familyIdOrPublicId: string, env: Env): Promise
           publication_date: p.publication_date || "",
           is_representative: Boolean(p.is_public_representative || p.is_technical_representative || p.publication_number === repPub),
         })),
+        nodes,
+        edges,
       };
 
       return new Response(JSON.stringify(payload), {
