@@ -10,7 +10,7 @@ import { fetchAnalytics } from './data/loaders';
 import { FullAnalyticsJSON, Company } from './data/types';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'analytics' | 'families' | 'landscape' | 'workflow'>('families');
+  const [activeTab, setActiveTab] = useState<'analytics' | 'families' | 'landscape' | 'workflow'>('analytics');
   const [selectedCompany, setSelectedCompany] = useState<string>('');
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
@@ -25,10 +25,12 @@ export default function App() {
   // Sync hash routing for direct refreshes
   useEffect(() => {
     const handleHashChange = () => {
-      const hash = window.location.hash.replace('#/', '');
+      const hash = window.location.hash.replace('#/', '').replace('#', '');
       if (['analytics', 'families', 'search', 'family', 'landscape', 'cloud', 'workflow'].includes(hash)) {
         const targetTab = (hash === 'search' || hash === 'family') ? 'families' : (hash === 'cloud' ? 'landscape' : hash);
         setActiveTab(targetTab as any);
+      } else {
+        setActiveTab('analytics');
       }
     };
     

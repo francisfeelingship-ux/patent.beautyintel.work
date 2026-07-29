@@ -89,7 +89,7 @@ export async function onRequest(context) {
         f.is_core_family
       FROM families f
       ${whereStr}
-      ORDER BY f.priority_date DESC, f.family_id ASC
+      ORDER BY f.member_count DESC, f.priority_date DESC, f.family_id ASC
       LIMIT ? OFFSET ?
     `;
 

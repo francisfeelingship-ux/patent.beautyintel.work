@@ -38,15 +38,19 @@ export default function FeaturedFamilies() {
 
         if (!isSubscribed) return;
 
-        setFamilies(res.families || []);
+        const fetchedFamilies = res.families || [];
+        if (!searchQuery) {
+          fetchedFamilies.sort((a: any, b: any) => (b.member_count || 0) - (a.member_count || 0));
+        }
+        setFamilies(fetchedFamilies);
         setTotalPages(res.total_pages || 1);
         setTotalCount(res.total || 0);
 
-        if (res.families && res.families.length > 0) {
+        if (fetchedFamilies.length > 0) {
           // If current selected is not in list, select first
-          const exists = res.families.some((f: any) => f.family_id === selectedFamilyId || f.public_id === selectedFamilyId);
+          const exists = fetchedFamilies.some((f: any) => f.family_id === selectedFamilyId || f.public_id === selectedFamilyId);
           if (!exists) {
-            setSelectedFamilyId(res.families[0].family_id || res.families[0].public_id || '');
+            setSelectedFamilyId(fetchedFamilies[0].family_id || fetchedFamilies[0].public_id || '');
           }
         } else {
           setSelectedFamilyId('');

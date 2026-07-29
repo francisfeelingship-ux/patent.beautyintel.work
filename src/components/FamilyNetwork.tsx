@@ -64,9 +64,9 @@ export default function FamilyNetwork({ family, onNodeSelect }: FamilyNetworkPro
       .selectAll('line')
       .data(edges)
       .enter().append('line')
-      .attr('stroke', (d: any) => d.type === 'equivalent' ? 'rgba(255, 255, 255, 0.22)' : 'var(--accent-purple)')
-      .attr('stroke-width', (d: any) => d.type === 'equivalent' ? 1.5 : 2.0)
-      .attr('stroke-dasharray', (d: any) => d.type === 'citation' ? '4,4' : null)
+      .attr('stroke', (d: any) => d.type === 'citation' ? '#a855f7' : 'rgba(0, 210, 255, 0.6)')
+      .attr('stroke-width', (d: any) => d.type === 'citation' ? 1.5 : 1.2) // Solid thin line for sibling, dash line for citation
+      .attr('stroke-dasharray', (d: any) => d.type === 'citation' ? '5,4' : 'none')
       .attr('marker-end', (d: any) => d.type === 'citation' ? 'url(#citation)' : null);
 
     // Render node groups
@@ -85,10 +85,10 @@ export default function FamilyNetwork({ family, onNodeSelect }: FamilyNetworkPro
     node.append('circle')
       .attr('r', (d: any) => d.is_representative ? 12 : 8)
       .attr('fill', (d: any) => {
-        if (d.type === 'core') return '#00d2ff'; // Cyan
+        if (d.type === 'core') return '#00d2ff'; // Cyan core
+        if (d.type === 'citation') return '#a855f7'; // Purple citation
         if (d.type === 'equivalent_with_text') return '#ec4899'; // Pink
-        if (d.type === 'equivalent') return 'rgba(0, 210, 255, 0.4)';
-        return '#8b5cf6'; // Purple citation
+        return 'rgba(0, 210, 255, 0.4)'; // Sibling equivalent
       })
       .attr('stroke', (d: any) => d.is_representative ? '#ffffff' : '#07090e')
       .attr('stroke-width', (d: any) => d.is_representative ? 2.5 : 1.5)
@@ -167,6 +167,35 @@ export default function FamilyNetwork({ family, onNodeSelect }: FamilyNetworkPro
         <button className="graph-ctrl-btn" id="btn-zoom-in" title="Zoom In"><i className="fa-solid fa-plus"></i></button>
         <button className="graph-ctrl-btn" id="btn-zoom-out" title="Zoom Out"><i className="fa-solid fa-minus"></i></button>
         <button className="graph-ctrl-btn" id="btn-zoom-fit" title="Fit to Screen"><i className="fa-solid fa-arrows-to-eye"></i></button>
+      </div>
+
+      {/* Relationship Legend overlay */}
+      <div 
+        style={{
+          position: 'absolute',
+          bottom: '12px',
+          left: '12px',
+          background: 'rgba(13, 17, 23, 0.85)',
+          backdropFilter: 'blur(8px)',
+          border: '1px solid var(--glass-border)',
+          borderRadius: '6px',
+          padding: '6px 12px',
+          fontSize: '0.72rem',
+          display: 'flex',
+          gap: '16px',
+          alignItems: 'center',
+          zIndex: 10,
+          boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <svg width="24" height="6"><line x1="0" y1="3" x2="24" y2="3" stroke="rgba(0, 210, 255, 0.8)" strokeWidth="1.2" /></svg>
+          <span style={{ color: 'var(--text-bright)', fontWeight: 500 }}>Sibling</span>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <svg width="24" height="6"><line x1="0" y1="3" x2="24" y2="3" stroke="#a855f7" strokeWidth="1.5" strokeDasharray="5,3" /></svg>
+          <span style={{ color: 'var(--text-bright)', fontWeight: 500 }}>Citation</span>
+        </div>
       </div>
       
       {/* Graph Area */}
