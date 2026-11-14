@@ -8,6 +8,17 @@ const ACCEPTED_USE_CASES = new Set(['patent', 'ingredients', 'competitors', 'res
 const RESPONSE_HEADERS = { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' };
 const SUBMITTED = { message: '申请已收到。如符合条件，我们会通过邮件联系你。' };
 
+// Derive a stable, opaque primary key from the normalized email. This keeps
+// submissions idempotent even if the secondary unique index is temporarily
+// unavailable while D1's daily read allowance is exhausted.
+async function applicationId(email: string): Promise<string> {
+  const digest = new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(email)));
+  digest[6] = (digest[6] & 0x0f) | 0x80; // UUID version 8 (custom SHA-256-derived).
+  digest[8] = (digest[8] & 0x3f) | 0x80;
+  const hex = Array.from(digest.slice(0, 16), byte => byte.toString(16).padStart(2, '0')).join('');
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
+}
+
 type ApplicationStatus = 'pending' | 'approved' | 'rejected';
 
 interface JwtClaims {
@@ -134,7 +145,7 @@ async function submitApplication(request: Request, db: D1Database): Promise<Resp
       `INSERT OR IGNORE INTO access_requests
        (id, full_name, email, organization, use_case, message)
        VALUES (?, ?, ?, ?, ?, ?)`
-    ).bind(crypto.randomUUID(), fullName, email, organization, useCase, message).run();
+    ).bind(await applicationId(email), fullName, email, organization, useCase, message).run();
     return response(SUBMITTED, 202); // Same response for duplicate emails (no enumeration).
   } catch (error) {
     console.error('Access application submission failed:', error);

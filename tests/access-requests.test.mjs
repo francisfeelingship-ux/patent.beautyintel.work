@@ -13,7 +13,7 @@ function fakeDb() {
         bind(...values) { args = values; return this; },
         async run() {
           if (!sql.includes('INSERT OR IGNORE INTO access_requests')) throw new Error(sql);
-          if (![...applications.values()].some(r => r.email === args[2])) {
+          if (!applications.has(args[0])) {
             applications.set(args[0], { id: args[0], full_name: args[1], email: args[2],
               organization: args[3], use_case: args[4], message: args[5], status: 'pending' });
           }
@@ -69,6 +69,7 @@ test('valid applicant is stored once, duplicate submissions do not reveal existe
   assert.deepEqual(await one.json(), await two.json());
   assert.equal(db.applications.size, 1);
   assert.equal([...db.applications.values()][0].email, 'applicant@example.com');
+  assert.match([...db.applications.keys()][0], /^[0-9a-f]{8}-[0-9a-f]{4}-8[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/);
 });
 
 test('spam trap and bad submissions never insert data', async () => {
@@ -126,7 +127,10 @@ test('signed Cloudflare Access JWT permits list and one-time approval, rejects r
     assert.equal((await result.json()).accessProvisioned, false);
     assert.equal((await worker.fetch(approve(), { DB: db }, {})).status, 409);
 
-    const forged = token.replace(/.$/, token.endsWith('A') ? 'B' : 'A');
+    // Change significant signature bits; the final base64url character may
+    // contain unused padding bits and is therefore not reliable for tampering.
+    const signaturePart = token.split('.')[2];
+    const forged = `${message}.${signaturePart[0] === 'A' ? 'B' : 'A'}${signaturePart.slice(1)}`;
     assert.equal(await verifiedAdminEmail(new Request('https://patents.beautyintel.work/admin/applications', {
       headers: { 'Cf-Access-Jwt-Assertion': forged },
     })), null);
