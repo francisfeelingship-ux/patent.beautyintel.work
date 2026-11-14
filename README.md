@@ -1,16 +1,41 @@
-# Patent Library (Static Public Demonstration)
+# Patent Library (D1-backed Demonstration)
 
 This repository hosts the code and static assets for the public demonstration version of the Patent Library, deployed at:
 
-**[patent.beautyintel.work](https://patent.beautyintel.work)**
+**[patents.beautyintel.work](https://patents.beautyintel.work)**
 
 ## Purpose of the Public Demo
-The public demo provides a lightweight, client-side, static evaluation platform to preview the interface, visualizations, and capability workflows of the Patent Library without exposing production data systems, search databases, or executing live agent routines.
+The demo provides a lightweight Patent Library interface. Static assets are served by a Cloudflare Worker, while `/api/*` routes query the separate `patent_library_lite` D1 database.
 
 > [!IMPORTANT]
 > **Data Security Boundary:**
-> This demonstration environment is completely disconnected from the local 35 GB Patent Librarian database. It runs entirely on static JSON files placed in the `public/data/` directory. 
-> It contains no actual claim texts, abstracts, description details, semantic vector embeddings, audit trails, or private customer records.
+> The D1 demo is separate from the local Patent Librarian database, but it exposes data from its own database through public API routes. Review database contents and configure Cloudflare Access before sharing proprietary demo data. A `Cache-Control` response header alone does not remove D1 query costs.
+
+## D1 analytics snapshot cache (2026-11)
+
+The homepage calls `/api/analytics`. Previously every request performed full-table `COUNT(*)` and `GROUP BY` queries. With approximately 250,000 rows in some tables, only a handful of page loads could exhaust D1's free 5-million-rows-read daily quota.
+
+**Required deployment order:**
+
+1. Apply the schema migration to the existing remote D1 database (it creates one new empty cache table and does not touch patent records):
+
+   ```bash
+   npx wrangler d1 execute patent_library_lite --remote --file=migrations/0001_create_analytics_snapshots.sql
+   ```
+
+2. Build and deploy the Worker:
+
+   ```bash
+   npm ci
+   npm run build
+   npx wrangler deploy
+   ```
+
+3. The **first** successful request for `/api/analytics` computes the aggregates once and stores JSON in `analytics_snapshots`. Later requests fetch just that indexed cache row, shared across regions. The `X-Analytics-Source` header is `generated` for the initial query and `snapshot` for later requests. Run the first load while enough D1 allowance remains, ideally just after the UTC reset.
+
+4. Whenever the D1 data is refreshed, bump `ANALYTICS_DATA_VERSION` in `src/worker.ts` to intentionally regenerate statistics. Company-filtered variants are cached separately.
+
+If the migration has not been applied, `/api/analytics` fails safely instead of silently repeating an expensive full-table query. When enabling Cloudflare Access, protect both `patents.beautyintel.work` and its `*.workers.dev` alternative to avoid an authentication bypass.
 
 ---
 

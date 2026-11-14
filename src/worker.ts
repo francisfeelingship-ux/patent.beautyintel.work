@@ -1,12 +1,68 @@
+import type { D1Database, ExecutionContext } from '@cloudflare/workers-types';
+
 export interface Env {
   DB: D1Database;
-  ASSETS: Fetcher;
+  ASSETS: { fetch(request: Request): Promise<Response> };
+}
+
+// D1 row reads are billed even for COUNT/GROUP BY queries. The public analytics
+// dashboard changes only when the imported snapshot changes, so materialize its
+// expensive aggregates once and reuse them across requests and edge locations.
+// Bump this version as part of every D1 data refresh.
+const ANALYTICS_DATA_VERSION = '2026-11-14-v1';
+
+interface AnalyticsSnapshotRow {
+  payload: string;
+}
+
+function analyticsCacheKey(company: string | null): string {
+  return `${ANALYTICS_DATA_VERSION}:${company ? `company:${company}` : 'global'}`;
+}
+
+async function getAnalyticsSnapshot(db: D1Database, key: string): Promise<string | null> {
+  const row = await db.prepare(
+    'SELECT payload FROM analytics_snapshots WHERE cache_key = ? LIMIT 1'
+  ).bind(key).first<AnalyticsSnapshotRow>();
+  return row?.payload ?? null;
+}
+
+async function saveAnalyticsSnapshot(db: D1Database, key: string, payload: string): Promise<void> {
+  await db.prepare(
+    `INSERT INTO analytics_snapshots (cache_key, payload, generated_at)
+     VALUES (?, ?, datetime('now'))
+     ON CONFLICT(cache_key) DO UPDATE SET
+       payload = excluded.payload, generated_at = excluded.generated_at`
+  ).bind(key, payload).run();
+}
+
+function analyticsResponse(payload: string, source: 'snapshot' | 'generated'): Response {
+  return new Response(payload, {
+    headers: {
+      'Content-Type': 'application/json; charset=utf-8',
+      'Cache-Control': 'public, max-age=3600',
+      'X-Analytics-Source': source,
+    },
+  });
 }
 
 export default {
-  async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+  async fetch(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
     const pathname = url.pathname;
+
+    // Scanners routinely send HEAD/OPTIONS to public routes. They must never
+    // trigger D1 aggregation queries (the old handler ran on every method).
+    if (pathname.startsWith('/api/')) {
+      if (request.method === 'HEAD') {
+        return new Response(null, { status: 200, headers: { Allow: 'GET, HEAD' } });
+      }
+      if (request.method !== 'GET') {
+        return new Response(JSON.stringify({ error: 'Method not allowed' }), {
+          status: 405,
+          headers: { Allow: 'GET, HEAD', 'Content-Type': 'application/json' },
+        });
+      }
+    }
 
     // Route /api/* requests to D1 queries
     if (pathname === '/api/analytics') {
@@ -46,7 +102,24 @@ async function handleAnalytics(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url);
   const companyFilter = url.searchParams.get('company');
 
+  if (companyFilter && !/^[a-zA-Z0-9_-]{1,80}$/.test(companyFilter)) {
+    return new Response(JSON.stringify({ error: 'Invalid company key' }), {
+      status: 400,
+      headers: { 'Content-Type': 'application/json' },
+    });
+  }
+
+  const cacheKey = analyticsCacheKey(companyFilter);
+
   try {
+    const cached = await getAnalyticsSnapshot(env.DB, cacheKey);
+    if (cached !== null) {
+      return analyticsResponse(cached, 'snapshot');
+    }
+
+    // Cold start only. The new table must be created by the SQL migration
+    // before deployment, otherwise the request fails safely instead of
+    // repeatedly scanning the whole database.
     let totalPatentsQuery = "SELECT COUNT(*) as cnt FROM publications";
     let totalFamiliesQuery = "SELECT COUNT(*) as cnt FROM families";
     const totalPatentsParams: any[] = [];
@@ -183,12 +256,9 @@ async function handleAnalytics(request: Request, env: Env): Promise<Response> {
         : {},
     };
 
-    return new Response(JSON.stringify(responsePayload), {
-      headers: {
-        "Content-Type": "application/json",
-        "Cache-Control": "public, max-age=60",
-      },
-    });
+    const payload = JSON.stringify(responsePayload);
+    await saveAnalyticsSnapshot(env.DB, cacheKey, payload);
+    return analyticsResponse(payload, 'generated');
   } catch (err: any) {
     console.error("D1 analytics query error:", err);
     return new Response(JSON.stringify({ error: err.message || "Database query error" }), {
@@ -380,15 +450,26 @@ async function handleFamilyDetail(familyIdOrPublicId: string, env: Env): Promise
   }
 
   try {
+    // An OR between an indexed ID and an unindexed publication field forced
+    // D1 to scan the full families table. Prefer the existing family primary
+    // key, then resolve publication numbers using the existing unique index.
     let familyRow = await env.DB.prepare(
-      `SELECT * FROM families WHERE family_id = ? OR public_representative_publication = ? LIMIT 1`
-    ).bind(familyIdOrPublicId, familyIdOrPublicId).first<any>();
+      'SELECT * FROM families WHERE family_id = ? LIMIT 1'
+    ).bind(familyIdOrPublicId).first<any>();
 
     let pubRow: any = null;
     if (!familyRow) {
+      const normalizedPublicationNumber = familyIdOrPublicId.toUpperCase().replace(/[^A-Z0-9]/g, '');
       pubRow = await env.DB.prepare(
-        `SELECT * FROM publications WHERE publication_number = ? OR publication_id = ? LIMIT 1`
-      ).bind(familyIdOrPublicId, familyIdOrPublicId).first<any>();
+        'SELECT * FROM publications WHERE publication_number_normalized = ? LIMIT 1'
+      ).bind(normalizedPublicationNumber).first<any>();
+
+      // Historical callers may use the internal integer publication_id.
+      if (!pubRow && /^\d+$/.test(familyIdOrPublicId)) {
+        pubRow = await env.DB.prepare(
+          'SELECT * FROM publications WHERE publication_id = ? LIMIT 1'
+        ).bind(Number(familyIdOrPublicId)).first<any>();
+      }
 
       if (pubRow && pubRow.family_id) {
         familyRow = await env.DB.prepare(
