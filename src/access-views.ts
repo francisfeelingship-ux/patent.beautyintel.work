@@ -1,0 +1,96 @@
+// Both pages are self-contained because /apply is the only public HTML path.
+// Referencing normal Vite assets here would require opening those assets to
+// anonymous visitors, weakening the Cloudflare Access boundary.
+
+export const publicApplicationPage = `<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>申请体验 · BeautyIntel Patent Library</title>
+<style>
+:root{color-scheme:dark;--bg:#07121b;--card:#102431;--line:#294453;--cyan:#69dce1;--text:#f2f5f5;--sub:#9ab1ba}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 14% 14%,#0d596040,transparent 35%),radial-gradient(circle at 90% 75%,#17425955,transparent 40%)}
+.shell{position:relative;max-width:1190px;min-height:100vh;margin:auto;padding:28px 44px 72px}.top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:24px}
+.brand{font-size:14px;font-weight:800;letter-spacing:.17em;color:#f0f9fa}.brand span{display:block;color:var(--cyan);font-size:10px;letter-spacing:.25em;margin-top:6px}.tag{font-size:11px;letter-spacing:.12em;color:var(--sub);border:1px solid var(--line);border-radius:50px;padding:10px 16px}
+.layout{display:grid;grid-template-columns:1fr 470px;align-items:start;gap:74px;padding-top:83px}.eyebrow{color:var(--cyan);letter-spacing:.24em;font-size:12px;font-weight:800;text-transform:uppercase}
+h1{font-size:clamp(40px,5vw,66px);letter-spacing:-.055em;line-height:1.14;margin:28px 0 23px;font-weight:700}.highlight{color:var(--cyan)}
+.intro{color:var(--sub);font-size:16px;line-height:1.95;max-width:460px}.steps{border-top:1px solid var(--line);margin-top:76px;padding-top:30px;display:grid;gap:22px}
+.step{display:flex;gap:17px;align-items:flex-start}.num{color:var(--cyan);border:1px solid #43717d;border-radius:50%;width:34px;height:34px;display:grid;place-items:center;font-size:12px;flex:none}
+.step b{display:block;font-size:14px;margin-bottom:5px}.step small{color:var(--sub);line-height:1.6;font-size:12px}
+.panel{background:linear-gradient(145deg,#102632e8,#0e1d29f4);border:1px solid #33505c;border-radius:22px;padding:32px;box-shadow:0 28px 65px #0005}
+.panel-label{color:var(--cyan);font-size:11px;letter-spacing:.17em;text-transform:uppercase}.panel h2{font-size:25px;letter-spacing:-.035em;margin:12px 0 6px}.muted{color:var(--sub);font-size:13px;line-height:1.8;margin:0 0 25px}
+.fields{display:grid;gap:17px}.field label{display:block;color:#b8cbd0;font-size:12px;letter-spacing:.03em;margin-bottom:8px}.field input,.field select,.field textarea{background:#071b25;border:1px solid #31505b;color:#e8f3f4;border-radius:10px;width:100%;padding:13px 14px;font:inherit;font-size:14px;outline:none;transition:border-color .2s}
+.field textarea{resize:vertical;min-height:88px}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #69dce11c}.field input::placeholder,.field textarea::placeholder{color:#6d8790}
+.consent{color:#8199a2;font-size:11px;line-height:1.65;margin-top:16px}.submit{width:100%;border:0;border-radius:11px;background:var(--cyan);color:#06202b;font:inherit;font-weight:800;font-size:14px;cursor:pointer;padding:16px;margin-top:20px;transition:transform .2s,background .2s}.submit:hover{background:#9cf4f1;transform:translateY(-1px)}.submit:disabled{opacity:.65;cursor:wait}
+.result{margin-top:17px;font-size:13px;line-height:1.6;min-height:20px}.result.ok{color:#8df2ba}.result.error{color:#ffb7a8}.hp{position:absolute;left:-10000px;opacity:0;pointer-events:none}
+.foot{margin-top:68px;padding-top:22px;border-top:1px solid var(--line);font-size:11px;color:#718f9a;display:flex;justify-content:space-between;gap:12px}
+@media(max-width:890px){.shell{padding:20px 22px 40px}.layout{grid-template-columns:1fr;gap:38px;padding-top:50px}.steps{margin-top:40px}.panel{padding:24px}.tag{display:none}.foot{margin-top:45px;flex-wrap:wrap}} 
+</style></head><body><div class="shell">
+<header class="top"><div class="brand">BEAUTYINTEL<span>PATENT INTELLIGENCE ENGINE</span></div><div class="tag">PRIVATE DEMONSTRATION · APPLICATION</div></header>
+<main class="layout"><section><div class="eyebrow">Access by review</div><h1>让专利情报，<br><span class="highlight">为你的下一步研发</span><br>提供方向。</h1>
+<p class="intro">体验 BeautyIntel 的美妆专利技术检索、竞争格局分析与研发机会发现。我们目前采取申请审核制，确保演示环境和研究数据得到合理使用。</p>
+<div class="steps"><div class="step"><span class="num">01</span><div><b>提交申请</b><small>填写工作邮箱、所属机构及预期用途。</small></div></div>
+<div class="step"><span class="num">02</span><div><b>管理员审核</b><small>根据使用场景和演示名额评估申请。</small></div></div>
+<div class="step"><span class="num">03</span><div><b>确认访问方式</b><small>审核通过后，我们将联系你说明账号开通安排。</small></div></div></div></section>
+<section class="panel" aria-label="演示申请表"><div class="panel-label">Application form · 01/01</div><h2>申请访问权限</h2><p class="muted">请提供真实的工作信息。提交申请不等于立即创建账户。</p>
+<form id="application" novalidate><div class="fields">
+<div class="field"><label for="fullName">称呼 / 姓名 *</label><input id="fullName" name="fullName" autocomplete="name" placeholder="你的姓名" required minlength="2" maxlength="100"></div>
+<div class="field"><label for="email">工作邮箱 *</label><input id="email" name="email" type="email" autocomplete="email" placeholder="name@company.com" required maxlength="254"></div>
+<div class="field"><label for="organization">公司 / 机构 *</label><input id="organization" name="organization" autocomplete="organization" placeholder="公司或研究机构名称" required minlength="2" maxlength="150"></div>
+<div class="field"><label for="useCase">主要体验方向 *</label><select id="useCase" name="useCase" required><option value="" disabled selected>请选择你的关注方向</option><option value="patent">专利技术追踪</option><option value="ingredients">活性成分与原料研究</option><option value="competitors">竞争对手技术分析</option><option value="research">研发与创新研究</option><option value="other">其他用途</option></select></div>
+<div class="field"><label for="message">希望解决的问题（选填）</label><textarea id="message" name="message" maxlength="1000" placeholder="例如：想了解某个功效赛道的最新专利技术布局"></textarea></div>
+<div class="hp" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div></div>
+<p class="consent">提交的信息仅用于处理申请与必要的联系，不会展示给其他申请人。审批前不会自动开通访问。</p>
+<button type="submit" class="submit" id="send">提交申请 →</button><div class="result" id="result" role="status" aria-live="polite"></div></form></section></main>
+<footer class="foot"><span>© 2026 BEAUTYINTEL · PATENT LIBRARY</span><span>审慎的技术判断，始于可信的证据。</span></footer></div>
+<script>
+const form=document.getElementById('application');const status=document.getElementById('result');const send=document.getElementById('send');
+form.addEventListener('submit',async function(event){event.preventDefault();status.className='result';status.textContent='';if(!form.reportValidity())return;
+const data=Object.fromEntries(new FormData(form));send.disabled=true;send.textContent='正在提交…';
+try{const result=await fetch('/api/access-requests',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});const payload=await result.json();
+if(!result.ok)throw Error(payload.error||'提交失败，请稍后再试');status.className='result ok';status.textContent='✓ '+payload.message;form.reset();}
+catch(error){status.className='result error';status.textContent=error.message||'提交失败';}
+finally{send.disabled=false;send.textContent='提交申请 →';}});
+</script></body></html>`;
+
+export const adminApplicationsPage = `<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>申请审批 · BeautyIntel Admin</title>
+<style>
+:root{color-scheme:dark;--bg:#07141e;--nav:#0b1b27;--card:#102330;--line:#284150;--text:#ebf4f6;--sub:#94abb5;--accent:#6fdae2;--good:#a7e7b9;--bad:#ffb6a3}*{box-sizing:border-box}
+body{margin:0;font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;background:var(--bg);color:var(--text)}button,input,textarea{font:inherit}
+.app{min-height:100vh;display:grid;grid-template-columns:230px 1fr}.side{background:var(--nav);border-right:1px solid var(--line);padding:32px 23px;display:flex;flex-direction:column}.brand{font-size:16px;font-weight:800;letter-spacing:.15em}.subbrand{color:var(--accent);font-size:10px;letter-spacing:.19em;margin-top:8px}
+.nav{margin-top:64px;display:grid;gap:8px}.nav a{color:var(--sub);text-decoration:none;padding:13px 14px;font-size:13px;border-radius:9px}.nav a.active{color:var(--accent);background:#21455280}.sidefoot{margin-top:auto;font-size:11px;color:#62828f;line-height:1.7}
+.content{padding:40px 48px 70px;max-width:1600px;width:100%;margin:auto}.eyebrow{font-size:11px;font-weight:800;letter-spacing:.19em;color:var(--accent)}h1{font-size:32px;letter-spacing:-.04em;margin:12px 0 9px}.subtitle{color:var(--sub);font-size:14px;margin:0;line-height:1.7}.head{display:flex;align-items:end;justify-content:space-between;gap:20px}.refresh{background:none;color:var(--accent);border:1px solid #406572;padding:11px 17px;border-radius:9px;cursor:pointer}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;margin:33px 0}.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:21px 24px}.stat b{font-weight:700;font-size:30px;display:block;margin-top:8px}.stat span{font-size:12px;color:var(--sub)}
+.board{background:var(--card);border:1px solid var(--line);border-radius:15px;overflow:hidden}.tools{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:19px 22px;border-bottom:1px solid var(--line)}.tabs{display:flex;flex-wrap:wrap;gap:8px}.tab{border:1px solid transparent;background:none;color:var(--sub);padding:9px 12px;border-radius:8px;font-size:12px;cursor:pointer}.tab.current{background:#1d4550;color:var(--accent);border-color:#315d67}.search{min-width:180px;max-width:310px;width:30%;background:#081b26;color:var(--text);border:1px solid #2b4552;border-radius:9px;padding:10px 12px;font-size:12px;outline:none}
+table{border-collapse:collapse;width:100%;text-align:left}th{color:#7995a0;font-size:11px;letter-spacing:.07em;font-weight:600;background:#0d202c}th,td{padding:16px 21px;border-bottom:1px solid #243d49}td{font-size:13px;color:#c9d9dc}tr:last-child td{border-bottom:0}tbody tr{cursor:pointer}tbody tr:hover{background:#173541}td strong{color:#f1f6f7;font-size:13px;display:block;margin-bottom:4px}td small{color:#7e99a3;font-size:11px}th:nth-child(1){width:27%}
+.badge{display:inline-block;padding:5px 9px;border-radius:50px;font-size:11px;font-weight:700;white-space:nowrap}.pending{background:#4c3a1c;color:#ffda8b}.approved{background:#193f35;color:var(--good)}.rejected{background:#4a2b30;color:var(--bad)}.empty{padding:55px;text-align:center;color:var(--sub)}
+.notice{background:#112b37;border:1px solid #245262;border-radius:12px;padding:16px 20px;color:#a5c5cf;font-size:12px;line-height:1.8;margin-bottom:24px}.notice b{color:var(--accent)}
+.drawer{position:fixed;inset:0;display:none;z-index:10;background:#0008;align-items:stretch;justify-content:flex-end}.drawer.open{display:flex}.detail{width:min(490px,100%);background:#102532;border-left:1px solid #45616d;padding:31px;overflow:auto;box-shadow:-20px 0 60px #0004}.dtop{display:flex;justify-content:space-between;align-items:center}.close{border:0;color:#b2cbd0;background:none;font-size:27px;cursor:pointer}.dtitle{font-size:25px;margin:26px 0 5px}.dsub{font-size:13px;color:var(--sub);margin-bottom:30px}.drow{border-top:1px solid #294654;padding:16px 0}.drow label{display:block;color:#7899a5;font-size:11px;margin-bottom:7px}.drow p{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65;font-size:14px}.review{margin-top:20px}.review textarea{background:#071a25;color:var(--text);border:1px solid #40606b;border-radius:9px;padding:13px;width:100%;min-height:85px;resize:vertical}.actions{display:flex;gap:10px;margin-top:13px}.actions button{border:0;border-radius:9px;padding:13px;flex:1;cursor:pointer;font-weight:800}.yes{background:#78dcce;color:#08232d}.no{background:#422e36;color:#ffc6bb}.result{font-size:12px;min-height:24px;margin-top:12px;color:var(--bad)}.reviewed{color:var(--sub);font-size:13px;line-height:1.8}
+@media(max-width:940px){.app{grid-template-columns:1fr}.side{display:none}.content{padding:25px 18px}.stats{gap:9px}.stat{padding:15px}.stat b{font-size:25px}.tools{flex-wrap:wrap}.search{max-width:none;width:100%}table{display:block;overflow-x:auto;white-space:nowrap}th,td{padding:14px}.head{align-items:start}}
+</style></head><body><div class="app"><aside class="side"><div class="brand">BEAUTYINTEL<div class="subbrand">ADMIN CONSOLE</div></div><nav class="nav"><a href="/">← Patent Library</a><a class="active" href="/admin/applications">◇ 账号申请审批</a></nav><div class="sidefoot">PRIVATE CONTROL PANEL<br>仅管理员可访问 · Cloudflare Access</div></aside>
+<main class="content"><div class="head"><div><div class="eyebrow">ACCOUNT ACCESS / REVIEW QUEUE</div><h1>账号申请审批</h1><p class="subtitle">核对申请机构与用途，决定是否接受演示注册申请。</p></div><button class="refresh" id="refresh">↻ 刷新列表</button></div>
+<div class="stats"><div class="stat"><span>待审批申请</span><b id="pendingCount">—</b></div><div class="stat"><span>已批准</span><b id="approvedCount">—</b></div><div class="stat"><span>已拒绝</span><b id="rejectedCount">—</b></div></div>
+<div class="notice"><b>权限说明</b>：批准将在审批数据库中留下记录，但<strong>不会自动把邮箱加入 Cloudflare Access</strong>。现阶段普通账户尚未开放登录；正式放行前需完成邀请或后续账号系统开通。</div>
+<section class="board"><div class="tools"><div class="tabs"><button class="tab current" data-status="pending">待审核</button><button class="tab" data-status="approved">已批准</button><button class="tab" data-status="rejected">已拒绝</button><button class="tab" data-status="all">全部</button></div><input class="search" id="search" type="search" placeholder="搜索姓名、邮箱或机构" aria-label="搜索申请"></div>
+<table><thead><tr><th>申请人</th><th>公司 / 机构</th><th>体验方向</th><th>提交时间</th><th>状态</th></tr></thead><tbody id="rows"></tbody></table><div id="empty" class="empty" style="display:none">暂无符合条件的申请</div></section></main></div>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="detailTitle"><div class="detail"><div class="dtop"><span class="eyebrow">APPLICATION REVIEW</span><button class="close" id="close" aria-label="关闭详情">×</button></div><h2 class="dtitle" id="detailTitle"></h2><div class="dsub" id="detailStatus"></div>
+<div class="drow"><label>工作邮箱</label><p id="detailEmail"></p></div><div class="drow"><label>公司 / 机构</label><p id="detailOrg"></p></div><div class="drow"><label>体验方向</label><p id="detailUse"></p></div><div class="drow"><label>申请说明</label><p id="detailMessage"></p></div><div class="drow"><label>提交时间</label><p id="detailTime"></p></div>
+<div class="review" id="review"><label for="note" style="font-size:12px;color:#abc1c9">审核备注（选填）</label><textarea id="note" maxlength="500" placeholder="记录判断依据或后续联系事项"></textarea><div class="actions"><button class="yes" id="approve">✓ 批准申请</button><button class="no" id="reject">× 拒绝申请</button></div></div><p class="reviewed" id="reviewed"></p><div class="result" id="detailError" role="status"></div></div></div>
+<script>
+const labels={patent:'专利技术追踪',ingredients:'活性成分与原料',competitors:'竞争对手技术',research:'研发与创新',other:'其他用途'};
+const statuses={pending:'待审核',approved:'已批准',rejected:'已拒绝'};let applications=[];let activeStatus='pending';let selected=null;
+const $=id=>document.getElementById(id);const rows=$('rows');const drawer=$('drawer');
+function dt(value){return value?new Date(value.replace(' ','T')+'Z').toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false}):'—'}
+function setText(id,value){$(id).textContent=value==null?'—':String(value)}
+async function load(){try{const res=await fetch('/api/admin/applications?status='+encodeURIComponent(activeStatus),{credentials:'same-origin'});if(!res.ok)throw Error('无法读取申请记录（'+res.status+'）');const data=await res.json();applications=data.applications||[];
+for(const status of ['pending','approved','rejected'])setText(status+'Count',data.counts?.[status]||0);render();}catch(e){rows.replaceChildren();$('empty').style.display='block';$('empty').textContent=e.message}}
+function render(){rows.replaceChildren();const query=$('search').value.trim().toLowerCase();const list=applications.filter(a=>[a.full_name,a.email,a.organization].some(x=>String(x||'').toLowerCase().includes(query)));
+$('empty').style.display=list.length?'none':'block';$('empty').textContent='暂无符合条件的申请';for(const a of list){const tr=document.createElement('tr');const vals=[a.full_name,a.organization,labels[a.use_case]||a.use_case,dt(a.created_at),statuses[a.status]||a.status];
+vals.forEach((value,i)=>{const td=document.createElement('td');if(i===0){const strong=document.createElement('strong');strong.textContent=value;const small=document.createElement('small');small.textContent=a.email;td.append(strong,small)}else if(i===4){const span=document.createElement('span');span.className='badge '+a.status;span.textContent=value;td.append(span)}else td.textContent=value;tr.append(td)});tr.addEventListener('click',()=>openDetail(a));rows.append(tr)}}
+function openDetail(a){selected=a;setText('detailTitle',a.full_name);setText('detailStatus',statuses[a.status]);setText('detailEmail',a.email);setText('detailOrg',a.organization);setText('detailUse',labels[a.use_case]||a.use_case);setText('detailMessage',a.message||'未填写');setText('detailTime',dt(a.created_at));$('note').value='';$('detailError').textContent='';$('review').style.display=a.status==='pending'?'block':'none';$('reviewed').textContent=a.status==='pending'?'':('审核备注：'+(a.review_note||'无')+'\n审核人：'+(a.reviewed_by||'—')+' · '+dt(a.reviewed_at));drawer.classList.add('open')}
+async function decide(decision){if(!selected)return;const btns=[$('approve'),$('reject')];btns.forEach(b=>b.disabled=true);$('detailError').textContent='';try{const res=await fetch('/api/admin/applications/'+encodeURIComponent(selected.id)+'/decision',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({decision,note:$('note').value})});const data=await res.json();if(!res.ok)throw Error(data.error||'更新失败');drawer.classList.remove('open');await load();}catch(e){$('detailError').textContent=e.message}finally{btns.forEach(b=>b.disabled=false)}}
+for(const tab of document.querySelectorAll('.tab'))tab.addEventListener('click',()=>{activeStatus=tab.dataset.status;document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('current',t===tab));load()});
+$('search').addEventListener('input',render);$('refresh').addEventListener('click',load);$('close').addEventListener('click',()=>drawer.classList.remove('open'));drawer.addEventListener('click',e=>{if(e.target===drawer)drawer.classList.remove('open')});
+$('approve').addEventListener('click',()=>decide('approved'));$('reject').addEventListener('click',()=>decide('rejected'));load();
+</script></body></html>`;

@@ -1,4 +1,5 @@
 import type { D1Database, ExecutionContext } from '@cloudflare/workers-types';
+import { handleAccessRoute } from './access-control.ts';
 
 export interface Env {
   DB: D1Database;
@@ -49,6 +50,15 @@ export default {
   async fetch(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
     const pathname = url.pathname;
+
+    // Public application and admin-review routes have their own method and
+    // authentication checks. Public paths need narrowly scoped Access Bypass
+    // entries; never bypass /admin or the existing patent API routes.
+    if (pathname === '/apply' || pathname === '/api/access-requests' ||
+        pathname === '/admin/applications' || pathname.startsWith('/api/admin/applications')) {
+      const accessResponse = await handleAccessRoute(request, env.DB);
+      if (accessResponse) return accessResponse;
+    }
 
     // Scanners routinely send HEAD/OPTIONS to public routes. They must never
     // trigger D1 aggregation queries (the old handler ran on every method).

@@ -20,7 +20,7 @@ export default function App() {
   const [loading, setLoading] = useState<boolean>(true);
   const [loadingProgress, setLoadingProgress] = useState<number>(0);
   const [loadingStatus, setLoadingStatus] = useState<string>('Initializing analytics engine...');
-  const [error, setError] = useState<string | null>(null);
+  const [error] = useState<string | null>(null);
 
   // Sync hash routing for direct refreshes
   useEffect(() => {

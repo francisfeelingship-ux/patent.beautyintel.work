@@ -37,6 +37,29 @@ The homepage calls `/api/analytics`. Previously every request performed full-tab
 
 If the migration has not been applied, `/api/analytics` fails safely instead of silently repeating an expensive full-table query. When enabling Cloudflare Access, protect both `patents.beautyintel.work` and its `*.workers.dev` alternative to avoid an authentication bypass.
 
+## Account application and admin review (2026-11)
+
+The Patent Library has a manually reviewed account-application queue. It does **not** yet create login credentials or automatically grant applicant access to the patent database.
+
+| Path | Visibility | Purpose |
+| --- | --- | --- |
+| `GET /apply` | Public (explicit hostname-scoped Access Bypass) | A self-contained, no-asset-dependency application form |
+| `POST /api/access-requests` | Public (explicit hostname-scoped Access Bypass) | Validated, idempotent D1 applicant submission |
+| `GET /admin/applications` | Cloudflare Access **admin only** | Review dashboard |
+| `/api/admin/applications*` | Cloudflare Access **admin only**, also checks signed JWT | List and approve/reject records |
+| Everything else | Existing Access **All traffic** protection | Patent Library and its D1 APIs |
+
+Deployment and security requirements:
+
+1. **Before committing/deploying** backend routes, apply `migrations/0002_create_access_requests.sql` to the existing `patent_library_lite` D1 database. This only adds a small isolated table and indexes.
+2. The Worker is linked to GitHub `main`; merging to `main` initiates a Cloudflare Build deployment. The locally generated `dist/` files are committed for reproducibility.
+3. In Cloudflare Zero Trust, add one self-hosted hostname-level application with **exactly two path-scoped public destinations**, `patents.beautyintel.work/apply` and `patents.beautyintel.work/api/access-requests`, using a **Bypass Everyone** policy. Hostname policies take precedence over Worker-specific Access policies. Never bypass `/admin`, `/api/admin/*`, `/api/analytics`, or `/assets/*`.
+4. Keep the Worker-level `All traffic` Access policy limited to `null.pointer@zoho.com`. For extra defense, admin routes independently verify the cryptographic signature, issuer, audience, expiry, and email of `Cf-Access-Jwt-Assertion` using Cloudflare Access JWKS. Do not trust plain email headers.
+5. Each normalized email has one application record. Submissions return the same acknowledgment on duplicates, reducing email enumeration. A hidden bot-trap field helps with simple spam. Use Cloudflare WAF/Turnstile and rate limiting before mass public promotion.
+6. An `approved` review record is **not a provisioned account**. For now, admins must complete invitation/Access provisioning separately. A future member-auth implementation will join approvals to credentials and account roles.
+
+Admin queue: `https://patents.beautyintel.work/admin/applications`. Public application: `https://patents.beautyintel.work/apply`.
+
 ---
 
 ## Local Development

@@ -58,6 +58,10 @@ export default function Header({ companies, selectedCompany, onCompanyChange, st
       
       {/* Stats display */}
       <div className="header-stats">
+        <a href="/admin/applications" title="管理员：注册申请审批" style={{ color: '#6fdae2', textDecoration: 'none', border: '1px solid #325863', borderRadius: '8px', padding: '10px 12px', fontSize: '12px', whiteSpace: 'nowrap' }}>
+          <i className="fa-solid fa-user-check" aria-hidden="true" style={{ marginRight: '7px' }}></i>
+          账号审批
+        </a>
         <div className="stat-bubble">
           <span className="stat-num" id="stat-total-patents">
             {stats.patents.toLocaleString()}
