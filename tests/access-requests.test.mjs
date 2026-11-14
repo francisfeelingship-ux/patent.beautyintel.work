@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import { Script } from 'node:vm';
 import worker from '../src/worker.ts';
 import { verifiedAdminEmail } from '../src/access-control.ts';
+import { adminApplicationsPage, publicApplicationPage } from '../src/access-views.ts';
 
 function fakeDb() {
   const applications = new Map();
@@ -58,6 +60,14 @@ test('public application form is self-contained, but the rest of the patent API 
   assert.equal(result.status, 200);
   assert.match(await result.text(), /申请访问权限/);
   assert.equal(result.headers.get('Cache-Control'), 'no-store');
+});
+
+test('inline browser scripts in both self-contained pages parse successfully', () => {
+  for (const page of [publicApplicationPage, adminApplicationsPage]) {
+    const script = page.match(/<script>([\s\S]*?)<\/script>/)?.[1];
+    assert.ok(script, 'page contains a script');
+    assert.doesNotThrow(() => new Script(script));
+  }
 });
 
 test('valid applicant is stored once, duplicate submissions do not reveal existence', async () => {
